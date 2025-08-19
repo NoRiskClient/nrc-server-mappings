@@ -1,0 +1,14 @@
+{
+    "server-address": ["wappla.de"],
+    "pretty-name": "Wappla.de | Commmunity Server",
+    "categorys": ["MINIGAMES", "CUSTOM"],
+    "assets": {
+        "icon": "./icon.png",
+        "background": "./bg.png"
+    },
+    "socials": {
+        "youtube": "https://www.youtube.com/@real_tm_",
+        "tiktok": "https://www.tiktok.com/@echtertm",
+        "discord": "https://discord.gg/zCruzRmNbM"
+    }
+}
