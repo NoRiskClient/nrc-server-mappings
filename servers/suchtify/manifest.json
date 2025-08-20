@@ -3,7 +3,12 @@
         "suchtify.net"
     ],
     "pretty-name": "Suchtify",
-    "categorys": ["CITYBUILD"],
+      "categorys": [
+        "SURVIVAL",
+        "ADVENTURE",
+        "CITYBUILD",
+        "CUSTOM"
+      ],
     "gamemodes": {
       "citybuild": {
         "name": "CityBuild",
