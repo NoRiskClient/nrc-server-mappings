@@ -1,0 +1,29 @@
+{
+    "server-address": [
+        "suchtify.net"
+    ],
+    "pretty-name": "Suchtify",
+      "categorys": [
+        "SURVIVAL",
+        "ADVENTURE",
+        "CITYBUILD",
+        "CUSTOM"
+      ],
+    "gamemodes": {
+      "citybuild": {
+        "name": "CityBuild",
+        "versions": "1.21.7<*"
+      },
+      "smp": {
+        "name": "SMP",
+        "versions": "1.21.7<*"
+      }
+    },
+    "socials": {
+      "discord": "https://discord.gg/26qestYpv3"
+    },
+    "assets": {
+      "icon": "./icon.png",
+      "background": "./bg.png"
+    }
+  }
