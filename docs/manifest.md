@@ -136,12 +136,12 @@ Required image files for your server:
 
 | Field | Type | Description | File Requirements |
 |-------|------|-------------|-------------------|
-| `icon` | String | Server icon image | PNG, JPG, JPEG, GIF, or SVG |
-| `background` | String | Server background image | PNG, JPG, JPEG, GIF, or SVG |
+| `icon` | String | Server icon image | PNG |
+| `background` | String | Server background image | PNG |
 
 **File Path Rules:**
 - Must start with `./` (relative to manifest.json)
-- Supported formats: `.png`, `.jpg`, `.jpeg`, `.gif`, `.svg`
+- Supported formats: `.png`
 - Files must actually exist in the specified location
 
 ##  Disabled Modules (Optional)
