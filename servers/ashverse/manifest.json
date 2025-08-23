@@ -1,30 +1,28 @@
 {
   "server-address": ["ashverse.eu"],
   "pretty-name": "Ashverse Network",
-  "categories": ["PVP", "MINIGAMES"],
+  "categorys": ["PVP", "MINIGAMES"],
   "gamemodes": {
     "MINIGAMES": {
-      "versions": ["1.21", "1.21.8"],
-      "description": "ein Server mit minigames, PVP und sehr viel mehr"
+      "name": "MINIGAMES",
+      "versions": "1.21 -> 1.21.8",
+      "description": "ein Server mit Minigames, PVP und sehr viel mehr"
     },
     "PillarsOfFortune": {
-      "versions": ["1.21", "->"],
+      "name": "PillarsOfFortune",
+      "versions": "1.21 ->",
       "description": "ihr seid in einem Piller und müsst mit den Blöcken, die ihr bekommt, andere Spieler bauen und sie töten"
     },
     "Lootrush": {
-      "versions": ["1.21", "->"],
+      "name": "Lootrush",
+      "versions": "1.21 ->",
       "description": "du spawnst mit einer Elytra, musst Loot sammeln und Gegner töten"
     },
-    "BreakWars": [
-      {
-        "versions": ["1.21", "->"],
-        "description": "du spawnst unter der Erde, gräbst dich mit Items und TNT durch die Wände, um zu den anderen zu gelangen und die Items aus der Mitte zu holen"
-      },
-      {
-        "versions": ["1.21", "->"],
-        "description": "du holst aus der Mitte bis zu 3 Schafe, bringst sie zu deiner Base, und derjenige mit den meisten Schafen gewinnt"
-      }
-    ]
+    "BreakWars": {
+      "name": "BreakWars",
+      "versions": "1.21 ->",
+      "description": "du spawnst unter der Erde, gräbst dich mit Items und TNT durch die Wände, um zu den anderen zu gelangen und die Items aus der Mitte zu holen"
+    }
   },
   "socials": {
     "website": "http://167.235.39.54:50850",
