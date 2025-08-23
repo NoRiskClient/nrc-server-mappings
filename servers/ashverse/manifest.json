@@ -1,36 +1,37 @@
 {
   "server-address": ["ashverse.eu"],
   "pretty-name": "Ashverse Network",
-  "categorys": ["PVP", "MINIGAMES"],
+  "categories": ["PVP", "MINIGAMES"],
   "gamemodes": {
-    "minigames": {
+    "MINIGAMES": {
       "versions": ["1.21", "1.21.8"],
-      "description": "ein Server mit minigames pvp und sehr viel mehr"
+      "description": "ein Server mit minigames, PVP und sehr viel mehr"
     },
     "PillarsOfFortune": {
-      "versions": "1.21" "->",
-      "description": "ihr seit ein einem piller und musst mit dem blöcken die ihr bekommt euch zu anderen bauen und sie töten"
+      "versions": ["1.21", "->"],
+      "description": "ihr seid in einem Piller und müsst mit den Blöcken, die ihr bekommt, andere Spieler bauen und sie töten"
     },
     "Lootrush": {
-      "versions": ["1.21" "->"],
-      "description": "du spawnt mit einer elytra musst dann loot sammeln und gegner töten"
-    }
-  },
-   "BreakWars": {
-     "versions": ["1.21" "->"],
-     "description": "du spawnt unter der erde gredst dich mit items und tnt ect durch die wände um zu den anderen zu gelagen und die items aus der mitte zu holen"
-    }
-  },
-   "BreakWars": {
-    "versions": ["1.21" "->"],
-    "description": "du ´holst aus der mitte bis zu 3 schafe bringst sie zu deiner base und der wo am ende die meisten schafe hat gewinnt"
-    }
+      "versions": ["1.21", "->"],
+      "description": "du spawnst mit einer Elytra, musst Loot sammeln und Gegner töten"
+    },
+    "BreakWars": [
+      {
+        "versions": ["1.21", "->"],
+        "description": "du spawnst unter der Erde, gräbst dich mit Items und TNT durch die Wände, um zu den anderen zu gelangen und die Items aus der Mitte zu holen"
+      },
+      {
+        "versions": ["1.21", "->"],
+        "description": "du holst aus der Mitte bis zu 3 Schafe, bringst sie zu deiner Base, und derjenige mit den meisten Schafen gewinnt"
+      }
+    ]
   },
   "socials": {
     "website": "http://167.235.39.54:50850",
-    "discord": "https://discord.gg/Y2ejQ6cgdQ",
+    "discord": "https://discord.gg/Y2ejQ6cgdQ"
   },
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
-  },
+  }
+}
