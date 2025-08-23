@@ -1,0 +1,35 @@
+{
+  "server-address": ["ashverse.eu"],
+  "pretty-name": "Ashverse Network",
+  "categorys": ["PVP", "MINIGAMES"],
+  "gamemodes": {
+    "MINIGAMES": {
+      "name": "MINIGAMES",
+      "versions": "1.21 -> 1.21.8",
+      "description": "ein Server mit Minigames, PVP und sehr viel mehr"
+    },
+    "PillarsOfFortune": {
+      "name": "PillarsOfFortune",
+      "versions": "1.21 ->",
+      "description": "ihr seid in einem Piller und müsst mit den Blöcken, die ihr bekommt, andere Spieler bauen und sie töten"
+    },
+    "Lootrush": {
+      "name": "Lootrush",
+      "versions": "1.21 ->",
+      "description": "du spawnst mit einer Elytra, musst Loot sammeln und Gegner töten"
+    },
+    "BreakWars": {
+      "name": "BreakWars",
+      "versions": "1.21 ->",
+      "description": "du spawnst unter der Erde, gräbst dich mit Items und TNT durch die Wände, um zu den anderen zu gelangen und die Items aus der Mitte zu holen"
+    }
+  },
+  "socials": {
+    "website": "http://167.235.39.54:50850",
+    "discord": "https://discord.gg/Y2ejQ6cgdQ"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
