@@ -1,0 +1,24 @@
+{
+  "server-address": ["lunexmc.net"],
+  "pretty-name": "LunexMC Netzwerk",
+  "categorys": ["CITYBUILD", "SURVIVAL"],
+  "gamemodes": {
+    "Citybuild": {
+      "name": "Citybuild",
+      "versions": "1.21 -> 1.21.8",
+      "description": "Baue deinen eigenen Plot, ohne gegrieft zu werden!"
+    },
+    "Survival": {
+      "name": "Survival",
+      "versions": "1.21 ->",
+      "description": "Spiele Survival mit coolen extra Features"
+    }
+  },
+  "socials": {
+    "website": "https://www.lunexmc.de"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
