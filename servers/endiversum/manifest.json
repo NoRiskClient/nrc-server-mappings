@@ -1,0 +1,39 @@
+{
+  "server-address": ["play.endiversum.com"],
+  "pretty-name": "Endiversum Minecraft Server",
+  "categorys": ["SURVIVAL", "CREATIVE", "RPG", "BUILD"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "smp": {
+      "name": "SMP",
+      "versions": "1.20.4<",
+      "description": "Survival mit Quests und fortlaufender interaktiver Story"
+    },
+    "toasttown": {
+      "name": "Toast Town",
+      "versions": "1.20.4<",
+      "description": "Mehrere Creative Welten fürs Bauen und Roleplay"
+    },
+    "filmwelt": {
+      "name": "Filmwelt",
+      "versions": "1.20.4<",
+      "description": "Erkunde die Filmwelt in der wir einige Videos drehen"
+    },
+    "unendlichetreppe": {
+      "name": "Unendliche Treppe",
+      "versions": "1.20.4<",
+      "description": "Erkunde die Sets unserer Filme"
+    }
+  },
+  "socials": {
+    "website": "https://endiversum.com",
+    "youtube": "https://youtube.com/@Endiversum",
+    "instagram": "https://instagram.com/endiversum",
+    "tiktok": "https://tiktok.com/@endiversum",
+    "discord": "https://discord.gg/WYPdZ922Zc"
+  },
+  "disabled-modules": ["FULL_BRIGHT_MODULE", "WEATHER_CHANGER", "TIME_CHANGER"]
+}
