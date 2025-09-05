@@ -1,0 +1,25 @@
+{
+  "server-address": ["lunaris-mc.de"],
+  "pretty-name": "LunarisMC",
+  "categorys": ["SURVIVAL", "PVP"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "PvP": {
+      "versions": ["1.", "1.20.1"],
+      "description": "Classic survival gameplay with economy"
+    },
+    "creative": {
+      "versions": "1.20.1",
+      "description": "Unlimited building and creation"
+    }
+  },
+  "socials": {
+    "website": "https://lunaris-mc.de",
+    "youtube": "https://www.youtube.com/@lunaris-mc",
+    "tiktok": "https://www.tiktok.com/@lunarismcnetwork",
+    "discord": "https://discord.gg/nRgXUFSFfe"
+  }
+}
