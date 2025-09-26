@@ -1,0 +1,21 @@
+{
+  "server-address": [
+    "FantasySide.aternos.me",
+  ],
+  "pretty-name": "FANTASYSIDE",
+  "categorys": [
+    "MINIGAMES",
+    "PVP",
+    
+  "socials": {
+    "website": "https://fantasyside.neocities.org/",
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "HEALTH_INDICATORS",
+    "FREELOOK"
+  ]
+}
