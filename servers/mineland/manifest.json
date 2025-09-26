@@ -1,0 +1,72 @@
+{
+  "server-address": [
+    "mc.mineland.net",
+    "sh.mineland.net",
+    "play.mineland.net",
+    "promo.mineland.net",
+    "inst.mineland.net"
+  ],
+  "pretty-name": "Mineland Network",
+  "categorys": [
+    "SURVIVAL",
+    "BEDWARS",
+    "SKYWARS",
+    "MINIGAMES",
+    "SKYBLOCK",
+    "PRISON"
+  ],
+  "gamemodes": {
+    "creativeplus": {
+      "versions": "1.8+",
+      "name": "Creative+",
+      "description": "Unleash your creativity with an advanced yet beginner-friendly in-game code editor. Build worlds, design custom mechanics, and craft unique gameplay experiences for others to explore."
+    },
+    "skyblockclassic": {
+      "versions": "1.8+",
+      "name": "SkyBlock Classic",
+      "description": "The original SkyBlock experience, unchanged for over 8 years. Based on 1.8, it is a true classic with no resets and timeless gameplay."
+    },
+    "skyblockrpg": {
+      "versions": "1.16.5+",
+      "name": "SkyBlock RPG",
+      "description": "A modern twist on SkyBlock with RPG elements, updated mechanics, and fresh features. Built on 1.16.5 for a richer survival adventure."
+    },
+    "bedwars": {
+      "versions": "1.8+",
+      "name": "Bed Wars",
+      "description": "Defend your bed, destroy your enemies, and dominate the battlefield. Play Solo, Doubles, or team up in 3v3v3v3 and 4v4v4v4 modes."
+    },
+    "skywars": {
+      "versions": "1.8+",
+      "name": "SkyWars",
+      "description": "Fast-paced PvP in the sky! Loot chests, battle rivals, and survive to the end in both Solo and Team modes."
+    },
+    "survival": {
+      "versions": "1.16.5+",
+      "name": "Survival",
+      "description": "A survival world with a twist — featuring shops, a PvP arena, custom items, and more to enhance your vanilla gameplay."
+    },
+    "prison": {
+      "versions": "1.8+",
+      "name": "Prison",
+      "description": "Work your way up from the bottom by mining, completing quests, and fighting bosses. Form factions, rise in rank, and conquer the prison world together."
+    }
+  },
+  "socials": {
+    "website": "https://mineland.net",
+    "store": "https://store.mineland.net",
+    "youtube": "https://www.youtube.com/@minelandcoders",
+    "instagram": "https://www.instagram.com/minelandnetwork/",
+    "x": "https://x.com/MinelandMV",
+    "discord": "https://discord.com/invite/mineland"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "FOV_CHANGER",
+    "FREE_LOOK",
+    "HEALTH_INDICATORS"
+  ]
+}
