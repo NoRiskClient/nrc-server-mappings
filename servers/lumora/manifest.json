@@ -11,7 +11,7 @@
   "gamemodes": {
     "events": {
       "name": "Events",
-      "versions": "1.19<*"
+      "versions": "1.21<*"
     },
     "botpvp": {
       "name": "BotPVP",
