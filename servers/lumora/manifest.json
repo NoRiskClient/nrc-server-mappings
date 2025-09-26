@@ -23,8 +23,7 @@
     }
   },
   "socials": {
-    "discord": "https://dc.gg/lumora",
-    "teamspeak": "https://ts.lumora.de"
+    "discord": "https://dc.gg/lumora"
   },
   "assets": {
     "icon": "./icon.png",
