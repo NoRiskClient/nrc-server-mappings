@@ -1,0 +1,39 @@
+{
+  "server-address": [
+    "Lumora.net"
+  ],
+  "pretty-name": "Lumora",
+  "categorys": [
+    "EVENTS",
+    "BOTPVP",
+    "SMP"
+  ],
+  "gamemodes": {
+    "events": {
+      "name": "Events",
+      "versions": "1.19<*"
+    },
+    "botpvp": {
+      "name": "BotPVP",
+      "versions": "1.21<*"
+    },
+    "smp": {
+      "name": "SMP",
+      "versions": "1.21<*"
+    }
+  },
+  "socials": {
+    "discord": "https://dc.gg/lumora",
+    "teamspeak": "https://ts.lumora.de"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "FOV_CHANGER",
+    "FREE_LOOK",
+    "TNT_TIMER",
+    "HEALTH_INDICATORS"
+  ]
+}
