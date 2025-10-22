@@ -1,0 +1,18 @@
+{
+  "server-address": [
+    "play.lythrion.net",
+    "lythrion.net",
+    "play.lythrion.de",
+    "lythrion.de"
+  ],
+  "pretty-name": "Lythrion Netzwerk",
+  "categorys": ["SKYBLOCK", "RPG"],
+  "socials": {
+    "discord": "https://discord.gg/lythrion",
+    "website": "https://lythrion.net"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./background.png"
+  }
+}
