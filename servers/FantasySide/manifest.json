@@ -1,0 +1,20 @@
+{
+  "server-address": ["fantasyside.de"],
+  "pretty-name": "FantasySide",
+  "categorys": ["MINIGAMES"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+ {
+  "socials": {
+    "website": "https://fantasyside.de",
+  }
+ }
+{
+  "disabled-modules": [
+    "FOV_CHANGER",
+    "HEALTH_INDICATORS"
+  ]
+}
+}
