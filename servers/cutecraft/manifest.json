@@ -4,7 +4,7 @@
         "dev.cutecraft.net"
     ],
     "pretty-name": "CuteCraft",
-    "categorys": ["CITYBUILD"],
+    "categories": ["CITYBUILD"],
     "gamemodes": {
       "citybuild1": {
         "name": "CityBuild",

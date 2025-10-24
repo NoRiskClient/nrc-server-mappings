@@ -3,7 +3,7 @@
   "title": "Server Manifest Schema",
   "description": "Schema for server manifest files",
   "type": "object",
-  "required": ["server-address", "pretty-name", "categorys", "assets"],
+  "required": ["server-address", "pretty-name", "categories", "assets"],
   "properties": {
     "server-address": {
       "type": "array",
@@ -19,7 +19,7 @@
       "description": "Display name for the server",
       "minLength": 1
     },
-    "categorys": {
+    "categories": {
       "type": "array",
       "description": "Categories the server belongs to",
       "items": {

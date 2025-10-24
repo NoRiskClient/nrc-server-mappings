@@ -1,7 +1,7 @@
 {
   "server-address": ["lunexmc.net"],
   "pretty-name": "LunexMC Netzwerk",
-  "categorys": ["CITYBUILD", "SURVIVAL"],
+  "categories": ["CITYBUILD", "SURVIVAL"],
   "gamemodes": {
     "Citybuild": {
       "name": "Citybuild",

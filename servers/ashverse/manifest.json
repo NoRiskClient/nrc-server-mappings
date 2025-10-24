@@ -1,7 +1,7 @@
 {
   "server-address": ["ashverse.eu"],
   "pretty-name": "Ashverse Network",
-  "categorys": ["PVP", "MINIGAMES"],
+  "categories": ["PVP", "MINIGAMES"],
   "gamemodes": {
     "MINIGAMES": {
       "name": "MINIGAMES",

@@ -1,7 +1,7 @@
 {
     "server-address": ["zflockii.de"],
     "pretty-name": "zFlockii.de | Event-Netzwerk",
-    "categorys": ["MINIGAMES", "CUSTOM"],
+    "categories": ["MINIGAMES", "CUSTOM"],
     "assets": {
         "icon": "./icon.png",
         "background": "./bg.png"
