@@ -46,7 +46,7 @@ function mergeManifests() {
             const manifestContent = fs.readFileSync(manifestPath, 'utf8');
             const manifest = JSON.parse(manifestContent);
 
-            if (!manifest['server-address'] || !manifest['pretty-name'] || !manifest['categories']) {
+            if (!manifest['server-address'] || !manifest['pretty-name'] || !manifest['categorys']) {
                 console.warn(`⚠️  Invalid manifest in ${folderName}: missing required fields`);
                 errorCount++;
                 continue;
@@ -144,8 +144,8 @@ function validateMergedManifest(mergedManifestPath) {
                 isValid = false;
             }
 
-            if (!serverData['categories'] || !Array.isArray(serverData['categories'])) {
-                errors.push(`${serverId}: Missing or invalid categories`);
+            if (!serverData['categorys'] || !Array.isArray(serverData['categorys'])) {
+                errors.push(`${serverId}: Missing or invalid categorys`);
                 isValid = false;
             }
 

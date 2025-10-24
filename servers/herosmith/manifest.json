@@ -1,7 +1,7 @@
 {
   "server-address": ["herosmith.de"],
   "pretty-name": "Herosmith",
-  "categories": ["PVP", "MINIGAMES", "KITPVP"],
+  "categorys": ["PVP", "MINIGAMES", "KITPVP"],
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
