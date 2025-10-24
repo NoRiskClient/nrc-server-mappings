@@ -1,7 +1,7 @@
 {
   "server-address": ["blockgermany.de"],
   "pretty-name": "BlockGermany",
-  "categorys": ["SURVIVAL", "CITYBUILD", "PVP"],
+  "categories": ["SURVIVAL", "CITYBUILD", "PVP"],
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"

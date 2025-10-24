@@ -19,7 +19,7 @@ servers/
 {
   "server-address": ["your-server.com"],
   "pretty-name": "Your Server Name",
-  "categorys": ["SURVIVAL"],
+  "categories": ["SURVIVAL"],
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
@@ -33,7 +33,7 @@ servers/
 |-------|------|-------------|---------|
 | `server-address` | Array of strings | Server addresses/domains | `["play.example.com", "mc.example.com"]` |
 | `pretty-name` | String | Display name for the server | `"Epic Survival Server"` |
-| `categorys` | Array of strings | Server categories (see table below) | `["SURVIVAL", "PVP"]` |
+| `categories` | Array of strings | Server categories (see table below) | `["SURVIVAL", "PVP"]` |
 | `assets` | Object | Server images (see assets table) | `{"icon": "./icon.png", "background": "./bg.png"}` |
 
 ##  Available Categories
@@ -197,7 +197,7 @@ Here's a complete example of a valid manifest.json:
 {
   "server-address": ["play.example.com", "mc.example.com"],
   "pretty-name": "Epic Survival Network",
-  "categorys": ["SURVIVAL", "PVP", "MINIGAMES"],
+  "categories": ["SURVIVAL", "PVP", "MINIGAMES"],
   "gamemodes": {
     "survival": {
       "versions": ["1.19.2", "1.20.1"],
@@ -268,7 +268,7 @@ When all server manifests are merged together, they create a unified manifest wi
     "server-id": {
       "server-address": ["server.com"],
       "pretty-name": "Server Name",
-      "categorys": ["SURVIVAL"],
+      "categories": ["SURVIVAL"],
       "gamemodes": {
         "gamemode-name": {
           "versions": "1.20.1",

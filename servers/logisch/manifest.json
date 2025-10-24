@@ -1,7 +1,7 @@
 {
     "server-address": ["logisch.tv"],
     "pretty-name": "Logisch Events",
-    "categorys": ["MINIGAMES", "CUSTOM"],
+    "categories": ["MINIGAMES", "CUSTOM"],
     "assets": {
         "icon": "./icon.png",
         "background": "./bg.png"
