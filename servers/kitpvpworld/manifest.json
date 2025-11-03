@@ -1,0 +1,48 @@
+{
+  "server-address": [
+    "kitpvp.world",
+    "vip.kitpvp.world",
+    "eu.kitpvp.world",
+    "mc.kitpvp.world",
+    "play.kitpvp.world"
+  ],
+  "pretty-name": "KitPvP World",
+  "categorys": [
+    "KITPVP",
+    "PVP"
+  ],
+  "gamemodes": {
+    "unranked": {
+      "versions": "1.21<*",
+      "name": "Unranked Duels",
+      "description": "1v1 and team duels including Sword, Mace, UHC, Crystal, and more."
+    },
+    "ranked": {
+      "versions": "1.21<*",
+      "name": "Ranked Duels",
+      "description": "Play for elo in 1vs1s against other players in the kits Sword, Axe, UHC, Crystal, SMP, Mace, and Skywars."
+    },
+    "party": {
+      "versions": "1.21<*",
+      "name": "Party Duels",
+      "description": "Host parties for your community, split into two teams."
+    },
+    "bots": {
+      "versions": "1.21<*",
+      "name": "Bots",
+      "description": "Play alone against a Bot in Sword, when no friends are online."
+    }
+  },
+  "socials": {
+    "website": "https://kitpvp.world",
+    "store": "https://store.kitpvp.world",
+    "youtube": "https://www.youtube.com/@KitPvPworld",
+    "x": "https://x.com/KitPvP_world",
+    "discord": "https://discord.gg/GeBWtEaR8S"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
+  

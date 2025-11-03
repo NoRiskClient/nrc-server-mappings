@@ -1,0 +1,27 @@
+{
+  "server-address": [
+    "transientrealm.de",
+    "dev.transientrealm.de",
+    "build.transientrealm.de"
+  ],
+  "pretty-name": "TransientRealm",
+  "categorys": [
+    "CITYBUILD"
+  ],
+  "gamemodes": {
+    "citybuild": {
+      "name": "CityBuild",
+      "versions": "1.21.8"
+    }
+  },
+  "socials": {
+    "store": "https://store.transientrealm.de/",
+    "discord": "https://discord.gg/2ru8r3Jedj",
+    "youtube": "https://www.youtube.com/@TransientRealmDE",
+    "tiktok": "https://www.tiktok.com/@transient_realm"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}

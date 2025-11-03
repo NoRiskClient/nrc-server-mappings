@@ -1,0 +1,66 @@
+{
+  "server-address": [
+    "swacrew.net",
+    "swacrew.de",
+    "eventsystem.swacrew.net"
+  ],
+  "pretty-name": "Swacrew",
+  "categorys": [
+    "MINIGAMES",
+    "PVP",
+    "SURVIVAL",
+    "BUILD",
+    "CUSTOM"
+  ],
+  "gamemodes": {
+    "eventserver": {
+      "name": "Eventserver",
+      "versions": "1.21<*"
+    },
+    "bedwars": {
+      "name": "BedWars",
+      "versions": "1.21<*"
+    },
+    "training": {
+      "name": "Training",
+      "versions": "1.21<*"
+    },
+    "citybuild": {
+      "name": "Citybuild",
+      "versions": "1.21<*"
+    },
+    "swacrewgames": {
+      "name": "SwacrewGames",
+      "versions": "1.21<*"
+    },
+    "target": {
+      "name": "Target",
+      "versions": "1.21<*"
+    },
+    "kitffa": {
+      "name": "KitFFA",
+      "versions": "1.21<*"
+    },
+    "vorbau": {
+      "name": "Vorbau",
+      "versions": "1.21<*"
+    }
+  },
+  "socials": {
+    "website": "https://www.swacrew.net",
+    "store": "https://shop.swacrew.net",
+    "x": "https://twitter.com/SwacrewNET",
+    "discord": "https://discord.swacrew.net",
+    "tiktok": "https://www.tiktok.com/@swacrew",
+    "youtube": "https://www.youtube.com/@SwacrewNET"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "FOV_CHANGER",
+    "TNT_TIMER",
+    "HEALTH_INDICATORS"
+  ]
+}

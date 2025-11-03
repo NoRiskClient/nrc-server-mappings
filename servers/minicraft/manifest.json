@@ -1,0 +1,34 @@
+{
+  "server-address": [
+    "play.minicraft-server.de",
+    "minicraft-server.de"
+  ],
+  "pretty-name": "MiniCraft",
+  "categorys": [
+    "SURVIVAL",
+    "BUILD"
+  ],
+  "gamemodes": {
+    "freebuild": {
+      "name": "Freebuild",
+      "versions": "1.21.8<*",
+      "description": "As long as you don't bother anyone, you can build anywhere. There is no general plot protection. OldSchool Freebuild like in 2011."
+    },
+    "citybuild": {
+      "name": "Citybuild",
+      "versions": "1.21.8<*",
+      "description": "Choose a protected plot within one of our four cities."
+    }
+  },
+  "socials": {
+    "website": "https://minicraft-server.de",
+    "youtube": "https://youtube.com/minicraftserver",
+    "instagram": "https://instagram.com/minicraftserver",
+    "x": "https://x.com/minicraftserver",
+    "discord": "https://minicraft-server.de/discord"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
