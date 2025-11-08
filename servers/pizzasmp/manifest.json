@@ -1,0 +1,13 @@
+{
+  "server-address": ["pizzasmp.de"],
+  "pretty-name": "PizzaSMP",
+  "categorys": ["PVP", "SMP"],
+  "socials": {
+    "website": "http://pizzasmp.de",
+    "discord": "https://discord.gg/pGcp5M5sbc"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
