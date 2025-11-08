@@ -2,6 +2,13 @@
   "server-address": ["pizzasmp.de"],
   "pretty-name": "PizzaSMP",
   "categorys": ["PVP", "SMP"],
+  "gamemodes": {
+    "smp": {
+      "name": "SMP",
+      "versions": ">1.21.8",
+      "description": "Vanilla-ähnliches Survival-Erlebnis."
+    }
+  },
   "socials": {
     "website": "http://pizzasmp.de",
     "discord": "https://discord.gg/pGcp5M5sbc"
@@ -9,5 +16,10 @@
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
-  }
+  },
+  "disabled-modules": [
+    "NO_FOG",
+    "WEATHER_CHANGER",
+    "TIME_CHANGER"
+  ]
 }
