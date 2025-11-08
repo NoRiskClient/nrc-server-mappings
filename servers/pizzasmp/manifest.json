@@ -4,6 +4,8 @@
   ],
   "pretty-name": "PizzaSMP",
   "categorys": [
+    "SURVIVAL",
+    "SMP"
   ],
   "gamemodes": {
     "smp": {
