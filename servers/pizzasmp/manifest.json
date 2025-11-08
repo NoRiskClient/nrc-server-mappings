@@ -1,7 +1,12 @@
 {
-  "server-address": ["pizzasmp.de"],
+  "server-address": [
+    "pizzasmp.de"
+  ],
   "pretty-name": "PizzaSMP",
-  "categorys": ["PVP", "SMP"],
+  "categorys": [
+    "PVP",
+    "SMP"
+  ],
   "gamemodes": {
     "smp": {
       "name": "SMP",
