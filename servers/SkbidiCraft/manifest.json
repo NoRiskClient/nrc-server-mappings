@@ -1,7 +1,7 @@
 {
-  "server-address": ["your-server.com"],
-  "pretty-name": "Your Server Name",
-  "categorys": ["SURVIVAL"],
+  "server-address": ["SkibidiCraft.de"],
+  "pretty-name": "SkibidiCraft",
+  "categorys": ["PVP"],
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
