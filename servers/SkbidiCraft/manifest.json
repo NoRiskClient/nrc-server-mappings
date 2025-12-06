@@ -1,0 +1,18 @@
+{
+  "server-address": ["your-server.com"],
+  "pretty-name": "Your Server Name",
+  "categorys": ["SURVIVAL"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+} 
+{
+  "gamemodes": {
+    "Youtuber Insel 2": {
+      "versions": ["1.21.4>],
+      "description": "Youtuber Insel 2 Server"
+    },
+    }
+  }
+}
