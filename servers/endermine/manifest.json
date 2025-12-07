@@ -1,1 +1,19 @@
-
+{
+  "server-address": ["endermine.de"],
+  "pretty-name": "EnderMine Network",
+  "categorys": ["SMP"],
+  "gamemodes": {
+    "SMP": {
+      "name": "SMP",
+      "versions": "1.21 -> 1.21.8",
+      "description": "Ein server mit Viel spaß"
+    }
+  },
+  "socials": {
+    "discord": "https://discord.gg/f4VZeR5xta"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
