@@ -1,7 +1,7 @@
 {
   "server-address": ["endermine.de"],
   "pretty-name": "EnderMine Network",
-  "categorys": ["SMP"],
+  "categorys": ["SMP"]
   "gamemodes": {
     "SMP": {
       "name": "SMP",
