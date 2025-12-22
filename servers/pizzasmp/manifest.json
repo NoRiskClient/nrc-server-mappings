@@ -9,7 +9,7 @@
   "gamemodes": {
     "smp": {
       "name": "SMP",
-      "versions": ">1.21.8",
+      "versions": ">1.21.10",
       "description": "Vanilla-ähnliches Survival-Erlebnis."
     }
   },
