@@ -1,22 +1,15 @@
 {
   "server-address": ["SkibidiCraft.de"],
   "pretty-name": "SkibidiCraft",
-  "categorys": ["PVP"],
+  "categories": ["PVP"],
+  "gamemodes": {
+    "Youtuber Insel 2": {
+      "versions": ["1.21.4"],
+      "description": "Youtuber Insel 2 Server"
+    }
+  },
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
   }
-} 
-{
-  "gamemodes": {
-    "Youtuber Insel 2": {
-      "versions": ["1.21.4 >],
-      "description": "Youtuber Insel 2 Server"
-    },
-    }
-  }
-}
-"assets": {
-  "icon": "./icon.png",
-  "background": "./bg.png"
 }
