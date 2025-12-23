@@ -69,10 +69,12 @@ Add detailed gamemode information:
 {
   "gamemodes": {
     "survival": {
+      "name": "Survival",
       "versions": ["1.19.2", "1.20.1"],
       "description": "Classic survival gameplay with economy"
     },
     "creative": {
+      "name": "Creative",
       "versions": "1.20.1",
       "description": "Unlimited building and creation"
     }
@@ -271,6 +273,7 @@ When all server manifests are merged together, they create a unified manifest wi
       "categorys": ["SURVIVAL"],
       "gamemodes": {
         "gamemode-name": {
+          "name": "Gamemode Name",
           "versions": "1.20.1",
           "description": "Description"
         }
