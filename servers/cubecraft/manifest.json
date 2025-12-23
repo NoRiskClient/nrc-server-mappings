@@ -1,0 +1,51 @@
+{
+  "server-address": ["play.cubecraft.net"],
+  "pretty-name": "CubeCraft",
+  "categorys": ["MINIGAMES"],
+  "gamemodes": {
+    "eggwars": {
+      "name": "EggWars",
+      "versions": ["1.8", "1.19"]
+    },
+    "luckyislands": {
+      "name": "Lucky Islands",
+      "versions": ["1.8", "1.19"]
+    },
+    "skywars": {
+      "name": "SkyWars",
+      "versions": ["1.8", "1.19"]
+    },
+    "skyblock": {
+      "name": "SkyBlock",
+      "versions": ["1.19"]
+    },
+    "ffa": {
+      "name": "Free for All",
+      "versions": ["1.8", "1.19"]
+    },
+    "parkour": {
+      "name": "Parkour",
+      "versions": ["1.19"]
+    },
+    "pillarsoffortune": {
+      "name": "Pillars of Fortune",
+      "versions": ["1.19"]
+    },
+    "bedwars": {
+      "name": "BedWars",
+      "versions": ["1.8", "1.19"]
+    }
+  },
+  "socials": {
+    "website": "https://www.cubecraft.net",
+    "store": "https://store.cubecraft.net",
+    "youtube": "https://www.youtube.com/user/cubecraftgamesserver",
+    "tiktok": "https://www.tiktok.com/@cubecrafttiktok",
+    "discord": "https://discord.gg/cubecraft"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": []
+}
