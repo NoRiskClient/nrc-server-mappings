@@ -7,7 +7,7 @@
     "SURVIVAL",
     "BUILD",
     "MODDED",
-    "SMP"
+    "PVP"
   ],
   "socials": {
     "website": "https://breiwalkersmp.net",
@@ -21,7 +21,7 @@
   "disabled-modules": [
     "HEALTH_INDICATORS",
     "ITEM_MODEL",
-    "REACH_DISPLAY",
+    "FREE_LOOK_MODULE",
     "TNT_TIMER"
   ]
 }
