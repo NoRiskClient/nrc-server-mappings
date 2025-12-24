@@ -14,5 +14,8 @@
     "store": "https://shop.hugosmp.net",
     "tiktok": "https://tiktok.com/@letshugosmp",
     "discord": "https://discord.gg/hugosmp"
-  }
+  },
+  "disabled-modules": [
+        "HEALTH_INDICATORS"
+    ]
 }
