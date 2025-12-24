@@ -5,35 +5,35 @@
   "gamemodes": {
     "eggwars": {
       "name": "EggWars",
-      "versions": ["1.8", "1.19"]
+      "versions": "1.21"
     },
     "luckyislands": {
       "name": "Lucky Islands",
-      "versions": ["1.8", "1.19"]
+      "versions": "1.21"
     },
     "skywars": {
       "name": "SkyWars",
-      "versions": ["1.8", "1.19"]
+      "versions": "1.21"
     },
     "skyblock": {
       "name": "SkyBlock",
-      "versions": ["1.19"]
+      "versions": "1.21"
     },
     "ffa": {
       "name": "Free for All",
-      "versions": ["1.8", "1.19"]
+      "versions": "1.21"
     },
     "parkour": {
       "name": "Parkour",
-      "versions": ["1.19"]
+      "versions": "1.21"
     },
     "pillarsoffortune": {
       "name": "Pillars of Fortune",
-      "versions": ["1.19"]
+      "versions": "1.21"
     },
     "bedwars": {
       "name": "BedWars",
-      "versions": ["1.8", "1.19"]
+      "versions": "1.21"
     }
   },
   "socials": {
