@@ -1,0 +1,16 @@
+{
+  "server-address": ["mythora.de"],
+  "pretty-name": "Mythora",
+  "categorys": ["SURVIVAL"],
+  "socials": {
+    "website": "https://mythora.de",
+    "discord": "https://discord.gg/mythora",
+    "youtube": "https://www.youtube.com/@mythorade",
+    "tiktok": "https://www.tiktok.com/@mythora.de",
+    "instagram": "https://www.instagram.com/mythora.de/"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
