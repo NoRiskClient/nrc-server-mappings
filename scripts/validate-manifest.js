@@ -15,6 +15,11 @@ const rootSchemaPath = path.join(__dirname, '..', 'servers', 'manifest-schema.js
 const rootSchema = JSON.parse(fs.readFileSync(rootSchemaPath, 'utf8'));
 
 function validateManifest(manifestPath, schemaPath = null) {
+  if (!path.relative(process.cwd(), manifestPath).match(/^[a-z0-9/._-]+$/)) {
+    console.error(`❌ Non [a-z0-9/._-] character in path: ${path.relative(process.cwd(), manifestPath)}`);
+    return false;
+  }
+
   try {
     const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
     
