@@ -1,4 +1,4 @@
-# NoRiskClient Server Mappings
+# nrc-server-mappings
 
 This repository provides server mappings for the NoRisk Client, allowing servers to have enhanced icons, banners, and metadata displayed in the client.
 
