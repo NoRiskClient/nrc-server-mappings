@@ -33,3 +33,5 @@ Then just click on 'Create pull request':
 #### 4. Wait for a merge
 
 Our team will review your changes. Please understand that this can take a while. If we do not respond within a week, you can join our [discord](http://discord.norisk.gg/) an make a ticket reminding us of the matter.
+
+>Wenn du einen PR erstellt hast dauert es meist ein zwei Tage bis wir ihn geprüft haben und er angenommen wird. Wichtig: Nach dem Annehmen ist die Änderung nicht automatisch live. Wir müssen diese Manuell live schalten, meist später am selben Tag.
