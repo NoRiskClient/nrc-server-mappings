@@ -1,7 +1,7 @@
 {
   "server-address": ["chronikasmp.net"],
   "pretty-name": "ChronikaSMP",
-  "categorys": ["MiniGames", "SMP" "Hardcore" ]
+  "categorys": ["MiniGames", "SMP", "Hardcore"],
  "gamemodes": {
    "pvp": {
         "name": "PVP",
