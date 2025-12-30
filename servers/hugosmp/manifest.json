@@ -16,6 +16,8 @@
     "discord": "https://discord.gg/hugosmp"
   },
   "disabled-modules": [
-        "HEALTH_INDICATORS"
+        "HEALTH_INDICATORS",
+        "NO_FOG"
     ]
 }
+
