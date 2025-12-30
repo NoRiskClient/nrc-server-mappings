@@ -10,7 +10,7 @@ As mentioned this repository provides server mappings for the NoRisk Client, all
 
 To make any changes, like adding your own server, you need to 'fork' the repository. This means you create a copy, because you are not allowed to make direct changes to our version. Instead you make them in your own 'clone' and then 'ask' (aka Pull Request or PR) your changes to be merged. For this you need an account on GitHub.
 
-![image with a red arrow pointing at 'Fork' text on the noriskclient/nrc-server-mappings github repository](docs/assets/sbs-fork-repo.png)
+![image with a red arrow pointing at 'Fork' text on the noriskclient/nrc-server-mappings github repository](assets/sbs-fork-repo.png)
 
 #### 2. Make your changes
 
@@ -20,15 +20,15 @@ To create your own entry, go to `/servers` in your fork and create a folder name
 
 When you back to the project / repository root you should see a banner that says something like `This branch is 1 commit ahead of NoRiskClient/nrc-server-mappings:main.`. Click on 'Contribute' and then 'Open pull request':
 
-![](docs/assets/sbs-open-pr-banner.png)
+![](assets/sbs-open-pr-banner.png)
 
-Or alternatively it could also look like this: ![](docs/assets/sbs-open-pr-banner2.png)
+Or alternatively it could also look like this: ![](assets/sbs-open-pr-banner2.png)
 
 Please take your time and fill out the checklist provided in the description. It will ask you whether you read and understood the documentation and whether your manifest meets all our requirements.
 
 Then just click on 'Create pull request':
 
-![](docs/assets/sbs-create-pr.png)
+![](assets/sbs-create-pr.png)
 
 #### 4. Wait for a merge
 
