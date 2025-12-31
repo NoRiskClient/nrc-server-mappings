@@ -1,25 +1,18 @@
 {
-    "server-address": [
-      "loxxler.de"
-    ],
-    "pretty-name": "Loxxler",
-    "categorys": [
-      "MINIGAMES",
-      "PVP"
-    ],
-    "socials": {
-      "website": "https://c.otp.cx/loxxler/",
-      "x": "https://x.com/Loxxler/",
-      "discord": "https://dsc.gg/Loxx/",
-      "youtube": "https://www.twitch.tv/loxxler/",
-      "instagram": "https://www.instagram.com/loxxler/",
-      "tiktok": "https://www.tiktok.com/@loxxler/"
-    },
-    "assets": {
-      "icon": "./icon.png",
-      "background": "./bg.png"
-    },
-    "disabled-modules": [
-        "FREE_LOOK"
-      ]
-  }
+  "server-address": ["loxxler.de"],
+  "pretty-name": "Loxxler",
+  "categorys": ["MINIGAMES", "PVP"],
+  "socials": {
+    "website": "https://c.otp.cx/loxxler/",
+    "x": "https://x.com/Loxxler/",
+    "discord": "https://dsc.gg/Loxx/",
+    "youtube": "https://www.twitch.tv/loxxler/",
+    "instagram": "https://www.instagram.com/loxxler/",
+    "tiktok": "https://www.tiktok.com/@loxxler/"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": ["FREE_LOOK"]
+}

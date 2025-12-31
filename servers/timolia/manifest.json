@@ -1,63 +1,53 @@
 {
-    "server-address": [
-      "timolia.de",
-      "play.timolia.de"
-    ],
-    "pretty-name": "Timolia",
-    "categorys": [
-      "MINIGAMES",
-      "PVP"
-    ],
-    "gamemodes": {
-      "jumpworld": {
-        "name": "JumpWorld",
-        "versions": "1.20<*"
-      },
-      "pvp-modern": {
-        "name": "PvP Modern",
-        "versions": "1.20<*"
-      },
-      "pvp-classic": {
-        "name": "PvP Classic",
-        "versions": "1.8<*"
-      },
-      "freebuild": {
-        "name": "Freebuild",
-        "versions": "1.21.4<*"
-      },
-      "4rena": {
-        "name": "4rena",
-        "versions": "1.8<*"
-      },
-      "castles": {
-        "name": "Castles",
-        "versions": "1.8<*"
-      },
-      "splun": {
-        "name": "Splun",
-        "versions": "1.20<*"
-      },
-      "survivalquest": {
-        "name": "SurvivalQuest",
-        "versions": "1.21.4<*"
-      }
+  "server-address": ["timolia.de", "play.timolia.de"],
+  "pretty-name": "Timolia",
+  "categorys": ["MINIGAMES", "PVP"],
+  "gamemodes": {
+    "jumpworld": {
+      "name": "JumpWorld",
+      "versions": "1.20<*"
     },
-    "socials": {
-      "website": "https://www.timolia.de/",
-      "store": "https://shop.timolia.de/",
-      "x": "https://x.com/TimoliaTeam",
-      "discord": "https://discord.gg/timolia-minecraft-netzwerk-407554118887014402",
-      "youtube": "https://www.youtube.com/@Timolia",
-      "instagram": "https://www.instagram.com/timolianetwork",
-      "tiktok": "https://www.tiktok.com/@timolianetwork"
+    "pvp-modern": {
+      "name": "PvP Modern",
+      "versions": "1.20<*"
     },
-    "assets": {
-      "icon": "./icon.png",
-      "background": "./bg.png"
+    "pvp-classic": {
+      "name": "PvP Classic",
+      "versions": "1.8<*"
     },
-    "disabled-modules": [
-        "FOV_CHANGER",
-        "FREE_LOOK",
-        "HEALTH_INDICATORS"
-      ]
-  }
+    "freebuild": {
+      "name": "Freebuild",
+      "versions": "1.21.4<*"
+    },
+    "4rena": {
+      "name": "4rena",
+      "versions": "1.8<*"
+    },
+    "castles": {
+      "name": "Castles",
+      "versions": "1.8<*"
+    },
+    "splun": {
+      "name": "Splun",
+      "versions": "1.20<*"
+    },
+    "survivalquest": {
+      "name": "SurvivalQuest",
+      "versions": "1.21.4<*"
+    }
+  },
+  "socials": {
+    "website": "https://www.timolia.de/",
+    "store": "https://shop.timolia.de/",
+    "x": "https://x.com/TimoliaTeam",
+    "discord": "https://discord.gg/timolia-minecraft-netzwerk-407554118887014402",
+    "youtube": "https://www.youtube.com/@Timolia",
+    "instagram": "https://www.instagram.com/timolianetwork",
+    "tiktok": "https://www.tiktok.com/@timolianetwork"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": ["FOV_CHANGER", "FREE_LOOK", "HEALTH_INDICATORS"]
+}

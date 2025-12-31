@@ -1,96 +1,90 @@
 {
-    "server-address": [
-      "mc.gommehd.net",
-      "gommehd.net"
-    ],
-    "pretty-name": "GommeHD",
-    "categorys": [
-      "MINIGAMES",
-      "PVP"
-    ],
-    "gamemodes": {
-      "bingo": {
-        "name": "Bingo",
-        "versions": "1.21.4<*"
-      },
-      "bedwars": {
-        "name": "BedWars",
-        "versions": "1.21.4<*"
-      },
-      "citybuild": {
-        "name": "CityBuild",
-        "versions": "1.21.4<*"
-      },
-      "gommunity": {
-        "name": "Gommunity",
-        "versions": "1.21<*"
-      },
-      "gungame": {
-        "name": "GunGame",
-        "versions": "1.21.4<*"
-      },
-      "duels": {
-        "name": "Duels",
-        "versions": "1.21.4<*"
-      },
-      "kit1vs1": {
-        "name": "Kit1vs1",
-        "versions": "1.21.4<*"
-      },
-      "moneymaker": {
-        "name": "MoneyMaker",
-        "versions": "1.21.4<*"
-      },
-      "skywars": {
-        "name": "SkyWars",
-        "versions": "1.21.4<*"
-      },
-      "jumpleague": {
-        "name": "JumpLeague",
-        "versions": "1.21.4<*"
-      },
-      "buildffa": {
-        "name": "BuildFFA",
-        "versions": "1.21.4<*"
-      },
-      "hardcore": {
-        "name": "Hardcore",
-        "versions": "1.21.4<*"
-      },
-      "hideandseek": {
-        "name": "Hide'n'Seek",
-        "versions": "1.21.4<*"
-      },
-      "masterbuilders": {
-        "name": "MasterBuilders",
-        "versions": "1.21.4<*"
-      },
-      "partygames": {
-        "name": "PartyGames",
-        "versions": "1.21.4<*"
-      },
-      "ttt": {
-        "name": "TTT",
-        "versions": "1.21.4<*"
-      }
+  "server-address": ["mc.gommehd.net", "gommehd.net"],
+  "pretty-name": "GommeHD",
+  "categorys": ["MINIGAMES", "PVP"],
+  "gamemodes": {
+    "bingo": {
+      "name": "Bingo",
+      "versions": "1.21.4<*"
     },
-    "socials": {
-      "website": "https://www.gommehd.net/",
-      "store": "https://shop.gommehd.net/",
-      "x": "https://x.com/GommeHDnet",
-      "discord": "https://discord.com/invite/GommeHDnet",
-      "youtube": "https://www.youtube.com/GommeHDnet",
-      "instagram": "https://www.instagram.com/gommehdnetwork",
-      "tiktok": "https://www.tiktok.com/@gommehdnetwork"
+    "bedwars": {
+      "name": "BedWars",
+      "versions": "1.21.4<*"
     },
-    "assets": {
-      "icon": "./icon.png",
-      "background": "./bg.png"
+    "citybuild": {
+      "name": "CityBuild",
+      "versions": "1.21.4<*"
     },
-    "disabled-modules": [
-        "FOV_CHANGER",
-        "FREE_LOOK",
-        "TNT_TIMER",
-        "HEALTH_INDICATORS"
-      ]
-  }
+    "gommunity": {
+      "name": "Gommunity",
+      "versions": "1.21<*"
+    },
+    "gungame": {
+      "name": "GunGame",
+      "versions": "1.21.4<*"
+    },
+    "duels": {
+      "name": "Duels",
+      "versions": "1.21.4<*"
+    },
+    "kit1vs1": {
+      "name": "Kit1vs1",
+      "versions": "1.21.4<*"
+    },
+    "moneymaker": {
+      "name": "MoneyMaker",
+      "versions": "1.21.4<*"
+    },
+    "skywars": {
+      "name": "SkyWars",
+      "versions": "1.21.4<*"
+    },
+    "jumpleague": {
+      "name": "JumpLeague",
+      "versions": "1.21.4<*"
+    },
+    "buildffa": {
+      "name": "BuildFFA",
+      "versions": "1.21.4<*"
+    },
+    "hardcore": {
+      "name": "Hardcore",
+      "versions": "1.21.4<*"
+    },
+    "hideandseek": {
+      "name": "Hide'n'Seek",
+      "versions": "1.21.4<*"
+    },
+    "masterbuilders": {
+      "name": "MasterBuilders",
+      "versions": "1.21.4<*"
+    },
+    "partygames": {
+      "name": "PartyGames",
+      "versions": "1.21.4<*"
+    },
+    "ttt": {
+      "name": "TTT",
+      "versions": "1.21.4<*"
+    }
+  },
+  "socials": {
+    "website": "https://www.gommehd.net/",
+    "store": "https://shop.gommehd.net/",
+    "x": "https://x.com/GommeHDnet",
+    "discord": "https://discord.com/invite/GommeHDnet",
+    "youtube": "https://www.youtube.com/GommeHDnet",
+    "instagram": "https://www.instagram.com/gommehdnetwork",
+    "tiktok": "https://www.tiktok.com/@gommehdnetwork"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "FOV_CHANGER",
+    "FREE_LOOK",
+    "TNT_TIMER",
+    "HEALTH_INDICATORS"
+  ]
+}

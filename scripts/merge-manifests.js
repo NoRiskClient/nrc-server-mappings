@@ -1,184 +1,215 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
+const { logger, reportError } = require("./logger");
 
 function mergeManifests() {
-    const serversDir = path.join(__dirname, '..', 'servers');
-    const outputDir = path.join(__dirname, '..', 'merged');
-    const outputManifestPath = path.join(outputDir, 'merged-manifest.json');
+  const serversDir = path.join(__dirname, "..", "servers");
+  const outputDir = path.join(__dirname, "..", "merged");
+  const outputManifestPath = path.join(outputDir, "merged-manifest.json");
 
-    if (!fs.existsSync(outputDir)) {
-        fs.mkdirSync(outputDir, {recursive: true});
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+
+  logger("info", "🔍 Scanning servers directory...");
+
+  const serverFolders = fs
+    .readdirSync(serversDir, { withFileTypes: true })
+    .filter((dirent) => dirent.isDirectory())
+    .map((dirent) => dirent.name)
+    .filter((name) => name !== "merged");
+
+  logger(
+    "info",
+    `📁 Found ${serverFolders.length} server folders: ${serverFolders.join(", ")}`,
+  );
+
+  const mergedManifest = {
+    servers: {},
+    metadata: {
+      totalServers: 0,
+      mergedAt: new Date().toISOString(),
+      sourceFolders: serverFolders,
+    },
+  };
+
+  let processedCount = 0;
+  let errorCount = 0;
+
+  for (const folderName of serverFolders) {
+    const folderPath = path.join(serversDir, folderName);
+    const manifestPath = path.join(folderPath, "manifest.json");
+
+    try {
+      if (!fs.existsSync(manifestPath)) {
+        logger("warn", `⚠️  No manifest.json found in ${folderName}`);
+        continue;
+      }
+
+      const manifestContent = fs.readFileSync(manifestPath, "utf8");
+      const manifest = JSON.parse(manifestContent);
+
+      if (
+        !manifest["server-address"] ||
+        !manifest["pretty-name"] ||
+        !manifest["categorys"]
+      ) {
+        logger(
+          "warn",
+          `⚠️  Invalid manifest in ${folderName}: missing required fields`,
+        );
+        errorCount++;
+        continue;
+      }
+
+      const processedManifest = processAssets(
+        manifest,
+        folderName,
+        folderPath,
+        outputDir,
+      );
+
+      mergedManifest.servers[folderName] = processedManifest;
+      processedCount++;
+
+      logger("info", `✅ Processed ${folderName}`);
+    } catch (error) {
+      reportError(`Error processing ${folderName}:`, [error.message]);
+      errorCount++;
     }
+  }
 
-    console.log('🔍 Scanning servers directory...');
+  mergedManifest.metadata.totalServers = processedCount;
 
-    const serverFolders = fs.readdirSync(serversDir, {withFileTypes: true})
-        .filter(dirent => dirent.isDirectory())
-        .map(dirent => dirent.name)
-        .filter(name => name !== 'merged');
+  fs.writeFileSync(outputManifestPath, JSON.stringify(mergedManifest, null, 2));
 
-    console.log(`📁 Found ${serverFolders.length} server folders:`, serverFolders);
+  logger("info", "📊 Merge Summary:");
+  logger("info", `✅ Successfully processed: ${processedCount} servers`);
+  logger("info", `❌ Errors: ${errorCount}`);
+  logger("info", `📄 Output: ${outputManifestPath}`);
 
-    const mergedManifest = {
-        servers: {},
-        metadata: {
-            totalServers: 0,
-            mergedAt: new Date().toISOString(),
-            sourceFolders: serverFolders
-        }
-    };
-
-    let processedCount = 0;
-    let errorCount = 0;
-
-    for (const folderName of serverFolders) {
-        const folderPath = path.join(serversDir, folderName);
-        const manifestPath = path.join(folderPath, 'manifest.json');
-
-        try {
-            if (!fs.existsSync(manifestPath)) {
-                console.warn(`⚠️  No manifest.json found in ${folderName}`);
-                continue;
-            }
-
-            const manifestContent = fs.readFileSync(manifestPath, 'utf8');
-            const manifest = JSON.parse(manifestContent);
-
-            if (!manifest['server-address'] || !manifest['pretty-name'] || !manifest['categorys']) {
-                console.warn(`⚠️  Invalid manifest in ${folderName}: missing required fields`);
-                errorCount++;
-                continue;
-            }
-
-            const processedManifest = processAssets(manifest, folderName, folderPath, outputDir);
-
-            mergedManifest.servers[folderName] = processedManifest;
-            processedCount++;
-
-            console.log(`✅ Processed ${folderName}`);
-
-        } catch (error) {
-            console.error(`❌ Error processing ${folderName}:`, error.message);
-            errorCount++;
-        }
-    }
-
-    mergedManifest.metadata.totalServers = processedCount;
-
-    fs.writeFileSync(outputManifestPath, JSON.stringify(mergedManifest, null, 2));
-
-    console.log('\n📊 Merge Summary:');
-    console.log(`✅ Successfully processed: ${processedCount} servers`);
-    console.log(`❌ Errors: ${errorCount}`);
-    console.log(`📄 Output: ${outputManifestPath}`);
-
-    return {
-        success: processedCount,
-        errors: errorCount,
-        outputPath: outputManifestPath
-    };
+  return {
+    success: processedCount,
+    errors: errorCount,
+    outputPath: outputManifestPath,
+  };
 }
 
 function processAssets(manifest, folderName, sourceFolderPath, outputDir) {
-    const processedManifest = {...manifest};
+  const processedManifest = { ...manifest };
 
-    if (manifest.assets) {
-        const assetsDir = path.join(outputDir, 'assets', folderName);
+  if (manifest.assets) {
+    const assetsDir = path.join(outputDir, "assets", folderName);
 
-        if (!fs.existsSync(assetsDir)) {
-            fs.mkdirSync(assetsDir, {recursive: true});
-        }
-
-        if (manifest.assets.icon) {
-            const iconSource = path.join(sourceFolderPath, manifest.assets.icon.replace('./', ''));
-            const iconDest = path.join(assetsDir, 'icon.png');
-
-            if (fs.existsSync(iconSource)) {
-                fs.copyFileSync(iconSource, iconDest);
-                processedManifest.assets.icon = `./assets/${folderName}/icon.png`;
-            }
-        }
-
-        if (manifest.assets.background) {
-            const bgSource = path.join(sourceFolderPath, manifest.assets.background.replace('./', ''));
-            const bgDest = path.join(assetsDir, 'background.png');
-
-            if (fs.existsSync(bgSource)) {
-                fs.copyFileSync(bgSource, bgDest);
-                processedManifest.assets.background = `./assets/${folderName}/background.png`;
-            }
-        }
+    if (!fs.existsSync(assetsDir)) {
+      fs.mkdirSync(assetsDir, { recursive: true });
     }
 
-    return processedManifest;
+    if (manifest.assets.icon) {
+      const iconSource = path.join(
+        sourceFolderPath,
+        manifest.assets.icon.replace("./", ""),
+      );
+      const iconDest = path.join(assetsDir, "icon.png");
+
+      if (fs.existsSync(iconSource)) {
+        fs.copyFileSync(iconSource, iconDest);
+        processedManifest.assets.icon = `./assets/${folderName}/icon.png`;
+      }
+    }
+
+    if (manifest.assets.background) {
+      const bgSource = path.join(
+        sourceFolderPath,
+        manifest.assets.background.replace("./", ""),
+      );
+      const bgDest = path.join(assetsDir, "background.png");
+
+      if (fs.existsSync(bgSource)) {
+        fs.copyFileSync(bgSource, bgDest);
+        processedManifest.assets.background = `./assets/${folderName}/background.png`;
+      }
+    }
+  }
+
+  return processedManifest;
 }
 
-
 function validateMergedManifest(mergedManifestPath) {
-    try {
-        const schemaPath = path.join(__dirname, '..', 'servers', 'manifest-schema.json');
+  try {
+    const schemaPath = path.join(
+      __dirname,
+      "..",
+      "servers",
+      "manifest-schema.json",
+    );
 
-        if (!fs.existsSync(schemaPath)) {
-            console.warn('⚠️  Schema file not found, skipping validation');
-            return;
-        }
-
-        const schema = JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
-        const manifest = JSON.parse(fs.readFileSync(mergedManifestPath, 'utf8'));
-
-        console.log('🔍 Validating merged manifest...');
-
-        let isValid = true;
-        const errors = [];
-
-        for (const [serverId, serverData] of Object.entries(manifest.servers)) {
-            if (!serverData['server-address'] || !Array.isArray(serverData['server-address'])) {
-                errors.push(`${serverId}: Missing or invalid server-address`);
-                isValid = false;
-            }
-
-            if (!serverData['pretty-name']) {
-                errors.push(`${serverId}: Missing pretty-name`);
-                isValid = false;
-            }
-
-            if (!serverData['categorys'] || !Array.isArray(serverData['categorys'])) {
-                errors.push(`${serverId}: Missing or invalid categorys`);
-                isValid = false;
-            }
-
-            if (!serverData['assets'] || !serverData['assets']['icon'] || !serverData['assets']['background']) {
-                errors.push(`${serverId}: Missing required assets`);
-                isValid = false;
-            }
-        }
-
-        if (isValid) {
-            console.log('✅ Merged manifest validation passed');
-        } else {
-            console.log('❌ Validation errors:');
-            errors.forEach(error => console.log(`  - ${error}`));
-        }
-
-    } catch (error) {
-        console.error('❌ Validation error:', error.message);
+    if (!fs.existsSync(schemaPath)) {
+      logger("warn", "⚠️  Schema file not found, skipping validation");
+      return;
     }
+
+    const schema = JSON.parse(fs.readFileSync(schemaPath, "utf8"));
+    const manifest = JSON.parse(fs.readFileSync(mergedManifestPath, "utf8"));
+
+    logger("info", "🔍 Validating merged manifest...");
+
+    let isValid = true;
+    const errors = [];
+
+    for (const [serverId, serverData] of Object.entries(manifest.servers)) {
+      if (
+        !serverData["server-address"] ||
+        !Array.isArray(serverData["server-address"])
+      ) {
+        errors.push(`${serverId}: Missing or invalid server-address`);
+        isValid = false;
+      }
+
+      if (!serverData["pretty-name"]) {
+        errors.push(`${serverId}: Missing pretty-name`);
+        isValid = false;
+      }
+
+      if (!serverData["categorys"] || !Array.isArray(serverData["categorys"])) {
+        errors.push(`${serverId}: Missing or invalid categorys`);
+        isValid = false;
+      }
+
+      if (
+        !serverData["assets"] ||
+        !serverData["assets"]["icon"] ||
+        !serverData["assets"]["background"]
+      ) {
+        errors.push(`${serverId}: Missing required assets`);
+        isValid = false;
+      }
+    }
+
+    if (isValid) {
+      logger("info", "✅ Merged manifest validation passed");
+    } else {
+      reportError("Validation errors:", errors);
+    }
+  } catch (error) {
+    reportError("Validation error:", [error.message]);
+  }
 }
 
 if (require.main === module) {
-    console.log('🚀 Starting manifest merge process...\n');
+  logger("info", "🚀 Starting manifest merge process...\n");
 
-    const result = mergeManifests();
+  const result = mergeManifests();
 
-    if (result.success > 0) {
-        console.log('\n🎉 Merge completed successfully!');
-        validateMergedManifest(result.outputPath);
-    } else {
-        console.log('\n❌ No servers were processed successfully');
-        process.exit(1);
-    }
+  if (result.success > 0) {
+    logger("info", "\n🎉 Merge completed successfully!");
+    validateMergedManifest(result.outputPath);
+  } else {
+    logger("error", "\n❌ No servers were processed successfully");
+    process.exit(1);
+  }
 }
 
-module.exports = {mergeManifests, validateMergedManifest};
+module.exports = { mergeManifests, validateMergedManifest };

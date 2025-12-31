@@ -36,8 +36,5 @@
     "icon": "./icon.png",
     "background": "./bg.png"
   },
-  "disabled-modules": [
-    "HEALTH_INDICATORS",
-    "ITEM_MODEL"
-  ]
+  "disabled-modules": ["HEALTH_INDICATORS", "ITEM_MODEL"]
 }

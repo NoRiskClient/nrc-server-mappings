@@ -7,10 +7,7 @@
     "play.kitpvp.world"
   ],
   "pretty-name": "KitPvP World",
-  "categorys": [
-    "KITPVP",
-    "PVP"
-  ],
+  "categorys": ["KITPVP", "PVP"],
   "gamemodes": {
     "unranked": {
       "versions": "1.21<*",
@@ -45,4 +42,3 @@
     "background": "./bg.png"
   }
 }
-  

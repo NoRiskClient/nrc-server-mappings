@@ -1,18 +1,15 @@
 {
-    "server-address": ["zflockii.de"],
-    "pretty-name": "zFlockii.de | Event-Netzwerk",
-    "categorys": ["MINIGAMES", "CUSTOM"],
-    "assets": {
-        "icon": "./icon.png",
-        "background": "./bg.png"
-    },
-    "socials": {
-        "youtube": "https://www.youtube.com/@zFlockii",
-        "tiktok": "https://www.tiktok.com/@zflockii",
-        "discord": "https://discord.gg/SWYtdJBXjq"
-    },
-    "disabled-modules": [
-        "WEATHER_CHANGER",
-        "TIME_CHANGER"
-    ]
+  "server-address": ["zflockii.de"],
+  "pretty-name": "zFlockii.de | Event-Netzwerk",
+  "categorys": ["MINIGAMES", "CUSTOM"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "youtube": "https://www.youtube.com/@zFlockii",
+    "tiktok": "https://www.tiktok.com/@zflockii",
+    "discord": "https://discord.gg/SWYtdJBXjq"
+  },
+  "disabled-modules": ["WEATHER_CHANGER", "TIME_CHANGER"]
 }

@@ -1,11 +1,7 @@
 {
-  "server-address": [
-    "pizzasmp.de"
-  ],
+  "server-address": ["pizzasmp.de"],
   "pretty-name": "PizzaSMP",
-  "categorys": [
-    "SURVIVAL"
-  ],
+  "categorys": ["SURVIVAL"],
   "gamemodes": {
     "smp": {
       "name": "SMP",
@@ -21,9 +17,5 @@
     "icon": "./icon.png",
     "background": "./bg.png"
   },
-  "disabled-modules": [
-    "NO_FOG",
-    "WEATHER_CHANGER",
-    "TIME_CHANGER"
-  ]
+  "disabled-modules": ["NO_FOG", "WEATHER_CHANGER", "TIME_CHANGER"]
 }

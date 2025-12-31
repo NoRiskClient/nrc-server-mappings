@@ -3,20 +3,20 @@ name: Validate Server Manifests and Images
 on:
   push:
     branches:
-      - main  
+      - main
     paths:
-      - 'servers/**/*.png'
-      - 'servers/**/manifest.json'
+      - "servers/**/*.png"
+      - "servers/**/manifest.json"
 
   pull_request:
     paths:
-      - 'servers/**/*.png'
-      - 'servers/**/manifest.json'
+      - "servers/**/*.png"
+      - "servers/**/manifest.json"
 
 jobs:
   validate:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -24,13 +24,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Install dependencies
         run: npm ci
-
+        
       - name: Validate manifests
         run: npm run validate-manifest
 
       - name: Validate image dimensions
-        run: npm run validate-images 
+        run: npm run validate-images

@@ -24,7 +24,27 @@
       "description": "Categories the server belongs to",
       "items": {
         "type": "string",
-        "enum": ["HG", "PVP", "SURVIVAL", "CREATIVE", "MINIGAMES", "SKYBLOCK", "PRISON", "FACTIONS", "UHC", "KITPVP", "ANARCHY", "RPG", "ADVENTURE", "BUILD", "TECHNICAL", "VANILLA", "MODDED", "CUSTOM", "CITYBUILD"]
+        "enum": [
+          "HG",
+          "PVP",
+          "SURVIVAL",
+          "CREATIVE",
+          "MINIGAMES",
+          "SKYBLOCK",
+          "PRISON",
+          "FACTIONS",
+          "UHC",
+          "KITPVP",
+          "ANARCHY",
+          "RPG",
+          "ADVENTURE",
+          "BUILD",
+          "TECHNICAL",
+          "VANILLA",
+          "MODDED",
+          "CUSTOM",
+          "CITYBUILD"
+        ]
       },
       "minItems": 1
     },
@@ -166,4 +186,4 @@
     }
   },
   "additionalProperties": false
-} 
+}
