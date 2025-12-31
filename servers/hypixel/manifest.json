@@ -1,140 +1,131 @@
 {
-    "server-address": [
-      "mc.hypixel.net",
-      "hypixel.net"
-    ],
-    "pretty-name": "Hypixel Network",
-    "categorys": [
-      "MINIGAMES",
-      "PVP",
-      "SKYBLOCK",
-      "BUILD"
-    ],
-    "gamemodes": {
-      "skyblock": {
-        "versions": "ALL",
-        "name": "SkyBlock",
-        "description": "Hypixel's SkyBlock experience."
-      },
-      "bedwars": {
-        "versions": "ALL",
-        "name": "Bed Wars",
-        "description": "Multiple Bed Wars modes including Solo, Doubles, 3v3v3v3, 4v4v4v4, Practice, and Dream modes."
-      },
-      "skywars": {
-        "versions": "ALL",
-        "name": "SkyWars",
-        "description": "SkyWars with Solo, Teams, Mega and Doubles modes."
-      },
-      "murder_mystery": {
-        "versions": "ALL",
-        "name": "Murder Mystery",
-        "description": "Murder Mystery Classic, Infection, Assassins, and Double Up."
-      },
-      "duels": {
-        "versions": "ALL",
-        "name": "Duels",
-        "description": "1v1 and team duels including UHC, SkyWars, OP, Bridge, Boxing, and more."
-      },
-      "arcade": {
-        "versions": "ALL",
-        "name": "Arcade Games",
-        "description": "Mini arcade games like Hole in the Wall, Zombies, Party Games, Creeper Attack, Pixel Party, Dropper, and more."
-      },
-      "warlords": {
-        "versions": "ALL",
-        "name": "Warlords",
-        "description": "Team-based PvP with Capture the Flag, Domination, and TDM."
-      },
-      "mega_walls": {
-        "versions": "ALL",
-        "name": "Mega Walls",
-        "description": "Large-scale PvP Mega Walls with Standard and Faceoff modes."
-      },
-      "blitz_sg": {
-        "versions": "ALL",
-        "name": "Blitz Survival Games",
-        "description": "Classic Hunger Games style survival mode."
-      },
-      "tnt_games": {
-        "versions": "ALL",
-        "name": "TNT Games",
-        "description": "TNT Run, PVP Run, Bow Spleef, TNT Tag, and Wizards."
-      },
-      "the_pit": {
-        "versions": "ALL",
-        "name": "The Pit",
-        "description": "Open world PvP pit experience."
-      },
-      "classic_games": {
-        "versions": "ALL",
-        "name": "Classic Games",
-        "description": "VampireZ, Quake, Paintball, Arena, Walls, Turbo Kart Racers."
-      },
-      "cops_and_crims": {
-        "versions": "ALL",
-        "name": "Cops and Crims",
-        "description": "Defusal, Deathmatch, Gun Game modes."
-      },
-      "build_battle": {
-        "versions": "ALL",
-        "name": "Build Battle",
-        "description": "Solo, Teams, Pro Mode, and Guess The Build."
-      },
-      "uhc": {
-        "versions": "ALL",
-        "name": "UHC Champions",
-        "description": "Solo, Teams, and Events modes."
-      },
-      "speed_uhc": {
-        "versions": "ALL",
-        "name": "Speed UHC",
-        "description": "Fast-paced UHC Solo and Team modes."
-      },
-      "smash_heroes": {
-        "versions": "ALL",
-        "name": "Smash Heroes",
-        "description": "1v1v1v1, 2v2, 2v2v2, 1v1, and Friends Mode."
-      },
-      "housing": {
-        "versions": "ALL",
-        "name": "Housing",
-        "description": "Creative plot world building mode."
-      },
-      "tournament_hall": {
-        "versions": "ALL",
-        "name": "Tournament Hall",
-        "description": "Special tournament events."
-      },
-      "smp": {
-        "versions": "ALL",
-        "name": "SMP",
-        "description": "Survival Multiplayer servers."
-      },
-      "wool_wars": {
-        "versions": "ALL",
-        "name": "Wool Wars",
-        "description": "PvP minigame involving wool blocks."
-      }
+  "server-address": ["mc.hypixel.net", "hypixel.net"],
+  "pretty-name": "Hypixel Network",
+  "categorys": ["MINIGAMES", "PVP", "SKYBLOCK", "BUILD"],
+  "gamemodes": {
+    "skyblock": {
+      "versions": "ALL",
+      "name": "SkyBlock",
+      "description": "Hypixel's SkyBlock experience."
     },
-    "socials": {
-      "website": "https://hypixel.net",
-      "store": "https://store.hypixel.net",
-      "youtube": "https://www.youtube.com/channel/UCHoVdy7-tYfrZtfhnSDK3JA",
-      "instagram": "https://instagram.com/hypixelofficial",
-      "x": "https://x.com/HypixelNetwork",
-      "discord": "https://discord.com/invite/hypixel",
-      "teamspeak": "ts3://ts.hypixel.net"
+    "bedwars": {
+      "versions": "ALL",
+      "name": "Bed Wars",
+      "description": "Multiple Bed Wars modes including Solo, Doubles, 3v3v3v3, 4v4v4v4, Practice, and Dream modes."
     },
-    "assets": {
-      "icon": "./icon.png",
-      "background": "./bg.png"
+    "skywars": {
+      "versions": "ALL",
+      "name": "SkyWars",
+      "description": "SkyWars with Solo, Teams, Mega and Doubles modes."
     },
-    "disabled-modules": [
-        "FOV_CHANGER",
-        "FREE_LOOK",
-        "TNT_TIMER",
-        "HEALTH_INDICATORS"
-    ]
-  }
-  
+    "murder_mystery": {
+      "versions": "ALL",
+      "name": "Murder Mystery",
+      "description": "Murder Mystery Classic, Infection, Assassins, and Double Up."
+    },
+    "duels": {
+      "versions": "ALL",
+      "name": "Duels",
+      "description": "1v1 and team duels including UHC, SkyWars, OP, Bridge, Boxing, and more."
+    },
+    "arcade": {
+      "versions": "ALL",
+      "name": "Arcade Games",
+      "description": "Mini arcade games like Hole in the Wall, Zombies, Party Games, Creeper Attack, Pixel Party, Dropper, and more."
+    },
+    "warlords": {
+      "versions": "ALL",
+      "name": "Warlords",
+      "description": "Team-based PvP with Capture the Flag, Domination, and TDM."
+    },
+    "mega_walls": {
+      "versions": "ALL",
+      "name": "Mega Walls",
+      "description": "Large-scale PvP Mega Walls with Standard and Faceoff modes."
+    },
+    "blitz_sg": {
+      "versions": "ALL",
+      "name": "Blitz Survival Games",
+      "description": "Classic Hunger Games style survival mode."
+    },
+    "tnt_games": {
+      "versions": "ALL",
+      "name": "TNT Games",
+      "description": "TNT Run, PVP Run, Bow Spleef, TNT Tag, and Wizards."
+    },
+    "the_pit": {
+      "versions": "ALL",
+      "name": "The Pit",
+      "description": "Open world PvP pit experience."
+    },
+    "classic_games": {
+      "versions": "ALL",
+      "name": "Classic Games",
+      "description": "VampireZ, Quake, Paintball, Arena, Walls, Turbo Kart Racers."
+    },
+    "cops_and_crims": {
+      "versions": "ALL",
+      "name": "Cops and Crims",
+      "description": "Defusal, Deathmatch, Gun Game modes."
+    },
+    "build_battle": {
+      "versions": "ALL",
+      "name": "Build Battle",
+      "description": "Solo, Teams, Pro Mode, and Guess The Build."
+    },
+    "uhc": {
+      "versions": "ALL",
+      "name": "UHC Champions",
+      "description": "Solo, Teams, and Events modes."
+    },
+    "speed_uhc": {
+      "versions": "ALL",
+      "name": "Speed UHC",
+      "description": "Fast-paced UHC Solo and Team modes."
+    },
+    "smash_heroes": {
+      "versions": "ALL",
+      "name": "Smash Heroes",
+      "description": "1v1v1v1, 2v2, 2v2v2, 1v1, and Friends Mode."
+    },
+    "housing": {
+      "versions": "ALL",
+      "name": "Housing",
+      "description": "Creative plot world building mode."
+    },
+    "tournament_hall": {
+      "versions": "ALL",
+      "name": "Tournament Hall",
+      "description": "Special tournament events."
+    },
+    "smp": {
+      "versions": "ALL",
+      "name": "SMP",
+      "description": "Survival Multiplayer servers."
+    },
+    "wool_wars": {
+      "versions": "ALL",
+      "name": "Wool Wars",
+      "description": "PvP minigame involving wool blocks."
+    }
+  },
+  "socials": {
+    "website": "https://hypixel.net",
+    "store": "https://store.hypixel.net",
+    "youtube": "https://www.youtube.com/channel/UCHoVdy7-tYfrZtfhnSDK3JA",
+    "instagram": "https://instagram.com/hypixelofficial",
+    "x": "https://x.com/HypixelNetwork",
+    "discord": "https://discord.com/invite/hypixel",
+    "teamspeak": "ts3://ts.hypixel.net"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "FOV_CHANGER",
+    "FREE_LOOK",
+    "TNT_TIMER",
+    "HEALTH_INDICATORS"
+  ]
+}

@@ -1,13 +1,7 @@
 {
-  "server-address": [
-    "play.minicraft-server.de",
-    "minicraft-server.de"
-  ],
+  "server-address": ["play.minicraft-server.de", "minicraft-server.de"],
   "pretty-name": "MiniCraft",
-  "categorys": [
-    "SURVIVAL",
-    "BUILD"
-  ],
+  "categorys": ["SURVIVAL", "BUILD"],
   "gamemodes": {
     "freebuild": {
       "name": "Freebuild",

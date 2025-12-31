@@ -11,8 +11,9 @@
     "discord": "https://discord.gg/EXe9awaX"
   },
   "disabled-modules": [
-	"FREE_LOOK_MODULE", 
-	"NO_FOG_MODULE", 
-	"WEATHER_CHANGER", 
-	"TIME_CHANGER"]
+    "FREE_LOOK_MODULE",
+    "NO_FOG_MODULE",
+    "WEATHER_CHANGER",
+    "TIME_CHANGER"
+  ]
 }

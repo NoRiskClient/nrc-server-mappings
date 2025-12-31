@@ -1,22 +1,19 @@
 {
-    "server-address": [
-        "cutecraft.net",
-        "dev.cutecraft.net"
-    ],
-    "pretty-name": "CuteCraft",
-    "categorys": ["CITYBUILD"],
-    "gamemodes": {
-      "citybuild1": {
-        "name": "CityBuild",
-        "versions": "1.21.7<*"
-      }
-    },
-    "socials": {
-      "store": "https://shop.cutecraft.net",
-      "discord": "https://discord.gg/cutecraft"
-    },
-    "assets": {
-      "icon": "./icon.png",
-      "background": "./bg.png"
+  "server-address": ["cutecraft.net", "dev.cutecraft.net"],
+  "pretty-name": "CuteCraft",
+  "categorys": ["CITYBUILD"],
+  "gamemodes": {
+    "citybuild1": {
+      "name": "CityBuild",
+      "versions": "1.21.7<*"
     }
+  },
+  "socials": {
+    "store": "https://shop.cutecraft.net",
+    "discord": "https://discord.gg/cutecraft"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
   }
+}

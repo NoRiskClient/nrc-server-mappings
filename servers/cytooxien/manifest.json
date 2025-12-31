@@ -1,17 +1,7 @@
 {
-  "server-address": [
-    "cytooxien.net",
-    "cytooxien.de",
-    "mc.cytooxien.de"
-  ],
+  "server-address": ["cytooxien.net", "cytooxien.de", "mc.cytooxien.de"],
   "pretty-name": "Cytooxien",
-  "categorys": [
-    "MINIGAMES",
-    "SKYBLOCK",
-    "CITYBUILD",
-    "FACTIONS",
-    "CREATIVE"
-  ],
+  "categorys": ["MINIGAMES", "SKYBLOCK", "CITYBUILD", "FACTIONS", "CREATIVE"],
   "gamemodes": {
     "onlyup": {
       "name": "Only Up!",

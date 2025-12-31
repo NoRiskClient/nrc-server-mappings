@@ -1,22 +1,14 @@
 {
-  "server-address": [
-    "challenges.jonny.business"
-  ],
+  "server-address": ["challenges.jonny.business"],
   "pretty-name": "jonny.business",
-  "categorys": [
-    "CUSTOM"
-
-  ],
+  "categorys": ["CUSTOM"],
   "gamemodes": {
     "customchallenges": {
       "name": "Challenges",
       "versions": "1.21.8"
- 
     }
   },
-  "socials": {
-    
-  },
+  "socials": {},
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"

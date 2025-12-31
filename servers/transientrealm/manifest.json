@@ -5,9 +5,7 @@
     "build.transientrealm.de"
   ],
   "pretty-name": "TransientRealm",
-  "categorys": [
-    "CITYBUILD"
-  ],
+  "categorys": ["CITYBUILD"],
   "gamemodes": {
     "citybuild": {
       "name": "CityBuild",

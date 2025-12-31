@@ -1,143 +1,134 @@
 {
-    "server-address":[
-        "mc.greev.eu",
-        "greev.eu"
-    ],
-    "pretty-name": "Greev.eu",
-    "categorys": [
-        "BUILD",
-        "CREATIVE",
-        "MINIGAMES",
-        "PVP",
-        "SURVIVAL"
-    ],
-    "gamemodes": {
-        "clutch": {
-            "name": "Clutch",
-            "versions": ">1.8.9"
-        },
-        "fastbridge": {
-            "name": "FastBridge",
-            "versions": ">1.8.9"
-        },
-        "freebuild": {
-            "name": "Freebuild",
-            "versions": ">1.21.4"
-        },
-        "knockpvp": {
-            "name": "KnockPVP",
-            "versions": ">1.8.9"
-        },
-        "knockpvp-lab": {
-            "name": "KnockPVP Lab",
-            "versions": ">1.8.9"
-        },
-        "minesweeper": {
-            "name": "Minesweeper",
-            "versions": ">1.8.9"
-        },
-        "MLGRush": {
-            "name": "MLGRush",
-            "versions": ">1.8.9"
-        },
-        "plotworld": {
-            "name": "PlotWorld",
-            "versions": ">1.8.9"
-        },
-        "plotworldnew": {
-            "name": "PlotWorld 1.21",
-            "versions": ">1.21.4"
-        },
-        "reduce": {
-            "name": "Reduce",
-            "versions": ">1.8.9"
-        },
-        "1vs1": {
-            "name": "1vs1",
-            "versions": ">1.8.9"
-        },
-        "bedwars": {
-            "name": "BedWars",
-            "versions": ">1.8.9"
-        },
-        "bowspleef": {
-            "name": "BowSpleef",
-            "versions": ">1.8.9"
-        },
-        "cores": {
-            "name": "Cores",
-            "versions": ">1.8.9"
-        },
-        "cwduel": {
-            "name": "CWDuel",
-            "versions": ">1.8.9"
-        },
-        "jumpleague": {
-            "name": "JumpLeague",
-            "versions": ">1.8.9"
-        },
-        "luckyblockbattle": {
-            "name": "LuckyBlockBattle",
-            "versions": ">1.8.9"
-        },
-        "mazesg": {
-            "name": "MazeSG",
-            "versions": ">1.8.9"
-        },
-        "mlgrush": {
-            "name": "MLGRush",
-            "versions": ">1.8.9"
-        },
-        "murder": {
-            "name": "Murder",
-            "versions": ">1.8.9"
-        },
-        "oneline": {
-            "name": "Oneline",
-            "versions": ">1.8.9"
-        },
-        "qsg": {
-            "name": "QSG",
-            "versions": ">1.8.9"
-        },
-        "quake": {
-            "name": "Quake",
-            "versions": ">1.8.9"
-        },
-        "rush": {
-            "name": "Rush",
-            "versions": ">1.8.9"
-        },
-        "skywars": {
-            "name": "SkyWars",
-            "versions": ">1.8.9"
-        },
-        "spleef": {
-            "name": "Spleef",
-            "versions": ">1.8.9"
-        },
-        "sumo": {
-            "name": "Sumo",
-            "versions": ">1.8.9"
-        },
-        "tntrun": {
-            "name": "TNTRun",
-            "versions": ">1.8.9"
-        },
-        "voelkerball": {
-            "name": "Völkerball",
-            "versions": ">1.8.9"
-        }
+  "server-address": ["mc.greev.eu", "greev.eu"],
+  "pretty-name": "Greev.eu",
+  "categorys": ["BUILD", "CREATIVE", "MINIGAMES", "PVP", "SURVIVAL"],
+  "gamemodes": {
+    "clutch": {
+      "name": "Clutch",
+      "versions": ">1.8.9"
     },
-    "socials": {
-        "website": "https://greev.eu",
-        "x": "https://x.com/greeveu",
-        "instagram": "https://instgram.com/greev.eu",
-        "discord": "https://discord.com/invite/taAbPpq",
-        "teamspeak": "ts3://ts.greev.eu"
+    "fastbridge": {
+      "name": "FastBridge",
+      "versions": ">1.8.9"
     },
-    "assets": {
-        "icon": "./icon.png",
-        "background": "./bg.png"
+    "freebuild": {
+      "name": "Freebuild",
+      "versions": ">1.21.4"
+    },
+    "knockpvp": {
+      "name": "KnockPVP",
+      "versions": ">1.8.9"
+    },
+    "knockpvp-lab": {
+      "name": "KnockPVP Lab",
+      "versions": ">1.8.9"
+    },
+    "minesweeper": {
+      "name": "Minesweeper",
+      "versions": ">1.8.9"
+    },
+    "MLGRush": {
+      "name": "MLGRush",
+      "versions": ">1.8.9"
+    },
+    "plotworld": {
+      "name": "PlotWorld",
+      "versions": ">1.8.9"
+    },
+    "plotworldnew": {
+      "name": "PlotWorld 1.21",
+      "versions": ">1.21.4"
+    },
+    "reduce": {
+      "name": "Reduce",
+      "versions": ">1.8.9"
+    },
+    "1vs1": {
+      "name": "1vs1",
+      "versions": ">1.8.9"
+    },
+    "bedwars": {
+      "name": "BedWars",
+      "versions": ">1.8.9"
+    },
+    "bowspleef": {
+      "name": "BowSpleef",
+      "versions": ">1.8.9"
+    },
+    "cores": {
+      "name": "Cores",
+      "versions": ">1.8.9"
+    },
+    "cwduel": {
+      "name": "CWDuel",
+      "versions": ">1.8.9"
+    },
+    "jumpleague": {
+      "name": "JumpLeague",
+      "versions": ">1.8.9"
+    },
+    "luckyblockbattle": {
+      "name": "LuckyBlockBattle",
+      "versions": ">1.8.9"
+    },
+    "mazesg": {
+      "name": "MazeSG",
+      "versions": ">1.8.9"
+    },
+    "mlgrush": {
+      "name": "MLGRush",
+      "versions": ">1.8.9"
+    },
+    "murder": {
+      "name": "Murder",
+      "versions": ">1.8.9"
+    },
+    "oneline": {
+      "name": "Oneline",
+      "versions": ">1.8.9"
+    },
+    "qsg": {
+      "name": "QSG",
+      "versions": ">1.8.9"
+    },
+    "quake": {
+      "name": "Quake",
+      "versions": ">1.8.9"
+    },
+    "rush": {
+      "name": "Rush",
+      "versions": ">1.8.9"
+    },
+    "skywars": {
+      "name": "SkyWars",
+      "versions": ">1.8.9"
+    },
+    "spleef": {
+      "name": "Spleef",
+      "versions": ">1.8.9"
+    },
+    "sumo": {
+      "name": "Sumo",
+      "versions": ">1.8.9"
+    },
+    "tntrun": {
+      "name": "TNTRun",
+      "versions": ">1.8.9"
+    },
+    "voelkerball": {
+      "name": "Völkerball",
+      "versions": ">1.8.9"
     }
+  },
+  "socials": {
+    "website": "https://greev.eu",
+    "x": "https://x.com/greeveu",
+    "instagram": "https://instgram.com/greev.eu",
+    "discord": "https://discord.com/invite/taAbPpq",
+    "teamspeak": "ts3://ts.greev.eu"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
 }

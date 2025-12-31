@@ -34,4 +34,4 @@ Then just click on 'Create pull request':
 
 Our team will review your changes. Please understand that this can take a while. If we do not respond within a week, you can join our [discord](http://discord.norisk.gg/) an make a ticket reminding us of the matter.
 
->Once you have created a PR, it usually takes one or two days for us to review and accept it. Important: Once accepted, the change is not automatically live. We have to manually activate it, usually later on the same day.
+> Once you have created a PR, it usually takes one or two days for us to review and accept it. Important: Once accepted, the change is not automatically live. We have to manually activate it, usually later on the same day.

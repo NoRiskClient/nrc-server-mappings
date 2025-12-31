@@ -1,15 +1,15 @@
 {
-    "server-address": ["logisch.tv"],
-    "pretty-name": "Logisch Events",
-    "categorys": ["MINIGAMES", "CUSTOM"],
-    "assets": {
-        "icon": "./icon.png",
-        "background": "./bg.png"
-    },
-    "socials": {
-        "website": "https://www.logisch.tv",
-        "youtube": "https://www.youtube.com/@LogischXD",
-        "tiktok": "https://www.tiktok.com/@logisch.official",
-        "discord": "https://discord.gg/zlogischsw-community-875735246618910770"
-    }
+  "server-address": ["logisch.tv"],
+  "pretty-name": "Logisch Events",
+  "categorys": ["MINIGAMES", "CUSTOM"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://www.logisch.tv",
+    "youtube": "https://www.youtube.com/@LogischXD",
+    "tiktok": "https://www.tiktok.com/@logisch.official",
+    "discord": "https://discord.gg/zlogischsw-community-875735246618910770"
+  }
 }

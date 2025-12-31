@@ -1,17 +1,7 @@
 {
-  "server-address": [
-    "swacrew.net",
-    "swacrew.de",
-    "eventsystem.swacrew.net"
-  ],
+  "server-address": ["swacrew.net", "swacrew.de", "eventsystem.swacrew.net"],
   "pretty-name": "Swacrew",
-  "categorys": [
-    "MINIGAMES",
-    "PVP",
-    "SURVIVAL",
-    "BUILD",
-    "CUSTOM"
-  ],
+  "categorys": ["MINIGAMES", "PVP", "SURVIVAL", "BUILD", "CUSTOM"],
   "gamemodes": {
     "eventserver": {
       "name": "Eventserver",
@@ -58,9 +48,5 @@
     "icon": "./icon.png",
     "background": "./bg.png"
   },
-  "disabled-modules": [
-    "FOV_CHANGER",
-    "TNT_TIMER",
-    "HEALTH_INDICATORS"
-  ]
+  "disabled-modules": ["FOV_CHANGER", "TNT_TIMER", "HEALTH_INDICATORS"]
 }

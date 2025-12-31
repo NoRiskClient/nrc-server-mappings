@@ -1,14 +1,7 @@
 {
-  "server-address": [
-    "breiwalkersmp.net"
-  ],
+  "server-address": ["breiwalkersmp.net"],
   "pretty-name": "BreiwalkerSMP.net",
-  "categorys": [
-    "SURVIVAL",
-    "BUILD",
-    "MODDED",
-    "PVP"
-  ],
+  "categorys": ["SURVIVAL", "BUILD", "MODDED", "PVP"],
   "socials": {
     "website": "https://breiwalkersmp.net",
     "youtube": "https://www.youtube.com/@Breiwalker",

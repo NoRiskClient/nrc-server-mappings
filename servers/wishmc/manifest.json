@@ -1,14 +1,7 @@
 {
-  "server-address": [
-    "wishmc.net",
-    "events.wishmc.net",
-    "attack.wishmc.net"
-  ],
+  "server-address": ["wishmc.net", "events.wishmc.net", "attack.wishmc.net"],
   "pretty-name": "WishMC",
-  "categorys": [
-    "MINIGAMES",
-    "SURVIVAL"
-  ],
+  "categorys": ["MINIGAMES", "SURVIVAL"],
   "gamemodes": {
     "lasertag": {
       "name": "Lasertag",

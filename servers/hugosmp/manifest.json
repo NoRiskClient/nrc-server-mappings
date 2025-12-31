@@ -1,12 +1,7 @@
 {
-  "server-address": [
-    "hugosmp.net",
-    "play.hugosmp.net"
-  ],
+  "server-address": ["hugosmp.net", "play.hugosmp.net"],
   "pretty-name": "HugoSMP",
-  "categorys": [
-    "SURVIVAL"
-  ],
+  "categorys": ["SURVIVAL"],
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
@@ -16,9 +11,5 @@
     "tiktok": "https://tiktok.com/@letshugosmp",
     "discord": "https://discord.gg/hugosmp"
   },
-  "disabled-modules": [
-        "HEALTH_INDICATORS",
-        "NO_FOG"
-    ]
+  "disabled-modules": ["HEALTH_INDICATORS", "NO_FOG"]
 }
-

@@ -9,7 +9,5 @@
     "icon": "./icon.png",
     "background": "./bg.png"
   },
-  "disabled-modules": [
-    "ITEM_MODEL"
-  ]
+  "disabled-modules": ["ITEM_MODEL"]
 }

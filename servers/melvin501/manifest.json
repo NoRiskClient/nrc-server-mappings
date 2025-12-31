@@ -1,14 +1,7 @@
 {
-  "server-address": [
-    "melvin501.de",
-    "mc.melvin501.de",
-    "play.melvin501.de"
-  ],
+  "server-address": ["melvin501.de", "mc.melvin501.de", "play.melvin501.de"],
   "pretty-name": "Melvin501",
-  "categorys": [
-    "MINIGAMES",
-    "SURVIVAL"
-  ],
+  "categorys": ["MINIGAMES", "SURVIVAL"],
   "gamemodes": {
     "allegegenmelvin": {
       "name": "AlleGegenMelvin",
