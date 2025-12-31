@@ -1,6 +1,7 @@
 {
   "server-address": [
-    "hugosmp.net"
+    "hugosmp.net",
+    "play.hugosmp.net"
   ],
   "pretty-name": "HugoSMP",
   "categorys": [
