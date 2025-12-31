@@ -17,8 +17,15 @@ This repository provides server mappings for the NoRisk Client, allowing servers
 
 ## Documentation
 
+- [Step by Step Guide](docs/step-by-step.md)
 - [Manifest conventions](docs/manifest.md)
 - [Image conventions](docs/conventions.md)
+
+## Website
+
+If you still have no idea of what you are doing after reading the documentation this website will help you!
+Go to [Server Mappings Creator](https://pluoi.com/servermappings/) and create your own server mapping easily.
+After that just unzip the zip and then upload it exactly how its explained in the [Step by Step Guide](docs/step-by-step.md)
 
 ## Local Testing
 
