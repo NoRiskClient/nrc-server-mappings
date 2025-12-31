@@ -1,0 +1,37 @@
+{
+  "server-address": [
+    "surnex.net",
+    "surnex.de"
+  ],
+  "pretty-name": "Surnex",
+  "categorys": [
+    "BUILD",
+    "MINIGAMES"
+  ],
+  "gamemodes": {
+    "citybuild": {
+      "name": "Citybuild",
+      "versions": "1.21<*"
+    },
+    "knockit": {
+      "name": "KnockIT",
+      "versions": "1.21<*"
+    }
+  },
+  "socials": {
+    "website": "https://surnex.net",
+    "store": "https://shop.surnex.net",
+    "x": "https://twitter.com/SurnexNET",
+    "discord": "https://dc.surnex.net",
+    "tiktok": "https://tiktok.com/@surnex.net",
+    "youtube": "https://youtube.com/@SurnexNET"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "HEALTH_INDICATORS",
+    "FREE_LOOK_MODULE"
+  ]
+}
