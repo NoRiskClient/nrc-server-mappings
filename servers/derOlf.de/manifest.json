@@ -1,0 +1,43 @@
+{
+    "server-address": [
+      "derOlf.de"
+    ],
+    "pretty-name": "derOlf.de Network",
+    "categorys": [
+      "Survival",
+      "PVP",
+      "CREATIVE",
+      "MINIGAMES"
+    ],
+    "gamemodes": {
+      "PVP": {
+        "versions": "1.21.4+",
+        "name": "PVP",
+        "description": "Spiele Gegen andere PVP!"
+      },
+      "SMP": {
+        "versions": "1.21.11+",
+        "name": "derOlfSMP",
+        "description": "Verdinne Geld und Töte andere!"
+      },
+      "Parkour": {
+        "versions": "ALL",
+        "name": "Parkour",
+        "description": "Teste deine Jump Geschwindigkeit gegen andere."
+      }
+    },
+    "socials": {
+      "website": "https://web.derolf.de",
+      "youtube": "https://www.youtube.com/@derOlf.de-networks",
+      "discord": "https://discord.com/invite/E38aZKcQJJ"
+    },
+    "assets": {
+      "icon": "./icon.png",
+      "background": "./bg.png"
+    },
+    "disabled-modules": [
+        "FOV_CHANGER",
+        "FREE_LOOK_MODULE",
+        "ARROW_TRAIL"
+    ]
+  }
