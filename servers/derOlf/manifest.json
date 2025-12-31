@@ -11,17 +11,17 @@
     ],
     "gamemodes": {
       "PVP": {
-        "versions": "1.21.4+",
+        "versions": "1.21.4",
         "name": "PVP",
         "description": "Spiele Gegen andere PVP!"
       },
       "SMP": {
-        "versions": "1.21.11+",
+        "versions": "1.21.11",
         "name": "derOlfSMP",
         "description": "Verdinne Geld und Töte andere!"
       },
       "Parkour": {
-        "versions": "ALL",
+        "versions": "1.21.4",
         "name": "Parkour",
         "description": "Teste deine Jump Geschwindigkeit gegen andere."
       }
@@ -40,4 +40,5 @@
         "FREE_LOOK_MODULE",
         "ARROW_TRAIL"
     ]
+
   }
