@@ -2,29 +2,31 @@
   "server-address": ["chronikasmp.net"],
   "pretty-name": "ChronikaSMP",
   "categorys": ["MiniGames", "SMP", "Hardcore"],
- "gamemodes": {
-   "pvp": {
-        "name": "PVP",
-        "versions": "1.21.10<*"
-      },
-   "creativeworld": {
-        "name": "CreativeWorld",
-        "versions": "1.21.10<*"
-      },
-   "smp": {
-        "name": "SMP",
-        "versions": "1.21.10<*"
-      },
-   "hardcoresmp": {
-        "name": "HardcoreSMP",
-        "versions": "1.21.10<*"
-      },
+  "gamemodes": {
+    "pvp": {
+      "name": "PVP",
+      "versions": "1.21.10<*"
+    },
+    "creativeworld": {
+      "name": "CreativeWorld",
+      "versions": "1.21.10<*"
+    },
+    "smp": {
+      "name": "SMP",
+      "versions": "1.21.10<*"
+    },
+    "hardcoresmp": {
+      "name": "HardcoreSMP",
+      "versions": "1.21.10<*"
+    }
+  },
   "socials": {
-      "website": "https://www.chronikasmp.net/",
-      "store": "https://chronikasmp.craftingstore.net/",
-      "discord": "https://discord.gg/FnJKzp7XXs",
-      "youtube": "https://www.youtube.com/chronikasmp",
-      "tiktok": "https://www.tiktok.com/@chronikasmp
+    "website": "https://www.chronikasmp.net/",
+    "store": "https://chronikasmp.craftingstore.net/",
+    "discord": "https://discord.gg/FnJKzp7XXs",
+    "youtube": "https://www.youtube.com/chronikasmp",
+    "tiktok": "https://www.tiktok.com/@chronikasmp"
+  },
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
