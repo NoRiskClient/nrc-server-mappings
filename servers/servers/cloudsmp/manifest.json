@@ -1,0 +1,28 @@
+{
+ "server-address": [
+   "play.CloudSMP.de"
+ ],
+ "pretty-name": "CloudSMP",
+ "categorys": [
+   "PVP",
+   "VANILLA",
+   "CUSTOM"
+ ],
+ "assets": {
+   "icon": "./icon.png",
+   "background": "./bg.png"
+ },
+ "gamemodes": {
+   "smp": {
+     "name": "SMP",
+     "versions": "ALL",
+     "description": "Pures Survival"
+   }
+ },
+ "socials": {
+   "website": "https://cloudsmp.de",
+   "store": "https://shop.cloudsmp.de",
+   "discord": "https://discord.gg/cloudsmp",
+   "tiktok": "https://www.tiktok.com/@cloudsmpde"
+ }
+}
