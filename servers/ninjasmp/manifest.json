@@ -1,0 +1,19 @@
+{
+  "server-address": ["ninjasmp.de"],
+  "pretty-name": "NinjaSMP",
+  "categorys": ["PVP"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "tiktok": "https://www.tiktok.com/@ninjasmp.de",
+    "discord": "https://discord.gg/EXe9awaX"
+  },
+  "disabled-modules": [
+    "FREE_LOOK_MODULE",
+    "NO_FOG_MODULE",
+    "WEATHER_CHANGER",
+    "TIME_CHANGER"
+  ]
+}

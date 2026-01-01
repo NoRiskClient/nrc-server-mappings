@@ -1,16 +1,7 @@
 {
-  "server-address": [
-    "wildsmp.de",
-    "wildsmp.eu",
-    "justgino.de"
-  ],
+  "server-address": ["wildsmp.de", "wildsmp.eu", "justgino.de"],
   "pretty-name": "WildSMP.de",
-  "categorys": [
-    "SURVIVAL",
-    "ADVENTURE",
-    "CUSTOM",
-    "BUILD"
-  ],
+  "categorys": ["SURVIVAL", "ADVENTURE", "CUSTOM", "BUILD"],
   "gamemodes": {
     "smp": {
       "name": "SMP",
@@ -29,9 +20,5 @@
     "icon": "./icon.png",
     "background": "./bg.png"
   },
-  "disabled-modules": [
-    "NO_FOG",
-    "WEATHER_CHANGER",
-    "TIME_CHANGER"
-  ]
+  "disabled-modules": ["NO_FOG", "WEATHER_CHANGER", "TIME_CHANGER"]
 }

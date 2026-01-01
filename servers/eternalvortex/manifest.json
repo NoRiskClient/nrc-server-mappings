@@ -1,0 +1,13 @@
+{
+  "server-address": ["eternalvortex.de"],
+  "pretty-name": "Eternalvortex",
+  "categorys": ["BUILD", "ADVENTURE"],
+  "socials": {
+    "discord": "https://discord.gg/yFrCaupcTX"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": ["ITEM_MODEL"]
+}

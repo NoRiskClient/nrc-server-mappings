@@ -59,6 +59,7 @@ The merge script will:
 ### Merge Output
 
 The merged manifest includes:
+
 - All server data organized under `servers` object
 - Metadata about the merge process
 - Copied assets with updated paths
@@ -67,6 +68,7 @@ The merged manifest includes:
 ### Merge Validation
 
 The merged manifest is automatically validated to ensure:
+
 - All required fields are present
 - Asset files exist and are accessible
 - JSON structure is valid

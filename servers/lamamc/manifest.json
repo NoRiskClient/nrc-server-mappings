@@ -1,0 +1,14 @@
+{
+  "server-address": ["lamamc.net"],
+  "pretty-name": "LamaMCNetwork",
+  "categorys": ["SURVIVAL"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "store": "https://shop.lamamc.net",
+    "youtube": "https://youtube.com/@LamaMCNetwork",
+    "discord": "https://discord.gg/ygsTjgSASY"
+  }
+}

@@ -2,9 +2,10 @@
 
 This guide explains how to create a proper `manifest.json` file for your Minecraft server. All manifests must follow the schema defined in `servers/manifest-schema.json`.
 
-###  File Structure
+### File Structure
 
 Create your server directory like this:
+
 ```
 servers/
 ├── your-server-name/
@@ -13,7 +14,7 @@ servers/
 │   └── bg.png
 ```
 
-###  Basic Manifest Structure
+### Basic Manifest Structure
 
 ```json
 {
@@ -27,39 +28,39 @@ servers/
 }
 ```
 
-##  Required Fields
+## Required Fields
 
-| Field | Type | Description | Example |
-|-------|------|-------------|---------|
-| `server-address` | Array of strings | Server addresses/domains | `["play.example.com", "mc.example.com"]` |
-| `pretty-name` | String | Display name for the server | `"Epic Survival Server"` |
-| `categorys` | Array of strings | Server categories (see table below) | `["SURVIVAL", "PVP"]` |
-| `assets` | Object | Server images (see assets table) | `{"icon": "./icon.png", "background": "./bg.png"}` |
+| Field            | Type             | Description                         | Example                                            |
+| ---------------- | ---------------- | ----------------------------------- | -------------------------------------------------- |
+| `server-address` | Array of strings | Server addresses/domains            | `["play.example.com", "mc.example.com"]`           |
+| `pretty-name`    | String           | Display name for the server         | `"Epic Survival Server"`                           |
+| `categorys`      | Array of strings | Server categories (see table below) | `["SURVIVAL", "PVP"]`                              |
+| `assets`         | Object           | Server images (see assets table)    | `{"icon": "./icon.png", "background": "./bg.png"}` |
 
-##  Available Categories
+## Available Categories
 
-| Category | Description | Use Case |
-|----------|-------------|----------|
-| `HG` | Hunger Games | Battle Royale style servers |
-| `PVP` | Player vs Player | Combat-focused servers |
-| `SURVIVAL` | Survival Mode | Classic survival gameplay |
-| `CREATIVE` | Creative Mode | Building and creation servers |
-| `MINIGAMES` | Mini Games | Various small game modes |
-| `SKYBLOCK` | SkyBlock | Island survival challenges |
-| `PRISON` | Prison | Progression-based prison servers |
-| `FACTIONS` | Factions | Team-based warfare |
-| `SKYWARS` | SkyWars | Air combat battles |
-| `BEDWARS` | BedWars | Bed destruction game |
-| `UHC` | Ultra Hardcore | Hardcore survival challenges |
-| `KITPVP` | Kit PvP | Pre-equipped combat |
-| `ANARCHY` | Anarchy | No rules servers |
-| `RPG` | Role Playing Game | Story-driven gameplay |
-| `ADVENTURE` | Adventure | Exploration servers |
-| `BUILD` | Building | Construction-focused |
-| `TECHNICAL` | Technical | Redstone and mechanics |
-| `VANILLA` | Vanilla | Unmodified Minecraft |
-| `MODDED` | Modded | Custom mods and plugins |
-| `CUSTOM` | Custom | Unique game modes |
+| Category    | Description       | Use Case                         |
+| ----------- | ----------------- | -------------------------------- |
+| `HG`        | Hunger Games      | Battle Royale style servers      |
+| `PVP`       | Player vs Player  | Combat-focused servers           |
+| `SURVIVAL`  | Survival Mode     | Classic survival gameplay        |
+| `CREATIVE`  | Creative Mode     | Building and creation servers    |
+| `MINIGAMES` | Mini Games        | Various small game modes         |
+| `SKYBLOCK`  | SkyBlock          | Island survival challenges       |
+| `PRISON`    | Prison            | Progression-based prison servers |
+| `FACTIONS`  | Factions          | Team-based warfare               |
+| `SKYWARS`   | SkyWars           | Air combat battles               |
+| `BEDWARS`   | BedWars           | Bed destruction game             |
+| `UHC`       | Ultra Hardcore    | Hardcore survival challenges     |
+| `KITPVP`    | Kit PvP           | Pre-equipped combat              |
+| `ANARCHY`   | Anarchy           | No rules servers                 |
+| `RPG`       | Role Playing Game | Story-driven gameplay            |
+| `ADVENTURE` | Adventure         | Exploration servers              |
+| `BUILD`     | Building          | Construction-focused             |
+| `TECHNICAL` | Technical         | Redstone and mechanics           |
+| `VANILLA`   | Vanilla           | Unmodified Minecraft             |
+| `MODDED`    | Modded            | Custom mods and plugins          |
+| `CUSTOM`    | Custom            | Unique game modes                |
 
 ## Gamemodes (Optional)
 
@@ -69,10 +70,12 @@ Add detailed gamemode information:
 {
   "gamemodes": {
     "survival": {
+      "name": "Survival",
       "versions": ["1.19.2", "1.20.1"],
       "description": "Classic survival gameplay with economy"
     },
     "creative": {
+      "name": "Creative",
       "versions": "1.20.1",
       "description": "Unlimited building and creation"
     }
@@ -82,12 +85,12 @@ Add detailed gamemode information:
 
 ### Gamemode Field Details
 
-| Field | Type | Description | Example |
-|-------|------|-------------|---------|
-| `versions` | String or Array | Supported Minecraft versions | `"1.20.1"` or `["1.19.2", "1.20.1"]` |
-| `description` | String | Brief description of the gamemode | `"Classic survival with economy"` |
+| Field         | Type            | Description                       | Example                              |
+| ------------- | --------------- | --------------------------------- | ------------------------------------ |
+| `versions`    | String or Array | Supported Minecraft versions      | `"1.20.1"` or `["1.19.2", "1.20.1"]` |
+| `description` | String          | Brief description of the gamemode | `"Classic survival with economy"`    |
 
-##  Social Links (Optional)
+## Social Links (Optional)
 
 Connect your social media and external links:
 
@@ -108,18 +111,18 @@ Connect your social media and external links:
 
 ### Social Links Field Details
 
-| Field | Type | Description | Example |
-|-------|------|-------------|---------|
-| `website` | URL | Official website | `"https://yourserver.com"` |
-| `store` | URL | Store/Donation page | `"https://store.yourserver.com"` |
-| `youtube` | URL | YouTube channel | `"https://youtube.com/@yourserver"` |
-| `instagram` | URL | Instagram profile | `"https://instagram.com/yourserver"` |
-| `tiktok` | URL | TikTok profile | `"https://tiktok.com/@yourserver"` |
-| `x` | URL | X (Twitter) profile | `"https://x.com/yourserver"` |
-| `discord` | URL | Discord server invite | `"https://discord.gg/yourserver"` |
-| `teamspeak` | URL | TeamSpeak server | `"ts3://teamspeak.com/yourserver"` |
+| Field       | Type | Description           | Example                              |
+| ----------- | ---- | --------------------- | ------------------------------------ |
+| `website`   | URL  | Official website      | `"https://yourserver.com"`           |
+| `store`     | URL  | Store/Donation page   | `"https://store.yourserver.com"`     |
+| `youtube`   | URL  | YouTube channel       | `"https://youtube.com/@yourserver"`  |
+| `instagram` | URL  | Instagram profile     | `"https://instagram.com/yourserver"` |
+| `tiktok`    | URL  | TikTok profile        | `"https://tiktok.com/@yourserver"`   |
+| `x`         | URL  | X (Twitter) profile   | `"https://x.com/yourserver"`         |
+| `discord`   | URL  | Discord server invite | `"https://discord.gg/yourserver"`    |
+| `teamspeak` | URL  | TeamSpeak server      | `"ts3://teamspeak.com/yourserver"`   |
 
-##  Assets
+## Assets
 
 Required image files for your server:
 
@@ -134,62 +137,57 @@ Required image files for your server:
 
 ### Asset Requirements
 
-| Field | Type | Description | File Requirements |
-|-------|------|-------------|-------------------|
-| `icon` | String | Server icon image | PNG |
-| `background` | String | Server background image | PNG |
+| Field        | Type   | Description             | File Requirements |
+| ------------ | ------ | ----------------------- | ----------------- |
+| `icon`       | String | Server icon image       | PNG               |
+| `background` | String | Server background image | PNG               |
 
 **File Path Rules:**
+
 - Must start with `./` (relative to manifest.json)
 - Supported formats: `.png`
 - Files must actually exist in the specified location
 
-##  Disabled Modules (Optional)
+## Disabled Modules (Optional)
 
 Specify which client modules are disabled on your server:
 
 ```json
 {
-  "disabled-modules": [
-    "FOV_CHANGER",
-    "FULL_BRIGHT_MODULE",
-    "ZOOM_MODULE"
-  ]
+  "disabled-modules": ["FOV_CHANGER", "FULL_BRIGHT_MODULE", "ZOOM_MODULE"]
 }
 ```
 
 ### Available Disabled Modules
 
-| Module | Description | Why Disable |
-|--------|-------------|-------------|
-| `FOV_CHANGER` | Field of View modifications | Prevents unfair visual advantages |
-| `FULL_BRIGHT_MODULE` | Full brightness/gamma | Prevents night vision exploits |
-| `ZOOM_MODULE` | Zoom functionality | Prevents unfair targeting |
-| `FREE_LOOK_MODULE` | Free look camera | Prevents third-person exploits |
-| `NO_FOG_MODULE` | Fog removal | Prevents visibility exploits |
-| `ARROW_TRAIL` | Arrow trail effects | Prevents visual clutter |
-| `PACK_TWEAKS` | Resource pack modifications | Ensures fair gameplay |
-| `ITEM_MODEL` | Custom item models | Prevents visual confusion |
-| `AUTO_TEXT` | Automatic text input | Prevents spam/automation |
-| `ITEM_HIGHLIGHTER` | Item highlighting | Prevents unfair advantages |
-| `TNT_TIMER` | TNT timer displays | Prevents timing exploits |
-| `WEATHER_CHANGER` | Weather modifications | Prevents visual exploits |
-| `TIME_CHANGER` | Time modifications | Prevents visual exploits |
+| Module               | Description                 | Why Disable                       |
+| -------------------- | --------------------------- | --------------------------------- |
+| `FOV_CHANGER`        | Field of View modifications | Prevents unfair visual advantages |
+| `FULL_BRIGHT_MODULE` | Full brightness/gamma       | Prevents night vision exploits    |
+| `ZOOM_MODULE`        | Zoom functionality          | Prevents unfair targeting         |
+| `FREE_LOOK_MODULE`   | Free look camera            | Prevents third-person exploits    |
+| `NO_FOG_MODULE`      | Fog removal                 | Prevents visibility exploits      |
+| `ARROW_TRAIL`        | Arrow trail effects         | Prevents visual clutter           |
+| `PACK_TWEAKS`        | Resource pack modifications | Ensures fair gameplay             |
+| `ITEM_MODEL`         | Custom item models          | Prevents visual confusion         |
+| `AUTO_TEXT`          | Automatic text input        | Prevents spam/automation          |
+| `ITEM_HIGHLIGHTER`   | Item highlighting           | Prevents unfair advantages        |
+| `TNT_TIMER`          | TNT timer displays          | Prevents timing exploits          |
+| `WEATHER_CHANGER`    | Weather modifications       | Prevents visual exploits          |
+| `TIME_CHANGER`       | Time modifications          | Prevents visual exploits          |
 
 Important Note:
 If a module is not available per enum can enter it as a string like this:
 
 ```json
 {
-  "disabled-modules": [
-    "FovChanger"
-  ]
+  "disabled-modules": ["FovChanger"]
 }
 ```
 
 If you have a valid reason to disable the Module your Pull Request will still be merged!
 
-##  Complete Example
+## Complete Example
 
 Here's a complete example of a valid manifest.json:
 
@@ -222,15 +220,11 @@ Here's a complete example of a valid manifest.json:
     "icon": "./icon.png",
     "background": "./bg.png"
   },
-  "disabled-modules": [
-    "FOV_CHANGER",
-    "FULL_BRIGHT_MODULE",
-    "ZOOM_MODULE"
-  ]
+  "disabled-modules": ["FOV_CHANGER", "FULL_BRIGHT_MODULE", "ZOOM_MODULE"]
 }
 ```
 
-##  Validation
+## Validation
 
 ### Local Testing
 
@@ -247,10 +241,12 @@ npm run validate
 ### GitHub Actions
 
 Manifests are automatically validated when you:
+
 - Push changes to the repository
 - Create a pull request
 
 The validation checks:
+
 - ✅ JSON structure and syntax
 - ✅ Required fields are present
 - ✅ Asset files exist
@@ -258,7 +254,7 @@ The validation checks:
 - ✅ Categories are valid
 - ✅ Data types are correct
 
-##  Merged Manifest Format
+## Merged Manifest Format
 
 When all server manifests are merged together, they create a unified manifest with the following structure:
 
@@ -271,6 +267,7 @@ When all server manifests are merged together, they create a unified manifest wi
       "categorys": ["SURVIVAL"],
       "gamemodes": {
         "gamemode-name": {
+          "name": "Gamemode Name",
           "versions": "1.20.1",
           "description": "Description"
         }
@@ -295,26 +292,28 @@ When all server manifests are merged together, they create a unified manifest wi
 
 ### Merged Manifest Structure
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `servers` | Object | All server manifests keyed by server ID |
-| `servers[server-id]` | Object | Individual server manifest data |
-| `metadata` | Object | Information about the merge process |
-| `metadata.totalServers` | Number | Total number of servers processed |
-| `metadata.mergedAt` | String | ISO timestamp of merge |
-| `metadata.sourceFolders` | Array | List of source folder names |
+| Field                    | Type   | Description                             |
+| ------------------------ | ------ | --------------------------------------- |
+| `servers`                | Object | All server manifests keyed by server ID |
+| `servers[server-id]`     | Object | Individual server manifest data         |
+| `metadata`               | Object | Information about the merge process     |
+| `metadata.totalServers`  | Number | Total number of servers processed       |
+| `metadata.mergedAt`      | String | ISO timestamp of merge                  |
+| `metadata.sourceFolders` | Array  | List of source folder names             |
 
 ### Asset Paths in Merged Manifest
 
 In the merged manifest, asset paths are updated to reflect the new structure:
+
 - Original: `"./icon.png"`
 - Merged: `"./assets/server-id/icon.png"`
 
 All assets are copied to the `merged/assets/` directory during the merge process.
 
-##  Getting Started
+## Getting Started
 
 1. **Create your server directory:**
+
    ```bash
    mkdir servers/your-server-name
    cd servers/your-server-name
@@ -333,18 +332,18 @@ All assets are copied to the `merged/assets/` directory during the merge process
    - Create a pull request
    - GitHub Actions will validate automatically
 
-##  Common Issues
+## Common Issues
 
-| Error | Cause | Solution |
-|-------|-------|----------|
-| `"server-address" is required` | Missing server addresses | Add your server domains |
-| `"assets.icon" is required` | Missing icon file | Add icon.png to your directory |
-| `"assets.background" is required` | Missing background file | Add bg.png to your directory |
-| `Invalid category` | Unknown category | Use one from the categories table |
-| `File not found` | Asset files missing | Ensure icon.png and bg.png exist |
-| `Invalid URI format` | Bad URL format | Use proper URLs starting with `https://` |
+| Error                             | Cause                    | Solution                                 |
+| --------------------------------- | ------------------------ | ---------------------------------------- |
+| `"server-address" is required`    | Missing server addresses | Add your server domains                  |
+| `"assets.icon" is required`       | Missing icon file        | Add icon.png to your directory           |
+| `"assets.background" is required` | Missing background file  | Add bg.png to your directory             |
+| `Invalid category`                | Unknown category         | Use one from the categories table        |
+| `File not found`                  | Asset files missing      | Ensure icon.png and bg.png exist         |
+| `Invalid URI format`              | Bad URL format           | Use proper URLs starting with `https://` |
 
-##  Need Help?
+## Need Help?
 
 - Check the [schema file](servers/manifest-schema.json) for technical details
 - Run `npm run validate` to test your manifest

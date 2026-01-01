@@ -1,38 +1,32 @@
 {
-    "server-address":[
-        "KansyFamily.net"
-    ],
-    "pretty-name": "KansyFamily.net",
-    "categorys": [
-        "SURVIVAL",
-        "MINIGAMES",
-        "KITPVP"
-    ],
-    "gamemodes": {
-        "kansyattack": {
-            "name": "Kansyattack",
-            "versions": "1.21<"
-        },
-        "flags": {
-            "name": "Flags",
-            "versions": "1.21<"
-        },
-        "1vs1": {
-            "name": "1vs1",
-            "versions": "1.21<"
-        }
+  "server-address": ["KansyFamily.net"],
+  "pretty-name": "KansyFamily.net",
+  "categorys": ["SURVIVAL", "MINIGAMES", "KITPVP"],
+  "gamemodes": {
+    "kansyattack": {
+      "name": "Kansyattack",
+      "versions": "1.21<"
     },
-    "socials": {
-        "website": "https://kansyfamily.net",
-        "x": "https://x.com/kansyfamilyNet",
-        "discord": "https://discord.gg/kansyfamily",
-        "tiktok": "https://tiktok.com/@kansyfamilynet"
+    "flags": {
+      "name": "Flags",
+      "versions": "1.21<"
     },
-    "assets": {
-        "icon": "./icon.png",
-        "background": "./bg.png"
-    },
-    "disabled-modules": [
+    "1vs1": {
+      "name": "1vs1",
+      "versions": "1.21<"
+    }
+  },
+  "socials": {
+    "website": "https://kansyfamily.net",
+    "x": "https://x.com/kansyfamilyNet",
+    "discord": "https://discord.gg/kansyfamily",
+    "tiktok": "https://tiktok.com/@kansyfamilynet"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
     "FOV_CHANGER",
     "FREE_LOOK",
     "TNT_TIMER",

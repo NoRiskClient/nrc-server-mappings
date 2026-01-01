@@ -1,0 +1,14 @@
+{
+  "server-address": ["mc.falchus.com", "falchus.com"],
+  "pretty-name": "Falchus.com",
+  "categorys": ["PVP", "MINIGAMES", "UHC", "KITPVP", "CUSTOM"],
+  "socials": {
+    "website": "https://falchus.com",
+    "discord": "https://discord.gg/xnmnrbJrt6"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": ["HEALTH_INDICATORS"]
+}

@@ -1,14 +1,7 @@
 {
-  "server-address": [
-    "mccisland.net",
-    "play.mccisland.net"
-  ],
+  "server-address": ["mccisland.net", "play.mccisland.net"],
   "pretty-name": "MCC Island",
-  "categorys": [
-    "MINIGAMES",
-    "PVP",
-    "CUSTOM"
-  ],
+  "categorys": ["MINIGAMES", "PVP", "CUSTOM"],
   "gamemodes": {
     "skybattle": {
       "name": "Sky Battle",

@@ -1,0 +1,20 @@
+{
+  "server-address": ["breiwalkersmp.net"],
+  "pretty-name": "BreiwalkerSMP.net",
+  "categorys": ["SURVIVAL", "BUILD", "MODDED", "PVP"],
+  "socials": {
+    "website": "https://breiwalkersmp.net",
+    "youtube": "https://www.youtube.com/@Breiwalker",
+    "discord": "https://discord.gg/nymBn3jgNu"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "HEALTH_INDICATORS",
+    "ITEM_MODEL",
+    "FREE_LOOK_MODULE",
+    "TNT_TIMER"
+  ]
+}

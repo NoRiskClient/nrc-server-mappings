@@ -1,0 +1,9 @@
+{
+  "server-address": ["ca.stylelabor.de"],
+  "pretty-name": "StyleLabor Community CraftAttack",
+  "categorys": ["SURVIVAL", "CUSTOM"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
