@@ -1,59 +1,51 @@
 {
   "server-address": ["cytooxien.net", "cytooxien.de", "mc.cytooxien.de"],
   "pretty-name": "Cytooxien",
-  "categorys": ["MINIGAMES", "SKYBLOCK", "CITYBUILD", "FACTIONS", "CREATIVE"],
+  "categorys": ["MINIGAMES", "SKYBLOCK", "CITYBUILD", "CREATIVE", "CUSTOM"],
   "gamemodes": {
     "onlyup": {
       "name": "Only Up!",
-      "versions": "1.19<*"
+      "versions": "1.21<*"
     },
     "skyblock": {
       "name": "Skyblock",
-      "versions": "1.19<*"
-    },
-    "reallife": {
-      "name": "Reallife",
-      "versions": "1.19<*"
-    },
-    "citybuild": {
-      "name": "Citybuild",
-      "versions": "1.19<*"
-    },
-    "factions": {
-      "name": "Factions",
-      "versions": "1.19<*"
+      "versions": "1.21<*"
     },
     "realms": {
       "name": "Realms",
-      "versions": "1.19<*"
+      "versions": "1.21<*"
     },
     "minecraftparty": {
       "name": "Minecraft Party",
-      "versions": "1.19<*"
-    },
-    "heroes": {
-      "name": "Heroes",
-      "versions": "1.19<*"
+      "versions": "1.21<*"
     },
     "timejump": {
       "name": "Timejump",
-      "versions": "1.19<*"
+      "versions": "1.21<*"
     },
     "smash": {
       "name": "Smash",
-      "versions": "1.19<*"
+      "versions": "1.21<*"
     },
     "bedwars": {
       "name": "Bedwars",
-      "versions": "1.19<*"
+      "versions": "1.21<*"
     },
     "ultimateknockout": {
       "name": "Ultimate Knockout",
-      "versions": "1.19<*"
+      "versions": "1.21<*"
     },
     "creative": {
       "name": "Creative",
-      "versions": "1.19<*"
+      "versions": "1.21<*"
+    },
+    "cactustycoon": {
+      "name": "Cactus Tycoon",
+      "versions": "1.21<*"
+    },
+    "randomitembattle": {
+      "name": "Random Item Battle",
+      "versions": "1.21<*"
     }
   },
   "socials": {
