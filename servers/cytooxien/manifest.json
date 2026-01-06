@@ -38,6 +38,14 @@
     "creative": {
       "name": "Creative",
       "versions": "1.21<*"
+    },
+    "cactustycoon": {
+      "name": "Cactus Tycoon",
+      "versions": "1.21<*"
+    },
+    "randomitembattle": {
+      "name": "Random Item Battle",
+      "versions": "1.21<*"
     }
   },
   "socials": {
