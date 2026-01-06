@@ -42,4 +42,4 @@ _Make sure to always check the newest run. Sometimes it will take a short time f
 
 Our team will review your changes. Please understand that this can take a while. If we do not respond within a week, you can join our [discord](http://discord.norisk.gg/) an make a ticket reminding us of the matter.
 
-> Note: Once you have created a PR, it may take us one or two days for us to review and accept it.
+> Note: Once you have created a PR, it may take us one or two days to review and accept it.
