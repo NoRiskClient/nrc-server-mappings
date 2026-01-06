@@ -4,7 +4,7 @@ This is a full step-by-step (hopefully) fool proof explanation on how to add you
 
 #### 0. What is this exactly?
 
-As mentioned this repository provides server mappings for the NoRisk Client, allowing servers to have enhanced icons, banners, and metadata displayed in the client. This happens by supplying a manifest in JSON format. You can find an example on how this JSON can look like [here](https://github.com/NoRiskClient/nrc-server-mappings/blob/main/servers/hypixel/manifest.json).
+This repository provides server mappings for the NoRisk Client, allowing servers to have enhanced icons, banners, and metadata displayed in the client. This happens by supplying a manifest in JSON format. You can find an example on how this JSON can look like [here](https://github.com/NoRiskClient/nrc-server-mappings/blob/main/servers/hypixel/manifest.json).
 
 #### 1. Fork the Repository
 
@@ -30,8 +30,16 @@ Then just click on 'Create pull request':
 
 ![](assets/sbs-create-pr.png)
 
-#### 4. Wait for a merge
+#### 4. Check if there are any errors
+
+Check in your newly created PR, if there are any errors. If there is an ❌, click on it to check whats wrong. We will not merge anything, where the run failed.
+
+![](assets/sbs-run-detail.png)
+
+_Make sure to always check the newest run. Sometimes it will take a short time for the test to run_
+
+#### 5. Wait for a merge
 
 Our team will review your changes. Please understand that this can take a while. If we do not respond within a week, you can join our [discord](http://discord.norisk.gg/) an make a ticket reminding us of the matter.
 
-> Once you have created a PR, it usually takes one or two days for us to review and accept it. Important: Once accepted, the change is not automatically live. We have to manually activate it, usually later on the same day.
+> Note: Once you have created a PR, it may take us one or two days to review and accept it.
