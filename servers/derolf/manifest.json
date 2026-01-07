@@ -1,6 +1,7 @@
 {
     "server-address": [
-      "derOlf.de"
+      "derOlf.de",
+      "derOlf.net"
     ],
     "pretty-name": "derOlf.de Network",
     "categorys": [
@@ -42,3 +43,4 @@
     ]
 
   }
+
