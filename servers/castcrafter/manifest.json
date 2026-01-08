@@ -17,11 +17,11 @@
   "gamemodes": {
     "events": {
       "name": "100+ Spieler Events",
-      "versions": "1.21.7<*"
+      "versions": "1.21.11<*"
     },
     "survival": {
       "name": "Survival Server",
-      "versions": "1.21.7<*"
+      "versions": "1.21.11<*"
     }
   },
   "socials": {
