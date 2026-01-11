@@ -1,0 +1,19 @@
+{
+  "server-address": [
+    "smp.tuubaa.de",
+    "br.tuubaa.de"
+  ],
+  "pretty-name": "Tuubaa SMP",
+  "categorys": [
+    "SURVIVAL",
+    "VANILLA"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "NO_FOG",
+    "HEALTH_INDICATORS"
+  ]
+}
