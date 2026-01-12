@@ -1,0 +1,28 @@
+{
+ "server-address": [
+   "ArcaneSMP.de"
+ ],
+ "pretty-name": "ArcaneSMP",
+ "categorys": [
+   "PVP",
+   "VANILLA",
+   "CUSTOM"
+ ],
+ "assets": {
+   "icon": "./icon.png",
+   "background": "./bg.png"
+ },
+ "gamemodes": {
+   "smp": {
+     "name": "SMP",
+     "versions": "ALL",
+     "description": "Einzigartiges SMP Erlebnis"
+   }
+ },
+ "socials": {
+   "website": "https://www.arcanesmp.de",
+   "store": "https://arcanesmp.tebex.io/",
+   "discord": "https://discord.gg/arcanede",
+   "tiktok": "https://www.tiktok.com/@arcanesmpde"
+ }
+}
