@@ -1,0 +1,26 @@
+{
+  "server-address": [
+    "arcanesmp.de"
+  ],
+  "pretty-name": "Arcane SMP",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "VANILLA",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://www.arcanesmp.de/",
+    "store": "https://arcanesmp.tebex.io/",
+    "discord": "https://discord.gg/arcanede",
+    "youtube": "https://www.youtube.com/@Arcane-SMP",
+    "tiktok": "https://www.tiktok.com/@arcanesmpde"
+  },
+  "disabled-modules": [
+    "FREE_LOOK"
+  ]
+}
