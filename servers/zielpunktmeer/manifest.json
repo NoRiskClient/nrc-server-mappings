@@ -1,6 +1,7 @@
 {
   "server-address": [
-    "zielpunktmeer.de"
+    "zielpunktmeer.de",
+    "152.89.239.205"
   ],
   "pretty-name": "Zielpunkt Meer",
   "categorys": [
