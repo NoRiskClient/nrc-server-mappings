@@ -1,0 +1,15 @@
+{
+  "server-address": [
+    "zielpunktmeer.de"
+  ],
+  "pretty-name": "Zielpunkt Meer",
+  "categorys": [
+    "SURVIVAL",
+    "VANILLA",
+    "MODDED"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
