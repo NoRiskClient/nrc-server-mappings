@@ -1,0 +1,13 @@
+{
+  "server-address": ["elyntria.de", "elyntria.eu"],
+  "pretty-name": "Elyntria Network",
+  "categorys": ["SURVIVAL"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "store": "https://elyntria.de"
+  },
+  "disabled-modules": ["HEALTH_INDICATORS", "NO_FOG"]
+}
