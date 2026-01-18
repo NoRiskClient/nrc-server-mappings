@@ -1,28 +1,44 @@
 {
- "server-address": [
-   "play.CloudSMP.de"
- ],
- "pretty-name": "CloudSMP",
- "categorys": [
-   "PVP",
-   "VANILLA",
-   "CUSTOM"
- ],
- "assets": {
-   "icon": "./icon.png",
-   "background": "./bg.png"
- },
- "gamemodes": {
-   "smp": {
-     "name": "SMP",
-     "versions": "ALL",
-     "description": "Pures Survival"
-   }
- },
- "socials": {
-   "website": "https://cloudsmp.de",
-   "store": "https://shop.cloudsmp.de",
-   "discord": "https://discord.gg/cloudsmp",
-   "tiktok": "https://www.tiktok.com/@cloudsmpde"
- }
+  "server-address": [
+    "burstsmp.net",
+    "burstsmp.eu",
+    "burstsmp.com",
+    "burstsmp.de",
+    "smp.burstsmp.net",
+    "pratice.burstsmp.net"
+  ],
+  "pretty-name": "BurstSMP",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "VANILLA",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "smp": {
+      "name": "SMP",
+      "versions": "ALL",
+      "description": "Classic survival experience."
+    },
+    "pvp": {
+      "name": "PVP",
+      "versions": "ALL",
+      "description": "Competitive PvP gameplay."
+    }
+  },
+  "socials": {
+    "website": "https://burstsmp.net",
+    "store": "https://store.burstsmp.net",
+    "discord": "https://discord.gg/burstsmp",
+    "tiktok": "https://www.tiktok.com/@burstsmpnet"
+  },
+  "disabled-modules": [
+    "FREE_LOOK",
+    "WEATHER_CHANGER",
+    "TIME_CHANGER"
+  ]
 }
