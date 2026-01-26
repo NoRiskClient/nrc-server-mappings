@@ -1,7 +1,7 @@
 {
   "server-address": ["donutnetwork.eu"],
   "pretty-name": "DonutNetwork",
-  "categorys": ["PVP", "KITPVP", "BEDWARS"],
+  "categorys": ["PVP", "KITPVP", "MINIGAMES"],
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
