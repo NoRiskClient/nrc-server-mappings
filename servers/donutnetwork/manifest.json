@@ -1,0 +1,41 @@
+{
+  "server-address": ["donutnetwork.eu"],
+  "pretty-name": "DonutNetwork",
+  "categorys": ["PVP", "KITPVP", "MINIGAMES"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "clutches": {
+      "name": "Clutches",
+      "versions": "1.8<",
+      "description": "Improve you block clutching skills!"
+    },
+    "fastbuilder": {
+      "name": "Fastbuilder",
+      "versions": "1.8<",
+      "description": "Improve your bridging and movement skills!"
+    },
+    "mlgrush": {
+      "name": "MLG-Rush",
+      "versions": "1.8<",
+      "description": "Play 2x1 or 4x1 MLG-Rush to improve your reducing skills!"
+    },
+    "buildffa": {
+      "name": "BuildFFA",
+      "versions": "1.8<",
+      "description": "Fight against others and earn as much elo as possible!"
+    },
+    "bedwars": {
+      "name": "BedWars",
+      "versions": "1.8<",
+      "description": "Destroy the enemys bed and kill them!"
+    }
+  },
+  "socials": {
+    "youtube": "https://youtube.com/@DonutNetwork_eu",
+    "tiktok": "https://tiktok.com/@donutnetworkeu",
+    "discord": "https://discord.gg/PtuvcrD77w"
+  }
+}
