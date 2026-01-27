@@ -1,5 +1,5 @@
 {
-  "server-address": ["breiwalkersmp.net"],
+  "server-address": ["breiwalkersmp.net", "play.breiwalkersmp.net"],
   "pretty-name": "BreiwalkerSMP.net",
   "categorys": ["SURVIVAL", "BUILD", "MODDED", "PVP"],
   "socials": {
@@ -13,8 +13,9 @@
   },
   "disabled-modules": [
     "HEALTH_INDICATORS",
-    "ITEM_MODEL",
     "FREE_LOOK_MODULE",
-    "TNT_TIMER"
+    "TNT_TIMER",
+    "WEATHER_CHANGER",
+    "TIME_CHANGER"
   ]
 }
