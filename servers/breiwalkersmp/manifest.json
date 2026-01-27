@@ -1,5 +1,5 @@
 {
-  "server-address": ["breiwalkersmp.net"],
+  "server-address": ["breiwalkersmp.net", "play.breiwalkersmp.net"],
   "pretty-name": "BreiwalkerSMP.net",
   "categorys": ["SURVIVAL", "BUILD", "MODDED", "PVP"],
   "socials": {
