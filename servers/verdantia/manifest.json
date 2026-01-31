@@ -1,0 +1,20 @@
+{
+  "server-address": [
+    "verdantia.de"
+  ],
+  "pretty-name": "Verdantia",
+  "categorys": [
+    "CREATIVE",
+    "MINIGAMES",
+    "ADVENTURE",
+    "CITYBUILD"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://verdantia.de",
+    "discord": "https://dsc.gg/verdantia"
+  }
+}
