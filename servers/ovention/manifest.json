@@ -1,0 +1,15 @@
+{
+  "server-address": ["ovention.de", "play.ovention.de", "mc.ovention.de"],
+  "pretty-name": "OVENTION",
+  "categorys": ["SURVIVAL"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://ovention.de",
+    "tiktok": "https://tiktok.com/@oventionde",
+    "discord": "https://discord.ovention.de"
+  },
+  "disabled-modules": ["HEALTH_INDICATORS", "NO_FOG", "WEATHER_CHANGER", "TIME_CHANGER"]
+}
