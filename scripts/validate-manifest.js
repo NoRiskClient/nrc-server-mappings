@@ -19,7 +19,7 @@ const rootSchemaPath = path.join(
 );
 const rootSchema = JSON.parse(fs.readFileSync(rootSchemaPath, "utf8"));
 
-const { logger, reportError } = require("./logger");
+const { logger, reportError, reportWarning } = require("./logger");
 
 function prettyServerName(manifestPath) {
   const name = path.basename(path.dirname(manifestPath));
@@ -299,6 +299,114 @@ function validateAssets(manifestPath) {
   }
 }
 
+async function checkServerStatus(manifestPath) {
+  try {
+    const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+    const serverName = prettyServerName(manifestPath);
+    
+    if (manifest.edition && manifest.edition.toLowerCase() === 'bedrock') {
+      return true;
+    }
+
+    const serverAddresses = Array.isArray(manifest["server-address"]) 
+      ? manifest["server-address"] 
+      : [manifest["server-address"]];
+
+    if (!serverAddresses || serverAddresses.length === 0) {
+      return true;
+    }
+
+    const address = serverAddresses[0];
+    const apiUrl = `https://api.mcsrvstat.us/3/${encodeURIComponent(address)}`;
+
+    try {
+      const https = require('https');
+      const response = await new Promise((resolve, reject) => {
+        const req = https.get(apiUrl, {
+          headers: {
+            'User-Agent': 'NRC-Server-Mappings-Validator/1.0'
+          }
+        }, (res) => {
+          let data = '';
+          res.on('data', (chunk) => { data += chunk; });
+          res.on('end', () => {
+            try {
+              resolve(JSON.parse(data));
+            } catch (e) {
+              reject(e);
+            }
+          });
+        });
+        req.on('error', reject);
+        req.setTimeout(5000, () => {
+          req.destroy();
+          reject(new Error('Request timeout'));
+        });
+      });
+
+      if (!response.online) {
+        reportWarning(
+          `Server ${serverName} (${address}) appears to be OFFLINE`,
+          [
+            "This is just a warning - validation will continue.",
+            "The server might be temporarily down or undergoing maintenance."
+          ]
+        );
+      } else {
+        const maintenanceKeywords = [
+          'maintenance',
+          'wartung',
+          'wartungen',
+          'downtime',
+          'offline',
+          'updating',
+          'restart',
+          'restarting',
+          'instandhaltung',
+          'manutenzione'
+        ];
+
+        let motdText = '';
+        if (response.motd) {
+          if (response.motd.clean) {
+            motdText = response.motd.clean.join(' ').toLowerCase();
+          } else if (response.motd.raw) {
+            motdText = response.motd.raw.join(' ').toLowerCase();
+          }
+        }
+
+        const foundKeywords = maintenanceKeywords.filter(keyword => 
+          motdText.includes(keyword)
+        );
+
+        if (foundKeywords.length > 0) {
+          reportWarning(
+            `Server ${serverName} (${address}) may be in MAINTENANCE mode`,
+            [
+              `MOTD contains maintenance-related keywords: ${foundKeywords.join(', ')}`,
+              "The server might be undergoing maintenance or updates.",
+              `MOTD: ${response.motd.clean ? response.motd.clean.join(' | ') : 'N/A'}`
+            ]
+          );
+        }
+      }
+
+      return true;
+    } catch (error) {
+      reportWarning(
+        `Could not check server status for ${serverName} (${address})`,
+        [
+          `Error: ${error.message}`,
+          "This might be a temporary network issue - validation will continue."
+        ]
+      );
+      return true;
+    }
+  } catch (error) {
+    return true;
+  }
+}
+
 function findManifestFiles() {
   const serversDir = path.join(__dirname, "..", "servers");
   const manifests = [];
@@ -321,9 +429,34 @@ function findManifestFiles() {
   return { manifests, missing };
 }
 
-function main() {
-  const { manifests: manifestFiles, missing: missingManifests } =
+async function main() {
+  const args = process.argv.slice(2);
+  const foldersArg = args.find(arg => arg.startsWith('--folders='));
+  let filterFolders = null;
+  
+  if (foldersArg) {
+    const foldersList = foldersArg.split('=')[1];
+    if (foldersList) {
+      filterFolders = foldersList.split(',').map(f => f.trim()).filter(Boolean);
+      logger('info', `Checking only specified folders: ${filterFolders.join(', ')}`);
+    }
+  }
+
+  const { manifests: allManifests, missing: missingManifests } =
     findManifestFiles();
+
+  let manifestFiles = allManifests;
+  if (filterFolders && filterFolders.length > 0) {
+    manifestFiles = allManifests.filter(manifestPath => {
+      const serverFolder = path.basename(path.dirname(manifestPath));
+      return filterFolders.includes(serverFolder);
+    });
+    
+    if (manifestFiles.length === 0) {
+      logger('info', 'No matching server folders found to validate.');
+      process.exit(0);
+    }
+  }
 
   if (manifestFiles.length === 0 && missingManifests.length === 0) {
     logger("error", "No manifest files found.");
@@ -333,7 +466,11 @@ function main() {
   let allValid = true;
 
   if (missingManifests.length > 0) {
-    for (const dirName of missingManifests) {
+    const relevantMissing = filterFolders 
+      ? missingManifests.filter(dir => filterFolders.includes(dir))
+      : missingManifests;
+      
+    for (const dirName of relevantMissing) {
       reportError(`Missing manifest.json for server: ${dirName}`);
       allValid = false;
     }
@@ -346,6 +483,8 @@ function main() {
 
     const manifestValid = validateManifest(manifestPath, schemaPath);
     const assetsValid = validateAssets(manifestPath);
+    
+    await checkServerStatus(manifestPath);
 
     if (!manifestValid || !assetsValid) {
       allValid = false;
@@ -361,7 +500,10 @@ function main() {
 }
 
 if (require.main === module) {
-  main();
+  main().catch((error) => {
+    logger("error", `Unexpected error: ${error.message}`);
+    process.exit(1);
+  });
 }
 
-module.exports = { validateManifest, validateAssets, findManifestFiles };
+module.exports = { validateManifest, validateAssets, checkServerStatus, findManifestFiles };
