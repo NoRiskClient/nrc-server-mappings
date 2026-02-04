@@ -1,0 +1,32 @@
+{
+  "server-address": [
+    "voidspire.de"
+  ],
+  "pretty-name": "Voidspire",
+  "categorys": [
+    "SURVIVAL",
+    "VANILLA",
+    "PVP",
+    "BUILD"
+  ],
+  "gamemodes": {
+    "smp": {
+      "name": "Survival Multiplayer",
+      "versions": "1.21+",
+      "description": "Voidspire ist ein deutscher SMP-Minecraft-Server mit Fokus auf Community, Stabilität"
+    }
+  },
+  "socials": {
+    "discord": "https://discord.gg/Hb6hEZVatG"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "WEATHER_CHANGER",
+    "TIME_CHANGER",
+    "NO_FOG_MODULE",
+    "FREE_LOOK_MODULE"
+  ]
+}
