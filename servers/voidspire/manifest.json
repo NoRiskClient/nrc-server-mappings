@@ -5,7 +5,9 @@
   "pretty-name": "Voidspire",
   "categorys": [
     "SURVIVAL",
-    "VANILLA"
+    "VANILLA",
+    "PVP",
+    "BUILD"
   ],
   "gamemodes": {
     "smp": {
