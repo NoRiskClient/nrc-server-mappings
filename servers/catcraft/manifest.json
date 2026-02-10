@@ -5,14 +5,14 @@
   "gamemodes": {
     "survival": {
       "versions": "1.21.11",
-      "description": "Classic survival with economy and factions"
+      "description": "Classic survival with friendly community and shops"
     },
   }
   "socials": {
     "website": "https://catcraft.net",
     "store": "https://store.catcraft.com",
     "discord": "https://discord.gg/catcraft",
-    "tiktok": "https://tiktok.com/@exampleserver"
+    "tiktok": "https://www.tiktok.com/@catcraftmc"
   },
   "assets": {
     "icon": "./icon.png",
