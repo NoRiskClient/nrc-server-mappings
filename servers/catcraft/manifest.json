@@ -1,1 +1,30 @@
-
+{
+  "server-address": ["play.example.com", "mc.example.com"],
+  "pretty-name": "Epic Survival Network",
+  "categorys": ["SURVIVAL", "PVP", "MINIGAMES"],
+  "gamemodes": {
+    "survival": {
+      "versions": ["1.19.2", "1.20.1"],
+      "description": "Classic survival with economy and factions"
+    },
+    "skywars": {
+      "versions": "1.20.1",
+      "description": "Fast-paced PvP battles in the sky"
+    },
+    "creative": {
+      "versions": ["1.19.2", "1.20.1"],
+      "description": "Unlimited building and creation"
+    }
+  },
+  "socials": {
+    "website": "https://example.com",
+    "store": "https://store.example.com",
+    "discord": "https://discord.gg/example",
+    "youtube": "https://youtube.com/@exampleserver"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": ["FOV_CHANGER", "FULL_BRIGHT_MODULE", "ZOOM_MODULE"]
+}
