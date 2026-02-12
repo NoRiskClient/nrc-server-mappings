@@ -11,7 +11,7 @@ on:
   pull_request_target:
     paths:
       - "servers/**/*.png"
-      - "servers/**/manifest.json
+      - "servers/**/manifest.json"
 
 jobs:
   validate:
