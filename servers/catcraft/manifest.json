@@ -18,5 +18,5 @@
     "icon": "./icon.png",
     "background": "./bg.png"
   },
-  "disabled-modules": ["FOV_CHANGER", "FULL_BRIGHT_MODULE", "ZOOM_MODULE"]
+  "disabled-modules": "WEATHER_CHANGER"
 }
