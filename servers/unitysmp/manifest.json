@@ -1,0 +1,30 @@
+{
+  "server-address": [
+    "unitysmp.de"
+  ],
+  "pretty-name": "UnitySMP",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "ADVENTURE",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "survival": {
+      "name": "Survival",
+      "versions": "1.21.11",
+      "description": "Survival Gameplay without Claiming and custom Textures."
+    }
+  },
+  "socials": {
+    "website": "https://unitysmp.de",
+    "store": "https://unitysmp.de/gems",
+    "discord": "https://discord.gg/unitysmp",
+    "youtube": "https://www.youtube.com/@unitysmpde",
+    "tiktok": "https://www.tiktok.com/@unitysmp.de"
+  }
+}
