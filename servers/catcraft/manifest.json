@@ -1,9 +1,10 @@
 {
   "server-address": ["play.catcraft.net", "tiktok.catcraft.net"],
   "pretty-name": "CatCraft Survival",
-  "categories": ["SURVIVAL", "MODDED"],
+  "categorys": ["SURVIVAL", "MODDED"],
   "gamemodes": {
     "survival": {
+      "name": "Survival",
       "versions": "1.21.11",
       "description": "Classic survival with friendly community and shops"
     }
