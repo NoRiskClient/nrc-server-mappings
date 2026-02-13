@@ -1,13 +1,13 @@
 {
   "server-address": ["play.catcraft.net", "tiktok.catcraft.net"],
   "pretty-name": "CatCraft Survival",
-  "categorys": ["SURVIVAL", "MODDED"],
+  "categories": ["SURVIVAL", "MODDED"],
   "gamemodes": {
     "survival": {
       "versions": "1.21.11",
       "description": "Classic survival with friendly community and shops"
-    },
-  }
+    }
+  },
   "socials": {
     "website": "https://catcraft.net",
     "store": "https://store.catcraft.com",
@@ -18,5 +18,5 @@
     "icon": "./icon.png",
     "background": "./bg.png"
   },
-  "disabled-modules": "WEATHER_CHANGER"
+  "disabled-modules": ["WEATHER_CHANGER"]
 }
