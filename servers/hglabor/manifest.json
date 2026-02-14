@@ -1,7 +1,7 @@
 {
   "server-address": ["hglabor.de", "mc.norisk.gg"],
   "pretty-name": "HGLabor",
-  "categorys": ["HG", "PVP"],
+  "categorys": ["HG", "PVP", "SURVIVAL"],
   "gamemodes": {
     "lobby": {
       "name": "Lobby",
