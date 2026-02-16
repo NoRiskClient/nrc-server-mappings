@@ -19,5 +19,5 @@
     "icon": "./icon.png",
     "background": "./bg.png"
   },
-  "disabled-modules": ["WEATHER_CHANGER"]
+  "disabled-modules": ""
 }
