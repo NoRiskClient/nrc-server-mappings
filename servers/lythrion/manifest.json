@@ -3,24 +3,25 @@
     "lythrion.net",
     "lythrion.de"
   ],
-  "pretty-name": "Lythrion Network",
+  "pretty-name": "Lythrion Netzwerk",
   "categorys": [
     "CITYBUILD",
     "RPG"
   ],
   "gamemodes": {
-    "citybuild": {
-      "name": "CityBuild",
-      "versions": "1.21+",
-      "description": "Experience a unique CityBuild environment enriched with deep RPG elements."
+    "Citybuild": {
+      "name": "CITYBUILD RPG",
+      "versions": "1.21 -> 1.21.1",
+      "description": "Experience an island with an abundance of RPG elements"
     },
-    "rpg": {
+    "Survival": {
       "name": "RPG",
-      "versions": "1.21+",
-      "description": "Immerse yourself in a vast world with a rich and immersive RPG gameplay experience."
+      "versions": "1.21 ->",
+      "description": "Experience rich RPG gameplay"
     }
   },
   "socials": {
+    "website": "https://lythrion.net/",
     "discord": "https://discord.gg/akM4pUPycV"
   },
   "assets": {
