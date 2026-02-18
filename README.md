@@ -36,6 +36,12 @@ After that just unzip the zip and then upload it exactly how its explained in th
 
 For more details, see the documentation in the `docs/` directory.
 
+## Common reasons why you PR wont be merged
+
+- The server is in maintanance or completly offline
+- Your images are in the wrong format or size
+- Your manifest is unvalid
+
 ## Ingame looks
 
 ![readme exmaple](docs/assets/readme_example.png)

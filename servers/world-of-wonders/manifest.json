@@ -1,0 +1,39 @@
+{
+  "server-address": [
+    "play.world-of-wonders.net"
+  ],
+  "pretty-name": "World of Wonders",
+  "categorys": [
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "efteling": {
+      "name": "Efteling",
+      "versions": "1.21.10",
+      "description": "Schritt durch die Tore und tauche ein in die zauberhafte Welt des Efteling Nachbaus! Erlebe die Märchenwälder, rasante Achterbahnen und geheimnisvolle Attraktionen, die in Minecraft mit viel Liebe zum Detail nachgebaut wurden. Lass dich von Magie und Abenteuer verzaubern!"
+    },
+    "disney": {
+      "name": "Disney",
+      "versions": "1.21.10",
+      "description": "Betritt die magische Welt des Disney Parks in Minecraft! Spaziere durch bunte Themenbereiche, entdecke berühmte Attraktionen. Ein Abenteuer voller Spaß, Magie und unvergesslicher Momente."
+    }
+  },
+  "socials": {
+    "website": "https://www.world-of-wonders.net/home",
+    "store": "https://store.world-of-wonders.net",
+    "discord": "https://world-of-wonders.net/discord",
+    "youtube": "https://www.youtube.com/channel/UCEPqlkUa9ZaYaluNecHe3mA",
+    "x": "https://twitter.com/WorldOfWondersN",
+    "instagram": "https://www.instagram.com/worldofwondersn",
+    "tiktok": "https://www.tiktok.com/@wowminecraft"
+  },
+  "disabled-modules": [
+    "FOV_CHANGER",
+    "FULL_BRIGHT_MODULE",
+    "ZOOM_MODULE"
+  ]
+}

@@ -1,8 +1,9 @@
 {
     "server-address": [
+      "derOlf.net",
       "derOlf.de"
     ],
-    "pretty-name": "derOlf.de Network",
+    "pretty-name": "derOlf.net Network",
     "categorys": [
       "SURVIVAL",
       "PVP",
@@ -27,7 +28,7 @@
       }
     },
     "socials": {
-      "website": "https://web.derolf.de",
+      "website": "https://web.derolf.net",
       "youtube": "https://www.youtube.com/@derOlf.de-networks",
       "discord": "https://discord.com/invite/E38aZKcQJJ"
     },
@@ -37,8 +38,11 @@
     },
     "disabled-modules": [
         "FOV_CHANGER",
-        "FREE_LOOK_MODULE",
+        "HEALTH_INDICATORS",
+        "TNT_TIMER",
         "ARROW_TRAIL"
     ]
 
   }
+
+

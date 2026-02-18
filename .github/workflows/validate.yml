@@ -8,7 +8,7 @@ on:
       - "servers/**/*.png"
       - "servers/**/manifest.json"
 
-  pull_request:
+  pull_request_target:
     paths:
       - "servers/**/*.png"
       - "servers/**/manifest.json"
@@ -16,10 +16,17 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -28,9 +35,56 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Get changed server folders (PR only)
+        if: github.event_name == 'pull_request_target'
+        id: changed-folders
+        run: |
+          BASE_SHA=${{ github.event.pull_request.base.sha }}
+          HEAD_SHA=${{ github.event.pull_request.head.sha }}
+          CHANGED_FILES=$(git diff --name-only $BASE_SHA $HEAD_SHA | grep '^servers/' || true)         
+          
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No server files changed"
+            echo "folders=" >> $GITHUB_OUTPUT
+          else
+            FOLDERS=$(echo "$CHANGED_FILES" | cut -d'/' -f2 | sort -u | tr '\n' ',' | sed 's/,$//')
+            echo "Changed server folders: $FOLDERS"
+            echo "folders=$FOLDERS" >> $GITHUB_OUTPUT
+          fi
         
-      - name: Validate manifests
+      - name: Validate manifests (All servers on push to main)
+        if: github.event_name == 'push'
         run: npm run validate-manifest
 
+      - name: Validate manifests (Changed servers on PR)
+        if: github.event_name == 'pull_request_target' && steps.changed-folders.outputs.folders != ''
+        id: validate-pr
+        continue-on-error: true
+        run: |
+          npm run validate-manifest -- --folders="${{ steps.changed-folders.outputs.folders }}" 2>&1 | tee validation-output.log
+          echo "exit_code=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
+
       - name: Validate image dimensions
-        run: npm run validate-images
+        id: validate-images
+        continue-on-error: true
+        run: |
+          npm run validate-images 2>&1 | tee images-output.log
+          echo "exit_code=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
+
+      - name: Post PR Comment with Results
+        if: github.event_name == 'pull_request_target' && steps.changed-folders.outputs.folders != ''
+        uses: actions/github-script@v7
+        env:
+          CHECKED_FOLDERS: ${{ steps.changed-folders.outputs.folders }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const postComment = require('./scripts/post-pr-comment.js');
+            await postComment({ github, context, core });
+
+      - name: Fail if validation failed
+        if: github.event_name == 'pull_request_target' && (steps.validate-pr.outputs.exit_code != '0' || steps.validate-images.outputs.exit_code != '0')
+        run: |
+          echo "Validation failed. Please check the errors above."
+          exit 1

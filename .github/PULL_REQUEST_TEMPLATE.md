@@ -10,4 +10,3 @@ Before submitting this pull request, please confirm that you have completed the 
 ### Personal Review
 
 - [] I understand that merging and deploying of these mappings can take time
-- []

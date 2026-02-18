@@ -1,0 +1,27 @@
+{
+  "server-address": [
+    "bunkerkindsmp.net"
+  ],
+  "pretty-name": "BunkerkindSMP",
+  "categorys": [
+    "SURVIVAL",
+    "BUILD"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "survival": {
+      "name": "Survival",
+      "versions": "ALL",
+      "description": "Classic Survival with economy"
+    }
+  },
+  "socials": {
+    "discord": "https://discord.gg/9v2BHGEn"
+  },
+  "disabled-modules": [
+    "NO_FOG"
+  ]
+}
