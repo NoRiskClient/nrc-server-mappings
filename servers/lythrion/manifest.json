@@ -1,21 +1,27 @@
 {
-  "server-address": ["lythrion.net"],
-  "pretty-name": "Lythrion Netzwerk",
-  "categorys": ["SKYBLOCK", "RPG"],
+  "server-address": [
+    "lythrion.net",
+    "lythrion.de"
+  ],
+  "pretty-name": "Lythrion Network",
+  "categorys": [
+    "CityBuild",
+    "RPG"
+  ],
   "gamemodes": {
     "Citybuild": {
-      "name": "SKYBLOCK",
-      "versions": "1.21 -> 1.21.8",
-      "description": "Experience an island with an abundance of RPG elements"
+      "name": "CityBuild",
+      "versions": "1.21+",
+      "description": "Experience a unique CityBuild environment enriched with deep RPG elements."
     },
-    "Survival": {
+    "RPG": {
       "name": "RPG",
-      "versions": "1.21 ->",
-      "description": "Experience rich RPG gameplay"
+      "versions": "1.21+",
+      "description": "Immerse yourself in a vast world with a rich and immersive RPG gameplay experience."
     }
   },
   "socials": {
-    "website": "https://Lythrion.net/"
+    "discord": "https://discord.gg/akM4pUPycV"
   },
   "assets": {
     "icon": "./icon.png",
