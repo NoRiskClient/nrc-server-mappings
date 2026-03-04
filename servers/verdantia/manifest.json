@@ -1,0 +1,28 @@
+{
+  "server-address": [
+    "verdantia.de"
+  ],
+  "pretty-name": "Verdantia",
+  "categorys": [
+    "SURVIVAL",
+    "MINIGAMES",
+    "BUILD",
+    "CUSTOM",
+    "CITYBUILD"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "smp": {
+      "name": "SMP",
+      "versions": "1.21.11",
+      "description": "SMP for building and more, there is also a Citybuild!"
+    }
+  },
+  "socials": {
+    "website": "https://verdantia.de",
+    "discord": "https://dsc.gg/verdantia"
+  }
+}
