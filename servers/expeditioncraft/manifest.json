@@ -1,0 +1,50 @@
+{
+  "server-address": [
+    "play.expeditioncraft.de"
+  ],
+  "pretty-name": "ExpeditionCraft",
+  "categorys": [
+    "MINIGAMES",
+    "ADVENTURE",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "hideandseek": {
+      "name": "Hide'N'Seek",
+      "versions": "1.21.4 - 1.21.11",
+      "description": "Hide before the Seeker finds you!"
+    },
+    "lasertag": {
+      "name": "Lasertag",
+      "versions": "1.21.4 - 1.21.11",
+      "description": "Shoot, but don't get shot!"
+    },
+    "tntrun": {
+      "name": "TNT-Run",
+      "versions": "1.21.4 - 1.21.11",
+      "description": "Run before the sand falls."
+    },
+    "gokart": {
+      "name": "Gokart Race",
+      "versions": "1.21.4 - 1.21.11",
+      "description": "Race faster than anyone else."
+    }
+  },
+  "socials": {
+    "website": "https://expeditioncraft.de/",
+    "discord": "https://discord.gg/HCsmd9qApm",
+    "youtube": "https://www.youtube.com/@expeditioncraftMC",
+    "instagram": "https://www.instagram.com/expeditioncraft.mc/",
+    "tiktok": "https://www.tiktok.com/@expeditioncraft"
+  },
+  "disabled-modules": [
+    "FREE_LOOK",
+    "ITEM_HIGHLIGHTER",
+    "WEATHER_CHANGER",
+    "TIME_CHANGER"
+  ]
+}
