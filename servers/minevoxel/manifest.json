@@ -1,5 +1,5 @@
 {
-  "server-address": ["minevoxel.cloud", "minevoxel.net", "verify.minevoxel.cloud", "minevoxel.network"],
+  "server-address": ["play.minevoxel.net", "verify.minevoxel.net", "play.minevoxel.network"],
   "pretty-name": "MineVoxel Network",
   "categorys": ["MINIGAMES", "CREATIVE", "CITYBUILD","CUSTOM"],
   "gamemodes": {
