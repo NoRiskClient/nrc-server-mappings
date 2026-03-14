@@ -1,7 +1,7 @@
 {
   "server-address": ["minevoxel.cloud", "minevoxel.net", "verify.minevoxel.cloud", "minevoxel.network"],
   "pretty-name": "MineVoxel Network",
-  "categorys": ["MINIGAMES", "GENERATORS", "CITYBUILD", "TYCOON", "HIDEANDSEEK"],
+  "categorys": ["MINIGAMES", "CREATIVE", "CITYBUILD","CUSTOM"],
   "gamemodes": {
     "voxelhunt": {
       "name": "VoxelHunt (Hide n' Seek)",
