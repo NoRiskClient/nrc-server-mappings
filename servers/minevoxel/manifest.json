@@ -1,0 +1,34 @@
+{
+  "server-address": ["minevoxel.cloud", "minevoxel.net", "verify.minevoxel.cloud", "minevoxel.network"],
+  "pretty-name": "MineVoxel Network",
+  "categorys": ["MINIGAMES", "GENERATORS", "CITYBUILD", "TYCOON", "HIDEANDSEEK"],
+  "gamemodes": {
+    "voxelhunt": {
+      "name": "VoxelHunt (Hide n' Seek)",
+      "versions": "1.21.10<*"
+    },
+    "citybuild": {
+      "name": "Citybuild",
+      "versions": "1.21.10<*"
+    },
+    "tycoon": {
+      "name": "Tycoon (Generators)",
+      "versions": "1.21.10<*"
+    }
+  },
+  "socials": {
+    "website": "https://www.minevoxel.net",
+    "x": "https://twitter.com/MineVoxelNET",
+    "discord": "https://mvxl.link/discord"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "FOV_CHANGER",
+    "FREE_LOOK",
+    "TNT_TIMER",
+    "HEALTH_INDICATORS"
+  ]
+}
