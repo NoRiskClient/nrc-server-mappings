@@ -32,6 +32,7 @@
     "website": "https://abbezahlentv.de/"
   },
   "disabled-modules": [
-    "FREE_LOOK"
+    "FREE_LOOK",
+    "HEALTH_INDICATORS"
   ]
 }
