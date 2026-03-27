@@ -5,31 +5,35 @@
   "gamemodes": {
     "allegegenmelvin": {
       "name": "AlleGegenMelvin",
-      "versions": "1.21.1<*"
+      "versions": "1.21.6<*"
     },
     "allegegenalle2": {
       "name": "AlleGegenAlleV2",
-      "versions": "1.21.1<*"
+      "versions": "1.21.6<*"
     },
     "fangen": {
       "name": "Fangen",
-      "versions": "1.21.1<*"
+      "versions": "1.21.6<*"
     },
     "getdown": {
       "name": "GetDown",
-      "versions": "1.21.1<*"
+      "versions": "1.21.6<*"
     },
     "oneblockrace": {
       "name": "OneBlockRace",
-      "versions": "1.21.1<*"
+      "versions": "1.21.6<*"
     },
     "speedrun": {
       "name": "Speedrun",
-      "versions": "1.21.1<*"
+      "versions": "1.21.6<*"
     },
     "manhunt": {
       "name": "ManHunt",
-      "versions": "1.21.1<*"
+      "versions": "1.21.6<*"
+    },
+    "bomberman": {
+      "name": "Bomberman",
+      "versions": "1.21.6<*"
     }
   },
   "socials": {
