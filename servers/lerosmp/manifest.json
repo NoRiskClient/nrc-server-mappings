@@ -1,5 +1,5 @@
 {
-  "server-address": ["LeroSMP.net"],
+  "server-address": ["LeroSMP.net", "LeroSMP.de", "LeroSMP.ch"],
   "pretty-name": "LeroSMP",
   "categorys": ["SMP"],
   "assets": {
