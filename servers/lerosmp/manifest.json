@@ -1,9 +1,0 @@
-{
-  "server-address": ["LeroSMP.net", "LeroSMP.de", "LeroSMP.ch"],
-  "pretty-name": "LeroSMP",
-  "categorys": ["SURVIVAL, PVP"],
-  "assets": {
-    "icon": "./icon.png",
-    "background": "./bg.png"
-  }
-}
