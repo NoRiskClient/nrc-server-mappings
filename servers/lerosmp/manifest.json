@@ -1,0 +1,9 @@
+{
+  "server-address": ["LeroSMP.net"],
+  "pretty-name": "LeroSMP",
+  "categorys": ["SMP"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
