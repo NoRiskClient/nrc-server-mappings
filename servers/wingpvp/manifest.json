@@ -1,0 +1,23 @@
+{
+  "server-address": [
+    "wingpvp.dat.airforce"
+  ],
+  "pretty-name": "ᴡɪɴɢᴘᴠᴘ",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "RPG",
+    "ADVENTURE",
+    "TECHNICAL",
+    "VANILLA",
+    "MODDED",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "discord": "https://discord.gg/ytYj4YkcYC"
+  }
+}
