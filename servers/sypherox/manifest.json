@@ -1,0 +1,20 @@
+{
+  "server-address": ["sypherox.dev"],
+  "pretty-name": "Sypherox SMP",
+  "categorys": ["SURVIVAL"],
+  "gamemodes": {
+    "survival": {
+      "name": "Survival",
+      "versions": "1.21.1<*"
+    }
+  },
+  "socials": {
+    "website": "https://sypherox.dev",
+    "discord": "https://discord.gg/aG4QYP8u5p",
+    "twitch": "https://twitch.tv/Sypherox"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
