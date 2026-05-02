@@ -1,0 +1,13 @@
+{
+  "server-address": [
+    "giraw.de"
+  ],
+  "pretty-name": "Giraw",
+  "categorys": [
+    "MINIGAMES"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
