@@ -1,0 +1,31 @@
+{
+  "server-address": [
+    "marguhl.net"
+  ],
+  "pretty-name": "Margul",
+  "categorys": [
+    "PVP",
+    "MINIGAMES"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "builtit": {
+      "name": "BuiltIt",
+      "versions": "1.21.4<*"
+    },
+    "cakebomb": {
+      "name": "CakeBomb",
+      "versions": "1.21.4<*"
+    },
+    "mace": {
+      "name": "Mace Roulett",
+      "versions": "1.21.4<*"
+    }
+  },
+  "disabled-modules": [
+    "HEALTH_INDICATORS"
+  ]
+}
