@@ -1,0 +1,34 @@
+{
+  "server-address": [
+    "play.mixelpixel.net",
+    "bedrock.mixelpixel.net"
+  ],
+  "pretty-name": "MixelPixel",
+  "categorys": [
+    "CITYBUILD","PVP"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "citybuild": {
+      "name": "CityBuild",
+      "versions": "1.21.8"
+    },
+    "kffa": {
+      "name": "Knockback FFA",
+      "versions": "1.21.8"
+    }
+  },
+  "socials": {
+    "website": "https://mixelpixel.net/",
+    "store": "https://shop.mixelpixel.net/",
+    "discord": "https://discord.gg/mixelpixel",
+    "youtube": "https://www.youtube.com/@MixelPixelOfficial",
+    "x": "https://x.com/MixelPixelNET",
+    "instagram": "https://www.instagram.com/mixelpixelofficial",
+    "tiktok": "https://www.tiktok.com/@mixelpixelofficial",
+    "teamspeak": "ts3://ts.mixelpixel.net"
+  }
+}

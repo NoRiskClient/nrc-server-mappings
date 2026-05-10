@@ -1,0 +1,42 @@
+{
+  "server-address": [
+     "eu.catpvp.xyz",
+     "eu.catpvp.net",
+     "as.catpvp.xyz",
+     "as.catpvp.net",
+     "east.catpvp.xyz",
+     "east.catpvp.net",
+     "west.catpvp.xyz",
+     "west.catpvp.net",
+     "au.catpvp.net",
+     "au.catpvp.xyz",
+     "me.catpvp.xyz",
+     "me.catpvp.net",
+     "sa.catpvp.xyz",
+     "sa.catpvp.net"
+  ],
+  "pretty-name": "Cat PVP",
+  "categorys": ["UHC", "PVP", "KITPVP"],
+  "gamemodes": {
+    "duels": {
+      "name": "Kit Duels",
+      "versions": ">1.21",
+      "description": "Duels with a large variety of kits, with a fully fledged Queue, ELO and Ranking System"
+    },
+  "sandbox": {
+      "name": "Sandbox",
+      "versions": ">1.21",
+      "description": "Create your own kits and fight other players"
+    }
+  },
+  "socials": {
+    "website": "https://www.catpvp.xyz/",
+    "discord": "https://discord.gg/cYZqwmFYFF",
+    "store": "https://store.catpvp.xyz/"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./background.png"
+  },
+  "disabled-modules": []
+}
