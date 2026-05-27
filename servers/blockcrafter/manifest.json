@@ -1,0 +1,9 @@
+{
+  "server-address": ["blockcrafter.wlabs.zip"],
+  "pretty-name": "BlockCrafter",
+  "categorys": ["BUILD"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
