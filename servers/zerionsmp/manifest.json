@@ -1,1 +1,14 @@
-
+{
+  "server-address": [
+    "zerionsmp.de"
+  ],
+  "pretty-name": "ZerionSMP",
+  "categorys": [
+    "SURVIVAL",
+    "VANILLA",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
