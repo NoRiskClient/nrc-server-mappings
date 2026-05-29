@@ -1,7 +1,21 @@
 {
-  "id": "astakrobaten",
-  "name": "Astakrobaten",
-  "ip": "astakrobaten.cc",
-  "description": "Der offiziele Astakrobaten Serve!",
-  "version": "1.26.2"
+  "server-address": [
+    "astakrobaten.cc",
+    "astakrobaten.de"
+  ],
+  "pretty-name": "Der offizielle Astakrobaten Server",
+  "categorys": [
+    "SURVIVAL",
+    "BUILD",
+    "VANILLA",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://astakrobaten.cc/",
+    "discord": "https://discord.gg/kXQ8Tdaytt"
+  }
 }
