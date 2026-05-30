@@ -1,7 +1,7 @@
 {
   "server-address": ["teamxj9c_01.aternos.me"],
   "pretty-name": "Teamxj9c",
-  "categorys": ["MINIGAMES", "PVP", "Citybuild"],
+  "categorys": ["MINIGAMES", "PVP", "CITYBUILD"],
   "gamemodes": {
     "bedwars": {
       "name": "BedWars",
