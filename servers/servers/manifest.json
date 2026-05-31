@@ -1,0 +1,38 @@
+{
+  "server-address": [
+    "caveffa.de",
+    "142.132.154.42"
+  ],
+  "pretty-name": "CaveFFA",
+  "categorys": [
+    "PVP"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "cavefight": {
+      "name": "CaveFightFFA",
+      "versions": "1.21.4 - 1.21.11",
+      "description": "PvP mit Mace, Cave Kit"
+    },
+    "duels": {
+      "name": "Duels",
+      "versions": "1.21.4 - 1.21.11",
+      "description": "Duel mit 3 Custom Kits, (Cave, Mace, Crystal)"
+    },
+    "swordffa": {
+      "name": "SwordFFA",
+      "versions": "1.21.4 - 1.21.11",
+      "description": "Klassisches SwordFFA"
+    }
+  },
+  "socials": {
+    "website": "https://caveffa.de",
+    "discord": "https://discord.gg/cavefight"
+  },
+  "disabled-modules": [
+    "HEALTH_INDICATORS"
+  ]
+}
