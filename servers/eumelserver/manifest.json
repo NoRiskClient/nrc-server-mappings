@@ -6,7 +6,8 @@
     "website": "https://eumelserver.com",
   },
   "assets": {
-    "background": "./bg.png"
+    "background": "./bg.png",
+    "icon": "./icon.png"
   },
   "disabled-modules": [
     "FOV_CHANGER",
