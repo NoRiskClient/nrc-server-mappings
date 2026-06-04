@@ -6,7 +6,6 @@
     "website": "https://eumelserver.com",
   },
   "assets": {
-    "icon": "./icon.png",
     "background": "./bg.png"
   },
   "disabled-modules": [
