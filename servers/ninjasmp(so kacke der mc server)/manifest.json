@@ -1,0 +1,13 @@
+{
+  "server-address": ["ninjasmp.de"],
+  "pretty-name": "NinjaSMP",
+  "categorys": ["SMP"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "discord": "https://discord.ninjasmp.de"
+  },
+  "disabled-modules": []
+}
