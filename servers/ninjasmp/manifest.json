@@ -1,19 +1,13 @@
 {
   "server-address": ["ninjasmp.de"],
   "pretty-name": "NinjaSMP",
-  "categorys": ["PVP"],
+  "categorys": ["SURVIVAL"],
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
   },
   "socials": {
-    "tiktok": "https://www.tiktok.com/@ninjasmp.de",
-    "discord": "https://discord.gg/EXe9awaX"
+    "discord": "https://discord.ninjasmp.de"
   },
-  "disabled-modules": [
-    "FREE_LOOK_MODULE",
-    "NO_FOG_MODULE",
-    "WEATHER_CHANGER",
-    "TIME_CHANGER"
-  ]
+  "disabled-modules": []
 }
