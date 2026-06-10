@@ -1,0 +1,13 @@
+{
+  "server-address": ["mc-challenges.de", "mc-challenges.eu"],
+  "pretty-name": "mc-hallenges",
+  "categorys": ["CUSTOM"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "store": "https://shop.mc-challenges.de",
+    "discord": "https://discord.gg/psht6smC9e"
+  }
+}
