@@ -1,0 +1,15 @@
+{
+  "server-address": [
+    "moonsmp.play.nod3.de",
+    "play.nod3.de:2694"
+  ],
+  "pretty-name": "MoonSMP",
+  "categorys": [
+    "SURVIVAL",
+    "MINIGAMES"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
