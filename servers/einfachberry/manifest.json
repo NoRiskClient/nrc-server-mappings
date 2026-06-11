@@ -1,0 +1,29 @@
+{
+  "server-address": [
+    "einfachberry.de",
+    "play.einfachberry.de"
+  ],
+  "pretty-name": "EinfachBerry",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "ADVENTURE",
+    "BUILD",
+    "VANILLA",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "discord": "https://discord.gg/CdjfdKQyBj"
+  },
+  "disabled-modules": [
+    "FREE_LOOK",
+    "AUTO_TEXT",
+    "WEATHER_CHANGER",
+    "TIME_CHANGER",
+    "HEALTH_INDICATORS"
+  ]
+}
