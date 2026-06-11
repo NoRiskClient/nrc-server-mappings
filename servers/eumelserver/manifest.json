@@ -1,0 +1,16 @@
+{
+  "server-address": ["play.eumelserver.com", "play.eumelstuff.com", "eumelstuff.com"],
+  "pretty-name": "ÉUMELSERVER",
+  "categorys": ["BUILD"],
+  "socials": {
+    "website": "https://eumelserver.com",
+  },
+  "assets": {
+    "background": "./bg.png",
+    "icon": "./icon.png"
+  },
+  "disabled-modules": [
+    "FOV_CHANGER",
+    "FREE_LOOK"
+  ]
+}
