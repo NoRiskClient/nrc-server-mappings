@@ -1,0 +1,37 @@
+{
+  "server-address": ["teamxj9c_01.aternos.me"],
+  "pretty-name": "Teamxj9c",
+  "categorys": ["MINIGAMES", "PVP", "CITYBUILD"],
+  "gamemodes": {
+    "bedwars": {
+      "name": "BedWars",
+      "versions": "1.21.4<*"
+    },
+    "citybuild": {
+      "name": "CityBuild",
+      "versions": "1.21.4<*"
+    },
+    "gommunity": {
+      "name": "Gommunity",
+      "versions": "1.21<*"
+    },
+    "skywars": {
+      "name": "SkyWars",
+      "versions": "1.21.4<*"
+    }
+  },
+  "socials": {
+    "website": "https://linktr.ee/teamxj9c/",
+    "store": "https://linktr.ee/teamxj9c/",
+    "x": "https://linktr.ee/teamxj9c/",
+    "discord": "https://discord.gg/bHwSB3nVpA",
+    "youtube": "https://www.youtube.com/@teamxj9c",
+    "instagram": "https://www.instagram.com/teamxj9c",
+    "tiktok": "https://www.tiktok.com/@teamxj9c"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": []
+}
