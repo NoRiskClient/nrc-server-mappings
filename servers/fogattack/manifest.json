@@ -1,0 +1,15 @@
+{
+  "server-address": [
+    "fogattack.de"
+  ],
+  "pretty-name": "FogAttack",
+  "categorys": [
+    "SURVIVAL",
+    "MINIGAMES",
+    "VANILLA"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
