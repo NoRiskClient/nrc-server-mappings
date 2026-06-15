@@ -1,0 +1,50 @@
+{
+  "server-address": [
+    "play.futania.de"
+  ],
+  "pretty-name": "play.Futania.de - SMP, Minigames und Mehr!",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "MINIGAMES",
+    "SKYBLOCK",
+    "FACTIONS",
+    "KITPVP",
+    "ADVENTURE",
+    "BUILD",
+    "TECHNICAL",
+    "VANILLA",
+    "CUSTOM",
+    "CITYBUILD"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "smp": {
+      "name": "SMP",
+      "versions": "all",
+      "description": "SMP, aber BESONDERS!"
+    },
+    "battleroyale": {
+      "name": "Battle Royale",
+      "versions": "all",
+      "description": "Kämpfe, erkunde und sammle."
+    },
+    "dropper": {
+      "name": "Dropper",
+      "versions": "all",
+      "description": "Fall bis nach unten, ohne einen Hinderniss zu berühren."
+    }
+  },
+  "socials": {
+    "website": "https://futania.de/",
+    "store": "https://futania.de/shop/",
+    "discord": "https://futania.de/discord",
+    "youtube": "https://www.youtube.com/@Futania"
+  },
+  "disabled-modules": [
+    "HEALTH_INDICATORS"
+  ]
+}
