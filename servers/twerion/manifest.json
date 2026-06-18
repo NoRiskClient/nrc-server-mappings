@@ -1,7 +1,7 @@
 {
   "server-address": ["twerion.net"],
   "pretty-name": "Twerion",
-  "categorys": ["MINIGAMES", "PVP", "SURVIVAL", "BEDWARS"],
+  "categorys": ["MINIGAMES", "PVP", "SURVIVAL"],
   "gamemodes": {
     "kitrush": {
       "name": "Kitrush",
