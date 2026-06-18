@@ -1,0 +1,14 @@
+{
+  "server-address": ["mantu.best"],
+  "pretty-name": "Mantu",
+  "categorys": ["SURVIVAL", "PVP", "ANARCHY"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://mantu.best",
+    "discord": "https://discord.gg/mantu"
+  },
+  "disabled-modules": ["ZOOM", "FREE_LOOK", "NO_FOG", "HEALTH_INDICATORS"]
+}
