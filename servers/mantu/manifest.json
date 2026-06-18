@@ -10,5 +10,5 @@
     "website": "https://mantu.best",
     "discord": "https://discord.gg/mantu"
   },
-  "disabled-modules": ["ZOOM", "FREE_LOOK", "NO_FOG", "HEALTH_INDICATORS"]
+  "disabled-modules": ["FOV_CHANGER", "FULL_BRIGHT", "NO_FOG", "AUTO_TEXT", "TNT_TIMER", "WEATHER_CHANGER", "TIME_CHANGER", "HEALTH_INDICATORS"]
 }
