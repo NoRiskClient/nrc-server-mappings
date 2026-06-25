@@ -1,7 +1,6 @@
 {
   "server-address": [
-    "play.mixelpixel.net",
-    "bedrock.mixelpixel.net"
+    "mixelpixel.net"
   ],
   "pretty-name": "MixelPixel",
   "categorys": [
@@ -26,7 +25,6 @@
     "store": "https://shop.mixelpixel.net/",
     "discord": "https://discord.gg/mixelpixel",
     "youtube": "https://www.youtube.com/@MixelPixelOfficial",
-    "x": "https://x.com/MixelPixelNET",
     "instagram": "https://www.instagram.com/mixelpixelofficial",
     "tiktok": "https://www.tiktok.com/@mixelpixelofficial",
     "teamspeak": "ts3://ts.mixelpixel.net"
