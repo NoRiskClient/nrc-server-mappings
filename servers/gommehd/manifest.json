@@ -5,67 +5,59 @@
   "gamemodes": {
     "bingo": {
       "name": "Bingo",
-      "versions": "1.21.4<*"
+      "versions": "1.21.11<*"
     },
     "bedwars": {
       "name": "BedWars",
-      "versions": "1.21.4<*"
+      "versions": "1.21.11<*"
     },
     "citybuild": {
       "name": "CityBuild",
-      "versions": "1.21.4<*"
+      "versions": "1.21.11<*"
     },
     "gommunity": {
       "name": "Gommunity",
-      "versions": "1.21<*"
-    },
-    "gungame": {
-      "name": "GunGame",
-      "versions": "1.21.4<*"
+      "versions": "1.21.11<*"
     },
     "duels": {
       "name": "Duels",
-      "versions": "1.21.4<*"
-    },
-    "kit1vs1": {
-      "name": "Kit1vs1",
-      "versions": "1.21.4<*"
+      "versions": "1.21.11<*"
     },
     "moneymaker": {
       "name": "MoneyMaker",
-      "versions": "1.21.4<*"
+      "versions": "1.8<*"
     },
     "skywars": {
       "name": "SkyWars",
-      "versions": "1.21.4<*"
+      "versions": "1.21.11<*"
     },
     "jumpleague": {
       "name": "JumpLeague",
-      "versions": "1.21.4<*"
-    },
-    "buildffa": {
-      "name": "BuildFFA",
-      "versions": "1.21.4<*"
-    },
-    "hardcore": {
-      "name": "Hardcore",
-      "versions": "1.21.4<*"
+      "versions": "1.21.11<*"
     },
     "hideandseek": {
       "name": "Hide'n'Seek",
-      "versions": "1.21.4<*"
+      "versions": "1.21.11<*"
     },
     "masterbuilders": {
       "name": "MasterBuilders",
-      "versions": "1.21.4<*"
+      "versions": "1.21.11<*"
     },
     "partygames": {
       "name": "PartyGames",
-      "versions": "1.21.4<*"
+      "versions": "1.21.11<*"
     },
     "ttt": {
       "name": "TTT",
-      "versions": "1.21.4<*"
+      "versions": "1.21.11<*"
+    },
+    "itemchaos": {
+      "name": "ItemChaos",
+      "versions": "1.21.11<*"
+    },
+    "ffa": {
+      "name": "FFA",
+      "versions": "1.21.11<*"
     }
   },
   "socials": {
