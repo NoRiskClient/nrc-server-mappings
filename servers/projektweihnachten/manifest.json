@@ -1,0 +1,21 @@
+{
+  "server-address": [
+    "projekt-weihnachten.de",
+    "projektweihnachten.de"
+  ],
+  "pretty-name": "Projekt Weihnachten",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "MINIGAMES",
+    "VANILLA"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://projekt-weihnachten.de",
+    "discord": "https://discord.projekt-weihnachten.de"
+  }
+}
