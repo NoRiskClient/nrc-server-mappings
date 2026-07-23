@@ -1,0 +1,20 @@
+{
+  "server-address": [
+    "survivalsmp.ice.lol",
+    "SurvivalSMPwada.ice.lol"
+  ],
+  "pretty-name": "SurvivalSMP",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "VANILLA",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "discord": "https://dsc.gg/survivalsmpofficial"
+  }
+}

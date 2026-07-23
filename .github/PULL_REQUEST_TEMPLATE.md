@@ -4,8 +4,8 @@ Before submitting this pull request, please confirm that you have completed the 
 
 ### Documentation Review
 
-- [ ] I have read and understood the [README.md](../README.md)
-- [ ] I have read and followed the [manifest.md](../docs/manifest.md) guide
+- [ ] I have read and understood the [README.md](https://github.com/NoRiskClient/nrc-server-mappings/blob/main/README.md)
+- [ ] I have read and followed the [manifest.md](https://github.com/NoRiskClient/nrc-server-mappings/blob/main/docs/manifest.md) guide
 
 ### Personal Review
 

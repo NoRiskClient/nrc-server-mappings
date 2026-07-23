@@ -1,0 +1,59 @@
+{
+  "server-address": ["twerion.net"],
+  "pretty-name": "Twerion",
+  "categorys": ["MINIGAMES", "PVP", "SURVIVAL"],
+  "gamemodes": {
+    "kitrush": {
+      "name": "Kitrush",
+      "versions": "1.21<*"
+    },
+    "citybuild": {
+      "name": "CityBuild SMP",
+      "versions": "1.21<*"
+    },
+    "oneblock": {
+      "name": "OneBlock",
+      "versions": "1.21<*"
+    },
+    "lifesteal": {
+      "name": "Lifesteal SMP",
+      "versions": "1.21<*"
+    },
+    "elytrapvp": {
+      "name": "ElytraPvP",
+      "versions": "1.21<*"
+    },
+    "bedwars": {
+      "name": "BedWars",
+      "versions": "1.8<*"
+    },
+    "fastbuilders": {
+      "name": "FastBuilders",
+      "versions": "1.8<*"
+    },
+    "buildffa": {
+      "name": "BuildFFA",
+      "versions": "1.8<*"
+    },
+    "practice": {
+      "name": "Practice",
+      "versions": "1.8<*"
+    },
+    "skypvp": {
+      "name": "SkyPvP",
+      "versions": "1.8<*"
+    }
+  },
+  "socials": {
+    "website": "https://www.twerion.net/",
+    "store": "https://twerion.net/shop",
+    "discord": "https://discord.com/invite/twerion"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "FREE_LOOK"
+  ]
+}

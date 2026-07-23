@@ -1,0 +1,27 @@
+{
+  "server-address": ["knightarmy.de"],
+  "pretty-name": "KNIGHTARMY.DE",
+  "categorys": ["SURVIVAL", "SKYBLOCK"],
+  "gamemodes": {
+    "survival": {
+      "name": "Survival",
+      "versions": "1.21.4<*"
+    },
+    "skyblock": {
+      "name": "Skyblock",
+      "versions": "1.21.4<*"
+    }
+  },
+  "socials": {
+    "website": "https://www.knightarmy.de/",
+    "x": "https://x.com/knightarmyde",
+    "discord": "https://discord.gg/knightarmy",
+    "youtube": "https://www.youtube.com/@knightarmyde",
+    "instagram": "https://www.instagram.com/knightarmy.de",
+    "tiktok": "https://www.tiktok.com/@knightarmy.de"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}

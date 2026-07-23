@@ -1,0 +1,35 @@
+{
+  "server-address": ["minemen.club","eu.minemen.club","na.minemen.club","as.minemen.club"],
+  "pretty-name": "Minemen",
+  "categorys": ["PVP", "KITPVP"],
+  "gamemodes": {
+    "classic-games": {
+      "name": "Classic Games",
+      "versions": ">1.8",
+      "description": "Different \"Classic\" gamemodes including Survival Games, UHC Meetup, UHC Games and Pot SG"
+    },
+    "classic-practice": {
+      "name": "Classic Practice",
+      "versions": ">1.8",
+      "description": "1.8 KitPVP/Duels including all of your favorite 1.8 gamemodes"
+    },
+    "modern-practice": {
+      "name": "Modern Practice",
+      "versions": ">1.21",
+      "description": "1.21+ KitPVP/Duels including all of your favorite 1.21+ gamemodes"
+    }
+  },
+  "socials": {
+    "website": "https://minemen.club/",
+    "discord": "http://minemen.club/discord",
+    "youtube": "http://youtube.com/@minemen_club",
+    "x": "http://twitter.com/Minemen_Network",
+    "store": "https://store.minemen.club",
+    "tiktok":"https://www.tiktok.com/@minemen_club"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./background.png"
+  },
+  "disabled-modules": []
+}

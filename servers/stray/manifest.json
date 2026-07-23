@@ -1,0 +1,41 @@
+{
+  "server-address": ["stray.gg", "na.stray.gg","eu.stray.gg","as.stray.gg"],
+  "pretty-name": "Stray",
+  "categorys": ["PVP", "UHC"],
+  "gamemodes": {
+    "diamond-pot-ffa": {
+      "name": "Diamond Pot FFA",
+      "versions": ">1.21",
+      "description": "FFA with the Diamond Pot kit"
+    },
+    "netherite-pot-ffa": {
+      "name": "Netherite Pot FFA",
+      "versions": ">1.21",
+      "description": "FFA with the Netherite Pot kit"
+    },
+    "sword-ffa": {
+      "name": "Sword FFA",
+      "versions": ">1.21",
+      "description": "Classic Sword FFA with different kits(Stray, Speed, Beast, Axe, Elytra)"
+    },
+    "sandbox": {
+      "name": "Sandbox",
+      "versions": ">1.21",
+      "description": "Create your own kits and fight other players"
+    },
+    "uhc-ffa": {
+      "name": "UHC FFA",
+      "versions": ">1.21",
+      "description": "FFA with the UHC kit. Choose between Shield and Shieldless"
+    }
+  },
+  "socials": {
+    "discord": "https://discord.stray.gg/",
+    "store": "https://store.stray.gg/"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./background.png"
+  },
+  "disabled-modules": []
+}

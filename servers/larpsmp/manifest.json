@@ -1,0 +1,13 @@
+{
+  "server-address": ["larpsmp.de"],
+  "pretty-name": "LARPSMP",
+  "categorys": ["SURVIVAL"],
+  "socials": {
+    "website": "https://larpsmp.store",
+    "discord": "https://discord.gg/5sWG2wNm9a"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
