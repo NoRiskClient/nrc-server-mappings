@@ -1,0 +1,16 @@
+{
+  "server-address": [
+    "traily.net"
+  ],
+  "pretty-name": "Traily",
+  "categorys": [
+    "PVP"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "TNT_TIMER"
+  ]
+}
