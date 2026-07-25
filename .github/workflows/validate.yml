@@ -49,6 +49,9 @@ jobs:
           rm -rf servers
           git checkout refs/remotes/pr/head -- servers/
 
+          find servers -name manifest-schema.json -delete
+          git checkout refs/remotes/pr/base -- 'servers/*manifest-schema.json'
+
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
