@@ -1,9 +1,9 @@
 {
-  "server-address": ["test_server!.example"],
-  "categorys": ["SURVIVAL", "NOT_A_CATEGORY"],
+  "server-address": ["test.example.com"],
+  "pretty-name": "CI Test Server",
+  "categorys": ["SURVIVAL"],
   "assets": {
-    "icon": "icon.png",
+    "icon": "./icon.png",
     "background": "./bg.png"
-  },
-  "totally-unknown-field": true
+  }
 }
