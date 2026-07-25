@@ -1,0 +1,9 @@
+{
+  "server-address": ["test_server!.example"],
+  "categorys": ["SURVIVAL", "NOT_A_CATEGORY"],
+  "assets": {
+    "icon": "icon.png",
+    "background": "./bg.png"
+  },
+  "totally-unknown-field": true
+}
