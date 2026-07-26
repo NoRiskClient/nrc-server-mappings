@@ -1,0 +1,29 @@
+{
+  "server-address": ["heldeninsel.net"],
+  "pretty-name": "Heldeninsel.net",
+  "categorys": ["PVP", "MINIGAMES", "CUSTOM"],
+  "gamemodes": {
+    "duels": {
+      "name": "Duels",
+      "versions": "1.21.11",
+      "description": "Competitive duels across many kits"
+    },
+    "speedhelden": {
+      "name": "SpeedHelden",
+      "versions": "1.21.11",
+      "description": "A 3 hearts battle royale"
+    }
+  },
+  "socials": {
+    "website": "https://heldeninsel.net",
+    "store": "https://heldeninsel.shop",
+    "discord": "https://discord.gg/heldeninsel",
+    "youtube": "https://www.youtube.com/@heldeninselnet",
+    "tiktok": "https://www.tiktok.com/@heldeninsel",
+    "x": "https://x.com/heldeninsel"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
