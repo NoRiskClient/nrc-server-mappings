@@ -1,0 +1,54 @@
+{
+  "server-address": [
+    "avesclub.net",
+    "play.avesclub.net"
+  ],
+  "pretty-name": "AvesClub",
+  "categorys": [
+    "PVP",
+    "MINIGAMES",
+    "KITPVP",
+    "SURVIVAL",
+    "CUSTOM"
+  ],
+  "gamemodes": {
+    "kitfights": {
+      "name": "Kit Fights",
+      "versions": "1.12<*",
+      "description": "Sword, Nethpot, Crystal, Mace, Spear, UHC, Helden and more — across 12 unique maps. Includes special modes: MLG Rush, Spleef, Sumo, and Boxing."
+    },
+    "solotraining": {
+      "name": "Solo Training",
+      "versions": "1.12<*",
+      "description": "Train your Crystal PvP, Sword, and Mace mechanics against AI bots. Available 24/7 — no partner needed. Perfect for grinding your mechanics solo."
+    },
+    "bedwars": {
+      "name": "BedWars",
+      "versions": "1.12<*",
+      "description": "A fully dedicated BedWars server with multiple maps and modes. Protect your bed, gather resources, upgrade your team and wipe out the competition before they destroy yours."
+    },
+    "communityevents": {
+      "name": "Community Events",
+      "versions": "1.12<*",
+      "description": "Regular community events to keep things fresh. From PvP tournaments with brackets and prizes to 24-hour SMP challenges — there's always something to look forward to."
+    }
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://avesclub.net",
+    "youtube": "https://www.youtube.com/@Loxymuss",
+    "tiktok": "https://www.tiktok.com/@loxymuss",
+    "discord": "https://discord.gg/zazHHHtV7d"
+  },
+  "disabled-modules": [
+    "FREE_LOOK_MODULE",
+    "PACK_TWEAKS",
+    "AUTO_TEXT",
+    "ITEM_HIGHLIGHTER",
+    "WEATHER_CHANGER",
+    "TNT_TIMER"
+  ]
+}
