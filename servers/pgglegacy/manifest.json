@@ -1,12 +1,14 @@
 {
-  "server-address": "play.pgglegacy.gr",
+  "server-address": [
+    "play.pgglegacy.gr"
+  ],
   "pretty-name": "PGG Legacy",
   "categorys": [
-    "SMP",
-    "Roleplay"
+    "SURVIVAL",
+    "RPG"
   ],
   "assets": {
-    "icon": "icon.png",
-    "background": "background.png"
+    "icon": "./icon.png",
+    "background": "./background.png"
   }
 }
