@@ -1,8 +1,12 @@
 {
-  "name": "PGG Legacy",
-  "addresses": ["play.pgglegacy.gr"],
-  "primaryAddress": "play.pgglegacy.gr",
-  "icon": "icon.png",
-  "background": "background.png",
-  "description": "Greek SMP & Roleplay Server"
+  "server-address": "play.pgglegacy.gr",
+  "pretty-name": "PGG Legacy",
+  "categorys": [
+    "SMP",
+    "Roleplay"
+  ],
+  "assets": {
+    "icon": "icon.png",
+    "background": "background.png"
+  }
 }
