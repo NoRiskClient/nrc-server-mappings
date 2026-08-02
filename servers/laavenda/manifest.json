@@ -1,0 +1,36 @@
+{
+  "server-address": [
+    "cavefight.de",
+    "laavenda.de",
+    "ave.rip",
+    "unionmc.fun"
+  ],
+  "pretty-name": "Laavenda",
+  "categorys": [
+    "PVP"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "duels": {
+      "name": "Duels",
+      "versions": "1.21.11 - 26.2.2",
+      "description": "Spiel gegen Personen entweder Unranked oder mit ELO mit HugoSMP Kits"
+    },
+    "swordffa": {
+      "name": "LateGame",
+      "versions": "1.21.11 - 26.2.2",
+      "description": "Battleroyale, aber mit crystals. Schneller, Intensiver"
+    },
+    "caveffa": {
+      "name": "CaveFFA",
+      "versions": "1.21.11 - 26.2.2",
+      "description": "Erstell ein eigenes Kit und Fighte in einer Arena"
+    }
+  },
+  "disabled-modules": [
+    "HEALTH_INDICATORS"
+  ]
+}
