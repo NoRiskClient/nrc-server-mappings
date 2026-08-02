@@ -11,7 +11,7 @@
   ],
   "assets": {
     "icon": "./icon.png",
-    "background": "./bg.png"
+    "background": "./bp.png"
   },
   "gamemodes": {
     "duels": {
