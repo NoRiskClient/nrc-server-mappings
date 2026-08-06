@@ -1,0 +1,28 @@
+{
+  "server-address": [
+    "novablocks.eu"
+  ],
+  "pretty-name": "Novablocks",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "CUSTOM",
+    "CITYBUILD"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://novablocks.eu",
+    "discord": "https://discord.gg/yh623gKz2v"
+  },
+  "disabled-modules": [
+    "FULL_BRIGHT",
+    "FREE_LOOK",
+    "AUTO_TEXT",
+    "WEATHER_CHANGER",
+    "TIME_CHANGER",
+    "HEALTH_INDICATORS"
+  ]
+}
