@@ -1,15 +1,15 @@
 {
-  "server-address": ["hugosmp.net", "play.hugosmp.net"],
-  "pretty-name": "HugoSMP",
+  "server-address": ["townymc.de"],
+  "pretty-name": "TownyMC",
   "categorys": ["SURVIVAL"],
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
   },
   "socials": {
-    "store": "https://shop.hugosmp.net",
-    "tiktok": "https://tiktok.com/@letshugosmp",
-    "discord": "https://discord.gg/hugosmp"
+    "store": "https://shop.townymc.de",
+    "tiktok": "https://tiktok.com/@townymc",
+    "discord": "https://discord.gg/townymc"
   },
   "disabled-modules": ["HEALTH_INDICATORS"]
 }
