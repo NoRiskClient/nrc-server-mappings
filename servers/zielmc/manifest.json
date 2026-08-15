@@ -1,0 +1,47 @@
+{
+  "server-address": [
+    "zielmc.net",
+    "mc.zielmc.net"
+  ],
+  "pretty-name": "ZielMC",
+  "categorys": [
+    "MINIGAMES",
+    "PVP"
+  ],
+  "gamemodes": {
+    "parkourfight": {
+      "name": "Parkour Fight",
+      "versions": "1.21<*",
+      "description": "1v1 & 2v2 Parkour-Race mit PvP-Finale (Ranked)"
+    },
+    "duels": {
+      "name": "Duels",
+      "versions": "1.21<*",
+      "description": "Ranked 1v1 mit Kits"
+    },
+    "practice": {
+      "name": "Practice",
+      "versions": "1.21<*",
+      "description": "PvP-Training gegen Bots"
+    },
+    "battleroyal": {
+      "name": "Battle Royal",
+      "versions": "1.21<*",
+      "description": "Battle Royale mit bis zu 50 Spielern"
+    },
+    "lobbygames": {
+      "name": "LobbyGames",
+      "versions": "1.21<*",
+      "description": "Minispiele direkt in der Lobby"
+    }
+  },
+  "socials": {
+    "website": "https://zielmc.net",
+    "store": "https://shop.zielmc.net",
+    "discord": "https://discord.gg/zielmc"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
