@@ -11,8 +11,8 @@
     "icon": "./icon.png",
     "background": "./bg.png"
   },
-  "disabled-modules": {
+  "disabled-modules": [
     "HEALTH_INDICATORS",
-    "TNT_TIMER",
-  }
+    "TNT_TIMER"
+  ]
 }
