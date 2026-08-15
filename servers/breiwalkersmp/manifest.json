@@ -13,9 +13,6 @@
   },
   "disabled-modules": [
     "HEALTH_INDICATORS",
-    "FREE_LOOK_MODULE",
-    "TNT_TIMER",
-    "WEATHER_CHANGER",
-    "TIME_CHANGER"
+    "TNT_TIMER"
   ]
 }
