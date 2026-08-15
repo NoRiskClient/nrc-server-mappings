@@ -1,0 +1,26 @@
+{
+  "server-address": [
+    "waffelcb.ice.lol"
+  ],
+  "pretty-name": "WaffelCB",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "youtube": "https://youtube.com/@waffelhdofficial"
+  },
+  "disabled-modules": [
+    "FREE_LOOK",
+    "ARROW_TRAIL",
+    "AUTO_TEXT",
+    "WEATHER_CHANGER",
+    "TIME_CHANGER",
+    "HEALTH_INDICATORS"
+  ]
+}
