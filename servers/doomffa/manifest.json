@@ -1,10 +1,11 @@
 {
   "server-address": ["doomffa.net", "doomnetwork.de"],
   "pretty-name": "Doom FFA",
-  "categorys": ["FFA", "PVP"],
+  "categorys": ["PVP"],
   "gamemodes": {
     "ffa": {
-      "versions": ["1.21.11"],
+      "name": "Free for All",
+      "versions": "1.21",
       "description": "Free for all"
     }
   },
