@@ -1,0 +1,17 @@
+{
+  "server-address": [
+    "Dropsmp.avrox-group.de"
+  ],
+  "pretty-name": "Dropsmp",
+  "categorys": [
+    "PVP",
+    "SURVIVAL"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "discord": "https://discord.gg/KwzhBVRDqS"
+  }
+}
