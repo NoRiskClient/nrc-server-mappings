@@ -1,0 +1,58 @@
+{
+  "server-address": [
+    "hugopvp.net"
+  ],
+  "pretty-name": "HugoPVP",
+  "categorys": [
+    "PVP",
+    "UHC",
+    "KITPVP"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "sword": {
+      "name": "Sword",
+      "versions": "ALL"
+    },
+    "axe": {
+      "name": "Axe",
+      "versions": "ALL"
+    },
+    "mace": {
+      "name": "Mace",
+      "versions": "ALL"
+    },
+    "uhc": {
+      "name": "UHC",
+      "versions": "ALL"
+    },
+    "netherite_op": {
+      "name": "Netherite OP",
+      "versions": "ALL"
+    },
+    "pot": {
+      "name": "Pot",
+      "versions": "ALL"
+    },
+    "smp": {
+      "name": "SMP",
+      "versions": "ALL"
+    },
+    "vanilla": {
+      "name": "Vanilla",
+      "versions": "ALL"
+    },
+    "hugosmp": {
+      "name": "HugoSMP",
+      "versions": "ALL"
+    }
+  },
+  "socials": {
+    "store": "https://shop.hugosmp.net/",
+    "discord": "https://hugosmp.de/discord",
+    "tiktok": "https://www.tiktok.com/@hugosmp.net"
+  }
+}
