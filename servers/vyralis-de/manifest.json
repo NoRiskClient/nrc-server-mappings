@@ -1,0 +1,13 @@
+{
+  "server-address": [
+    "play.vyralis.de"
+  ],
+  "pretty-name": "Vyralis",
+  "categorys": [
+    "SURVIVAL"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
