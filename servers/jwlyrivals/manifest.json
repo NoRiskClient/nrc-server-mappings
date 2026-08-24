@@ -1,0 +1,25 @@
+{
+  "server-address": ["jwlyrivals.de", "dev.jwlyrivals.de"],
+  "pretty-name": "Jwlyrivals.de",
+  "categorys": ["SURVIVAL"],
+  "gamemodes": {
+    "survival": {
+      "name": "Survival",
+      "versions": "26.2>*"
+    }
+  },
+  "socials": {
+    "discord": "https://discord.gg/7Mm5yewgJf",
+    "tiktok": "https://www.tiktok.com/@jjwlyy"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "FOV_CHANGER",
+    "FREE_LOOK",
+    "TNT_TIMER",
+    "HEALTH_INDICATORS"
+  ]
+}
