@@ -1,6 +1,6 @@
 {
-  "server-address": ["challenges.jonny.business"],
-  "pretty-name": "jonny.business",
+  "server-address": ["krustenburger.ggde.pro"],
+  "pretty-name": "KrustenServer",
   "categorys": ["CUSTOM"],
   "gamemodes": {
     "customchallenges": {

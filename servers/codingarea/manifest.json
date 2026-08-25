@@ -1,0 +1,37 @@
+{
+  "server-address": ["coding-area.net"],
+  "pretty-name": "Coding-Area",
+  "categorys": ["MINIGAMES", "CUSTOM"],
+  "gamemodes": {
+    "challenges": {
+      "name": "Challenges",
+      "versions": "26.2",
+      "description": "Custom challenge runs with timers, goals and modifiers, solo or in teams."
+    },
+    "bingo": {
+      "name": "Bingo",
+      "versions": "26.2",
+      "description": "Race to complete nine random goals on a 3x3 card in items, entities or advancements mode."
+    },
+    "manhunt": {
+      "name": "Manhunt",
+      "versions": "26.2",
+      "description": "Hunters chase a speedrunner who has to beat the Ender Dragon before being caught."
+    },
+    "oneblockrace": {
+      "name": "OneBlockRace",
+      "versions": "26.2",
+      "description": "Random items drop on a single block, build your way through your lane and race the other teams."
+    }
+  },
+  "socials": {
+    "website": "https://www.coding-area.net",
+    "store": "https://shop.coding-area.net",
+    "discord": "https://discord.coding-area.net",
+    "x": "https://x.com/coding_area"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}

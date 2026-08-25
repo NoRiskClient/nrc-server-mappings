@@ -1,0 +1,14 @@
+{
+  "server-address": ["trycity.net"],
+  "pretty-name": "TryCitySMP",
+  "categorys": ["SURVIVAL"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "store": "https://shop.trycity.net",
+    "discord": "https://discord.gg/zJaQ8tfyzh"
+  },
+  "disabled-modules": ["HEALTH_INDICATORS"]
+}

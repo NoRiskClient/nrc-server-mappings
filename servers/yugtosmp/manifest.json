@@ -1,0 +1,28 @@
+{
+  "server-address": [
+    "play.yugtosmp.xyz"
+  ],
+  "pretty-name": "YugtoSMP",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "ADVENTURE",
+    "VANILLA"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "survival": {
+      "name": "Survival",
+      "versions": "ALL",
+      "description": "Semi-Vanilla Survival Server"
+    }
+  },
+  "socials": {
+    "website": "https://yugtosmp.xyz",
+    "store": "https://yugtosmp.xyz/store",
+    "discord": "https://yugtosmp.xyz/discord"
+  }
+}

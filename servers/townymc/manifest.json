@@ -1,0 +1,22 @@
+{
+  "server-address": [
+    "townymc.de"
+  ],
+  "pretty-name": "TownyMC",
+  "categorys": [
+    "CITYBUILD"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://townymc.de",
+    "store": "https://shop.townymc.de",
+    "discord": "https://discord.gg/yZvnSKfpzA",
+    "tiktok": "https://tiktok.com/@townymc"
+  },
+  "disabled-modules": [
+    "HEALTH_INDICATORS"
+  ]
+}
