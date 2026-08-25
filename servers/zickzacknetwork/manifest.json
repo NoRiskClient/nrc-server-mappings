@@ -1,7 +1,7 @@
 {
   "server-address": ["zickzacknetwork.de"],
   "pretty-name": "ZickZackNetwork",
-  "categorys": ["SURVIVAL", "SKYWARS"],
+  "categorys": ["SURVIVAL", "PVP"],
   "gamemodes": {
     "megacraft": {
       "name": "MegaCraft",
