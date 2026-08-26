@@ -1,0 +1,15 @@
+{
+  "server-address": ["statelight.de"],
+  "pretty-name": "Statelight",
+  "categorys": ["SURVIVAL"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "store": "https://store.statelight.de/",
+    "tiktok": "https://www.tiktok.com/@statelightsmp",
+    "discord": "https://discord.gg/rgTgN5ASCn"
+  },
+  "disabled-modules": ["HEALTH_INDICATORS", "NO_FOG"]
+}
