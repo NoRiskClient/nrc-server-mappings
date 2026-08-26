@@ -1,5 +1,15 @@
 {
-  "name": "Dexify",
-  "address": "dexify.eu",
-  "banner": "banner.png"
+  "server-address": [
+    "Dexify.eu"
+  ],
+  "pretty-name": "Dexify SMP",
+  "categorys": [
+    "SURVIVAL",
+    "CUSTOM",
+    "SMP"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./banner.png"
+  }
 }
