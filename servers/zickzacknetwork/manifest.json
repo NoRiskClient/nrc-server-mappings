@@ -1,0 +1,28 @@
+{
+  "server-address": ["zickzacknetwork.de"],
+  "pretty-name": "ZickZackNetwork",
+  "categorys": ["SURVIVAL", "PVP"],
+  "gamemodes": {
+    "megacraft": {
+      "name": "MegaCraft",
+      "versions": "26.2<*",
+      "description": "MegaCraft ein Jährlicher Minecraft SMP Server für Jeden! "
+    },
+    "skywars": {
+      "name": "SkyWars",
+      "versions": "26.2<*",
+      "description": "Schnelle PvP-Kämpfe im SkyWars-Modus"
+    }
+  },
+  "socials": {
+    "website": "https://www.zickzacknetwork.de",
+    "discord": "https://zickzacknetwork.de/discord",
+    "youtube": "https://www.youtube.com/@ZickZackNetwork",
+    "instagram": "https://www.instagram.com/zickzacknetwork",
+    "tiktok": "https://www.tiktok.com/@zickzacknetwork"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
