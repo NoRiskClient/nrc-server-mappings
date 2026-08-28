@@ -1,0 +1,29 @@
+{
+  "server-address": [
+    "pitschonix.eu",
+    "play.pitschonix.eu"
+  ],
+  "pretty-name": "Pitschonix",
+  "categorys": [
+    "HG",
+    "PVP",
+    "SURVIVAL",
+    "MINIGAMES",
+    "KITPVP"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "www.pitschonix.eu",
+    "discord": "https://discord.gg/92xE2whxzm",
+    "youtube": "https://www.youtube.com/@Pitschonix?sub_confirmation=1",
+    "x": "https://x.com/pitschonix",
+    "instagram": "https://www.instagram.com/pitschonix/",
+    "tiktok": "https://www.tiktok.com/@pitschonix"
+  },
+  "disabled-modules": [
+    "HEALTH_INDICATORS"
+  ]
+}
