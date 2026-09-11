@@ -1,0 +1,13 @@
+{
+  "server-address": [
+    "mcuniverse.servegame.net"
+  ],
+  "pretty-name": "mcuniverse",
+  "categorys": [
+    "SURVIVAL"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
