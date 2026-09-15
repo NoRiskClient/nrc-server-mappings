@@ -1,0 +1,30 @@
+{
+  "server-address": ["veranity.net"],
+  "pretty-name": "Veranity Network",
+  "categorys": ["MINIGAMES", "PVP", "PVE"],
+  "gamemodes": {
+    "pillarsoffortune": {
+      "versions": "ALL",
+      "name": "Pillars of Fortune",
+      "description": "Play the original mode with your friends or alone vs bots."
+    },
+    "smash": {
+      "versions": "ALL",
+      "name": "Smash",
+      "description": "Inspired by the old Smash from Shotbow updated to the neweset version with editedable PvP Bots."
+    }
+  },
+  "socials": {
+    "website": "https://veranity.net"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "FOV_CHANGER",
+    "FREE_LOOK",
+    "TNT_TIMER",
+    "HEALTH_INDICATORS"
+  ]
+}
