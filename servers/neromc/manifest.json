@@ -1,0 +1,24 @@
+{
+  "server-address": [
+    "neromc.net"
+  ],
+  "pretty-name": "NeroMC",
+  "categorys": [
+    "SURVIVAL"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "store": "https://store.neromc.net/",
+    "discord": "https://discord.gg/NkWhec7HNq",
+    "youtube": "https://www.youtube.com/@ItssVibesTV",
+    "instagram": "https://www.instagram.com/itssvibestv/",
+    "tiktok": "https://www.tiktok.com/@neromc_net"
+  },
+  "disabled-modules": [
+    "FREE_LOOK",
+    "NO_FOG"
+  ]
+}
