@@ -22,6 +22,11 @@
       "name": "Smash",
       "versions": "ALL",
       "description": "Inspired by the old Smash from Shotbow updated to the neweset version with editedable PvP Bots."
+    },
+    "challenges": {
+      "name": "Challenges",
+      "versions": "ALL",
+      "description": "Inspired by famouse YouTuber BastiGHG you can play your own challenges with or without friends, save them and compete against others."
     }
   },
   "socials": {
