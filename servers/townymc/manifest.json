@@ -1,0 +1,41 @@
+{
+  "server-address": [
+    "townymc.de"
+  ],
+  "pretty-name": "TownyMc",
+  "categorys": [
+    "MINIGAMES",
+    "CITYBUILD"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "citybuild": {
+      "name": "Citybuild",
+      "versions": "ALL",
+      "description": "Erschaffe dein eigenes Imperium und Baue Städte, sammle Ressourcen und verwirkliche deine Ideen."
+    },
+    "minigames": {
+      "name": "Minigames",
+      "versions": "ALL",
+      "description": "Fordere andere Spieler heraus und erlebe abwechslungsreiche Minispiele voller Spaß"
+    }
+  },
+  "socials": {
+    "website": "https://townymc.de",
+    "store": "https://shop.townymc.de",
+    "discord": "https://discord.gg/yZvnSKfpzA",
+    "youtube": "https://www.youtube.com/@townymc-de",
+    "tiktok": "https://www.tiktok.com/@townymc_de"
+  },
+  "disabled-modules": [
+    "ARROW_TRAIL",
+    "AUTO_TEXT",
+    "TNT_TIMER",
+    "WEATHER_CHANGER",
+    "TIME_CHANGER",
+    "HEALTH_INDICATORS"
+  ]
+}
