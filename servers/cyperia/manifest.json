@@ -5,34 +5,34 @@
   "gamemodes": {
     "challenges": {
       "name": "Challenges",
-      "versions": "1.21.11",
+      "versions": "26.2",
       "description": "Custom challenge runs with timers, goals and modifiers, solo or in teams."
     },
     "bingo": {
       "name": "Bingo",
-      "versions": "1.21.11",
+      "versions": "26.2",
       "description": "Race to complete nine random goals on a 3x3 card in items, entities or advancements mode."
     },
     "manhunt": {
       "name": "Manhunt",
-      "versions": "1.21.11",
+      "versions": "26.2",
       "description": "Hunters chase a speedrunner who has to beat the Ender Dragon before being caught."
     },
     "oneblockrace": {
       "name": "OneBlockRace",
-      "versions": "1.21.11",
+      "versions": "26.2",
       "description": "Random items drop on a single block, build your way through your lane and race the other teams."
     },
     "ragemode": {
       "name": "Ragemode",
-      "versions": "1.21.11",
+      "versions": "26.2",
       "description": "Free-for-all arena shooter where every hit kills, fought with bow, sword and throwable axe."
     }
   },
   "socials": {
     "website": "https://www.cyperia.net",
     "store": "https://shop.cyperia.net",
-    "discord": "https://discord.gg/v6zzCk8",
+    "discord": "https://discord.cyperia.net",
     "x": "https://x.com/playcyperia"
   },
   "assets": {
