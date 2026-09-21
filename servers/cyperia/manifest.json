@@ -33,7 +33,10 @@
     "website": "https://www.cyperia.net",
     "store": "https://shop.cyperia.net",
     "discord": "https://discord.cyperia.net",
-    "x": "https://x.com/playcyperia"
+    "x": "https://x.com/playcyperia",
+    "youtube": "https://www.youtube.com/@playcyperia",
+    "instagram": "https://www.instagram.com/playcyperia",
+    "tiktok": "https://www.tiktok.com/@playcyperia"
   },
   "assets": {
     "icon": "./icon.png",
