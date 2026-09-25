@@ -1,0 +1,25 @@
+{
+  "server-address": [
+    "icedoutc4.de",
+    "firesmp.eu"
+  ],
+  "pretty-name": "Icedout C4",
+  "categorys": [
+    "PVP",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "discord": "https://discord.gg/nc8hbSA4Pj"
+  },
+  "disabled-modules": [
+    "FREE_LOOK",
+    "NO_FOG",
+    "ARROW_TRAIL",
+    "TNT_TIMER",
+    "TIME_CHANGER"
+  ]
+}
