@@ -1,6 +1,6 @@
 {
-  "server-address": ["coding-area.net"],
-  "pretty-name": "Coding-Area",
+  "server-address": ["cyperia.net"],
+  "pretty-name": "Cyperia",
   "categorys": ["MINIGAMES", "CUSTOM"],
   "gamemodes": {
     "challenges": {
@@ -22,13 +22,21 @@
       "name": "OneBlockRace",
       "versions": "26.2",
       "description": "Random items drop on a single block, build your way through your lane and race the other teams."
+    },
+    "ragemode": {
+      "name": "Ragemode",
+      "versions": "26.2",
+      "description": "Free-for-all arena shooter where every hit kills, fought with bow, sword and throwable axe."
     }
   },
   "socials": {
-    "website": "https://www.coding-area.net",
-    "store": "https://shop.coding-area.net",
-    "discord": "https://discord.coding-area.net",
-    "x": "https://x.com/coding_area"
+    "website": "https://www.cyperia.net",
+    "store": "https://shop.cyperia.net",
+    "discord": "https://discord.cyperia.net",
+    "x": "https://x.com/playcyperia",
+    "youtube": "https://www.youtube.com/@playcyperia",
+    "instagram": "https://www.instagram.com/playcyperia",
+    "tiktok": "https://www.tiktok.com/@playcyperia"
   },
   "assets": {
     "icon": "./icon.png",
