@@ -1,0 +1,23 @@
+{
+  "server-address": [
+    "emmysuniverse.net"
+  ],
+  "pretty-name": "EMMYS UNIVERSE",
+  "categorys": [
+    "SURVIVAL",
+    "CUSTOM",
+    "CITYBUILD"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "emmysuniverse.net",
+    "discord": "https://discord.gg/pc2kh8GX2Z"
+  },
+  "disabled-modules": [
+    "ITEM_MODEL",
+    "HEALTH_INDICATORS"
+  ]
+}
