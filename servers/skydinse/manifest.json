@@ -1,0 +1,19 @@
+{
+  "server-address": [
+    "skydinse.net"
+  ],
+  "pretty-name": "Skydinse",
+  "categorys": [
+    "SURVIVAL",
+    "MINIGAMES"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://www.skydinse.net/de",
+    "store": "https://www.skydinse.net/de/store",
+    "discord": "https://discord.gg/xjNeech4pN"
+  }
+}
