@@ -32,7 +32,6 @@
     "discord": "https://discord.vanitymc.de"
   },
     "disabled-modules": [
-      "FREE_LOOK_MODULE",
       "NO_FOG_MODULE",
       "HEALTH_INDICATORS"
     ]
