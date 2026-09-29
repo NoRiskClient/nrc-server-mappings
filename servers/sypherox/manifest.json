@@ -1,11 +1,19 @@
 {
   "server-address": ["sypherox.dev"],
-  "pretty-name": "Sypherox SMP",
-  "categorys": ["SURVIVAL"],
+  "pretty-name": "Sypherox.dev",
+  "categorys": ["SURVIVAL", "MINIGAMES", "PVP"],
   "gamemodes": {
-    "survival": {
-      "name": "Survival",
-      "versions": "1.21.1<*"
+    "syphismp": {
+      "name": "Syphi SMP",
+      "versions": "26.3<*"
+    },
+    "skywarsffa": {
+      "name": "SkyWars FFA",
+      "versions": "1.21.11<*"
+    },
+    "duels": {
+      "name": "Duels",
+      "versions": "1.21.11<*"
     }
   },
   "socials": {
@@ -15,5 +23,8 @@
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
-  }
+  },
+  "disabled-modules": [
+    "HEALTH_INDICATORS"
+  ]
 }
