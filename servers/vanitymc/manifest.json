@@ -1,0 +1,39 @@
+{
+  "server-address": [
+    "duzietv.de",
+    "vanitymc.de",
+    "mc.vanitymc.de"
+  ],
+  "pretty-name": "VanityMc.de",
+  "categorys": [
+    "SURVIVAL",
+    "ADVENTURE",
+    "BUILD",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "survival": {
+      "name": "Survival",
+      "versions": "26.1<*",
+      "description": "Survival-Modus mit geschützen Grundstücken und eigenen Funktionen."
+    }
+  },
+  "socials": {
+    "website": "https://vanitymc.de",
+    "store": "https://shop.vanitymc.de",
+    "youtube": "https://yt.vanitymc.de",
+    "instagram": "https://insta.vanitymc.de",
+    "tiktok": "https://tiktok.vanitymc.de",
+    "x": "https://x.vanitymc.de",
+    "discord": "https://discord.vanitymc.de"
+  },
+    "disabled-modules": [
+      "FREE_LOOK_MODULE",
+      "NO_FOG_MODULE",
+      "HEALTH_INDICATORS"
+    ]
+}
