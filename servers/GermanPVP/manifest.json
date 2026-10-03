@@ -1,0 +1,9 @@
+{
+  "server-address": ["germanpvp.de"],
+  "pretty-name": "GermanPVP",
+  "categorys": ["PVP"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
