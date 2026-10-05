@@ -3,7 +3,7 @@
     "icedoutc4.de",
     "firesmp.eu"
   ],
-  "pretty-name": "Icedout C4",
+  "pretty-name": "Icedout",
   "categorys": [
     "PVP",
     "CUSTOM"
@@ -16,7 +16,6 @@
     "discord": "https://discord.gg/nc8hbSA4Pj"
   },
   "disabled-modules": [
-    "FREE_LOOK",
     "NO_FOG",
     "ARROW_TRAIL",
     "TNT_TIMER",
