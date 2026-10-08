@@ -1,20 +1,19 @@
 {
-  "server_name": "mcaffen",
-  "nice_name": "Mcaffen.de",
-  "direct_ip": "McAffen.de",
-  "supported_languages": [
-    "de",
-    "en"
+  "server-address": [
+    "mcaffen.de",
+    "play.mcaffen.de"
   ],
-  "social": {
-    "Website": "https://mcaffen.de",
-    "Youtube": "https://youtube.com/@mcaffen"
+  "pretty-name": "Mcaffen.de",
+  "categorys": [
+    "CITYBUILD",
+    "COMMUNITY"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./background.png"
   },
-  "brand": {
-    "primary": "#c4c4c4"
-  },
-  "location": {
-    "country": "Germany",
-    "country_code": "DE"
+  "socials": {
+    "website": "https://mcaffen.de",
+    "youtube": "https://youtube.com/@mcaffen"
   }
 }
