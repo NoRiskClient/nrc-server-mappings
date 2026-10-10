@@ -1,0 +1,23 @@
+{
+  "server-address": ["minergames.net"],
+  "pretty-name": "MinerGames",
+  "categorys": ["SURVIVAL", "PVP"],
+  "socials": {
+    "website": "https://minergames.net",
+    "discord": "https://discord.minergames.net"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "AUTO_TEXT",
+    "SHIELD_STATUS",
+    "FOV_CHANGER",
+    "NO_FOG",
+    "HEALTH_INDICATORS",
+    "JumpReset",
+    "HitColor",
+    "Hitbox"
+  ]
+}
