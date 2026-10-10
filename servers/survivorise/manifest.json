@@ -1,0 +1,16 @@
+{
+  "server-address": [
+    "survivorise.net"
+  ],
+  "pretty-name": "SurvivoRise",
+  "categorys": [
+    "SURVIVAL"
+  ],
+  "socials": {
+    "website": "https://survivorise.net"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
