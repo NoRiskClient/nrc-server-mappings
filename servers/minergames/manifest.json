@@ -11,7 +11,6 @@
     "background": "./bg.png"
   },
   "disabled-modules": [
-    "FREE_LOOK",
     "AUTO_TEXT",
     "SHIELD_STATUS",
     "FOV_CHANGER",
