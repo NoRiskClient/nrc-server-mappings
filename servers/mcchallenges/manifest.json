@@ -1,7 +1,7 @@
 {
-  "server-address": ["mc-challenges.de", "mc-challenges.eu"],
-  "pretty-name": "mc-hallenges",
-  "categorys": ["CUSTOM"],
+  "server-address": ["mc-challenges.de", "mc-challenges.eu","mc-challenge.eu"],
+  "pretty-name": "MC-CHALLENGES.DE",
+  "categorys": ["CUSTOM", "SURVIVAL"],
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
