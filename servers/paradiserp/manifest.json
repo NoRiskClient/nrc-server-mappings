@@ -6,30 +6,10 @@
   ],
   "pretty-name": "Paradise Roleplay",
   "categorys": [
-    "RPG",
+    "RP",
     "PVP",
     "MINIGAMES"
   ],
-  "gamemodes": {
-    "roleplay": {
-      "versions": [
-        "1.21.8",
-        "1.21.9",
-        "1.21.10",
-        "1.21.11"
-      ],
-      "description": "Italian Roleplay server"
-    },
-    "pvp": {
-      "versions": [
-        "1.21.8",
-        "1.21.9",
-        "1.21.10",
-        "1.21.11"
-      ],
-      "description": "Competitive PvP"
-    }
-  },
   "socials": {
     "website": "https://paradiseroleplay.it",
     "discord": "https://discord.gg/5UFM42cd9h"
