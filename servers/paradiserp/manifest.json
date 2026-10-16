@@ -1,0 +1,20 @@
+
+{
+  "server-address": [
+    "paradiseroleplay.it",
+    "mc.paradiseroleplay.it"
+  ],
+  "pretty-name": "Paradise Roleplay",
+  "categorys": [
+    "PVP",
+    "MINIGAMES"
+  ],
+  "socials": {
+    "website": "https://paradiseroleplay.it",
+    "discord": "https://discord.gg/5UFM42cd9h"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
