@@ -154,27 +154,48 @@ Specify which client modules are disabled on your server:
 
 ```json
 {
-  "disabled-modules": ["FOV_CHANGER", "FULL_BRIGHT_MODULE", "ZOOM_MODULE"]
+  "disabled-modules": ["FOV_CHANGER", "FULL_BRIGHT", "ZOOM"]
 }
 ```
 
 ### Available Disabled Modules
 
-| Module               | Description                 | Why Disable                       |
-| -------------------- | --------------------------- | --------------------------------- |
-| `FOV_CHANGER`        | Field of View modifications | Prevents unfair visual advantages |
-| `FULL_BRIGHT_MODULE` | Full brightness/gamma       | Prevents night vision exploits    |
-| `ZOOM_MODULE`        | Zoom functionality          | Prevents unfair targeting         |
-| `FREE_LOOK_MODULE`   | Free look camera            | Prevents third-person exploits    |
-| `NO_FOG_MODULE`      | Fog removal                 | Prevents visibility exploits      |
-| `ARROW_TRAIL`        | Arrow trail effects         | Prevents visual clutter           |
-| `PACK_TWEAKS`        | Resource pack modifications | Ensures fair gameplay             |
-| `ITEM_MODEL`         | Custom item models          | Prevents visual confusion         |
-| `AUTO_TEXT`          | Automatic text input        | Prevents spam/automation          |
-| `ITEM_HIGHLIGHTER`   | Item highlighting           | Prevents unfair advantages        |
-| `TNT_TIMER`          | TNT timer displays          | Prevents timing exploits          |
-| `WEATHER_CHANGER`    | Weather modifications       | Prevents visual exploits          |
-| `TIME_CHANGER`       | Time modifications          | Prevents visual exploits          |
+| Module              | Description                    | Why Disable                                    |
+| ------------------- | ------------------------------ | ---------------------------------------------- |
+| `FOV_CHANGER`       | Field of View modifications    | Prevents unfair visual advantages              |
+| `FULL_BRIGHT`       | Full brightness/gamma          | Prevents night vision exploits                 |
+| `ZOOM`              | Zoom functionality             | Prevents unfair targeting                      |
+| `FREE_LOOK`         | Free look camera               | Prevents third-person exploits                 |
+| `NO_FOG`            | Fog removal                    | Prevents visibility exploits                   |
+| `ARROW_TRAIL`       | Arrow trail effects            | Prevents visual clutter                        |
+| `PACK_TWEAKS`       | Resource pack modifications    | Ensures fair gameplay                          |
+| `ITEM_MODEL`        | Custom item models             | Prevents visual confusion                      |
+| `AUTO_TEXT`         | Automatic text input           | Prevents spam/automation                       |
+| `ITEM_HIGHLIGHTER`  | Item highlighting              | Prevents unfair advantages                     |
+| `TNT_TIMER`         | TNT timer displays             | Prevents timing exploits                       |
+| `WEATHER_CHANGER`   | Weather modifications          | Prevents visual exploits                       |
+| `TIME_CHANGER`      | Time modifications             | Prevents visual exploits                       |
+| `HEALTH_INDICATORS` | Health above players           | Hides enemy health                             |
+| `HITBOX`            | Entity hitbox rendering        | Prevents aim and reach advantages              |
+| `HIT_COLOR`         | Custom hit flash colour        | Keeps hit feedback vanilla                     |
+| `NO_HURT_CAM`       | Removes the hurt camera shake  | Keeps PvP knockback feel vanilla               |
+| `LOW_FIRE`          | Lowered fire overlay           | Prevents visibility advantages while burning   |
+| `LIGHT_LEVEL`       | Light level overlay            | Prevents mob spawn scouting                    |
+| `BLOCK_OUTLINES`    | Custom block outlines          | Keeps block targeting vanilla                  |
+| `CUSTOM_CROSSHAIR`  | Custom crosshair               | Prevents aim assist crosshairs                 |
+| `SHIELD_STATUS`     | Shield cooldown indicator      | Hides enemy shield timing                      |
+| `NAME_TAGS`         | Name tag tweaks                | Keeps name tags vanilla                        |
+| `WAYPOINTS`         | Waypoints                      | Prevents location sharing in events            |
+| `PINGS`             | Location pings to friends      | Prevents location sharing in events            |
+| `SATURATION`        | Saturation and exhaustion info | Hides hidden food values                       |
+| `TOGGLE_SPRINT`     | Toggle sprint/sneak            | Prevents input automation                      |
+| `COORDINATES`       | Coordinates HUD                | Hides coordinates on hardcore or event servers |
+| `DIRECTION_HUD`     | Compass HUD                    | Hides direction on event servers               |
+| `ARMOR_STATUS`      | Armor durability HUD           | Keeps durability info vanilla                  |
+| `POTION_STATUS`     | Potion effect HUD              | Keeps effect timers vanilla                    |
+| `REACH_DISPLAY`     | Hit reach readout              | Hides PvP reach info                           |
+| `COMBO_COUNTER`     | Combo counter                  | Hides PvP combo info                           |
+| `JUMP_RESET`        | Jump reset indicator           | Hides PvP knockback timing help                |
 
 Important Note:
 If a module is not available per enum can enter it as a string like this:
@@ -220,7 +241,7 @@ Here's a complete example of a valid manifest.json:
     "icon": "./icon.png",
     "background": "./bg.png"
   },
-  "disabled-modules": ["FOV_CHANGER", "FULL_BRIGHT_MODULE", "ZOOM_MODULE"]
+  "disabled-modules": ["FOV_CHANGER", "FULL_BRIGHT", "ZOOM"]
 }
 ```
 
