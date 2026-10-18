@@ -1,5 +1,7 @@
 {
   "server-address": [
+    "zielmc.com",
+    "mc.zielmc.com",
     "zielmc.net",
     "mc.zielmc.net"
   ],
@@ -36,8 +38,8 @@
     }
   },
   "socials": {
-    "website": "https://zielmc.net",
-    "store": "https://shop.zielmc.net",
+    "website": "https://zielmc.com",
+    "store": "https://shop.zielmc.com",
     "discord": "https://discord.gg/mbeqymwvrC"
   },
   "assets": {
