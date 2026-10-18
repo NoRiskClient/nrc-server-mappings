@@ -1,0 +1,9 @@
+{
+  "server-address": ["nexaria.minekeep.gg"],
+  "pretty-name": "Nexaria",
+  "categorys": ["MINIGAMES"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
