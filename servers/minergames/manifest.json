@@ -11,13 +11,12 @@
     "background": "./bg.png"
   },
   "disabled-modules": [
+    "FREELOOK",
     "AUTO_TEXT",
     "SHIELD_STATUS",
     "FOV_CHANGER",
-    "NO_FOG",
     "HEALTH_INDICATORS",
     "JumpReset",
-    "HitColor",
-    "Hitbox"
+    "HitColor"
   ]
 }
