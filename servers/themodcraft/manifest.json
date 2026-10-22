@@ -1,0 +1,14 @@
+{
+  "server-address": ["themodcraft.net"],
+  "pretty-name": "TheModCraft Network",
+  "categorys": ["MODDED", "SURVIVAL", "RPG", "CREATIVE", "MINIGAMES"],
+  "socials": {
+    "website": "https://themodcraft.net/",
+    "discord": "https://discord.gg/zDEjckjqC6"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": []
+}

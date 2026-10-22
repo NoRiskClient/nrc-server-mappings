@@ -1,0 +1,30 @@
+{
+  "server-address": [
+    "play.golemania.net",
+    "golemania.net"
+  ],
+  "pretty-name": "Golemania.net",
+  "categorys": [
+    "PVP",
+    "MINIGAMES",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "bedwars": {
+      "name": "BedWars",
+      "versions": "26.2"
+    },
+    "mines": {
+      "name": "Mines",
+      "versions": "26.2"
+    }
+  },
+  "disabled-modules": [
+    "FREE_LOOK",
+    "HEALTH_INDICATORS"
+  ]
+}

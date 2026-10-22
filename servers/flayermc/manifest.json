@@ -1,10 +1,12 @@
 {
   "server-address": [
-    "giraw.de"
+    "flayermc.de"
   ],
-  "pretty-name": "Giraw",
+  "pretty-name": "FlayerMC",
   "categorys": [
-    "MINIGAMES"
+    "PVP",
+    "MINIGAMES",
+    "CITYBUILD"
   ],
   "assets": {
     "icon": "./icon.png",

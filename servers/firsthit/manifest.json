@@ -1,0 +1,13 @@
+{
+  "server-address": ["firsthit.gg", "play.firsthit.gg", "ovention.de"],
+  "pretty-name": "FirstHit",
+  "categorys": ["PVP"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "discord": "https://discord.gg/MPZETRvqrK"
+  },
+  "disabled-modules": ["HEALTH_INDICATORS"]
+}

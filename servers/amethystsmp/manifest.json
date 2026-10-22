@@ -1,0 +1,20 @@
+{
+  "server-address": [
+    "play.amethystsmp.de",
+    "play.theelri12.de"
+  ],
+  "pretty-name": "AmethystSMP",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "BUILD"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://amethystsmp.de",
+    "discord": "https://dc.amethystsmp.de"
+  }
+}

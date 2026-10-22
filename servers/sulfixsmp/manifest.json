@@ -1,0 +1,13 @@
+{
+  "server-address": ["sulfixsmp.de"],
+  "pretty-name": "SulfixSMP",
+  "categorys": ["SURVIVAL"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "discord": "https://discord.gg/pUnr2GGtms"
+  },
+  "disabled-modules": ["HEALTH_INDICATORS"]
+}

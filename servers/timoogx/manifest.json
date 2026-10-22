@@ -1,0 +1,31 @@
+{
+  "server-address": [
+    "timoogx.de"
+  ],
+  "pretty-name": "TimoOGX.de",
+  "categorys": [
+    "PVP",
+    "MINIGAMES"
+  ],
+  "gamemodes": {
+    "gungame": {
+      "name": "GunGame",
+      "versions": "26.3",
+      "description": "Fight other players and level up your weapons on TimoOGX.de. Game server: GunGame-1"
+    },
+    "knockback_ffa": {
+      "name": "KnockbackFFA",
+      "versions": "26.3",
+      "description": "Knock your opponents into the void in KnockbackFFA. Game server: KnockbackFFA-1"
+    }
+  },
+  "socials": {
+    "website": "https://timoogx.de/",
+    "discord": "https://dc.timoogx.de"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": []
+}

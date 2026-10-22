@@ -1,0 +1,19 @@
+{
+  "server-address": [
+    "mcaffen.de",
+    "play.mcaffen.de"
+  ],
+  "pretty-name": "Mcaffen.de",
+  "categorys": [
+    "CITYBUILD",
+    "SURVIVAL"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./background.png"
+  },
+  "socials": {
+    "website": "https://mcaffen.de",
+    "youtube": "https://youtube.com/@mcaffen"
+  }
+}

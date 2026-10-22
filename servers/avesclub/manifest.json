@@ -44,7 +44,6 @@
     "discord": "https://discord.gg/zazHHHtV7d"
   },
   "disabled-modules": [
-    "FREE_LOOK_MODULE",
     "PACK_TWEAKS",
     "AUTO_TEXT",
     "ITEM_HIGHLIGHTER",
