@@ -1,0 +1,21 @@
+{
+  "server-address": ["dexify.eu"],
+  "pretty-name": "Dexify SMP",
+  "categorys": ["SURVIVAL"],
+  "gamemodes": {
+    "survival": {
+      "name": "Survival",
+      "versions": "26.2",
+      "description": "SMP Server mit vielen Features!"
+    }
+  },
+  "socials": {
+    "youtube": "https://youtube.com/@DexifySMP",
+    "tiktok": "https://www.tiktok.com/@dexify_smp"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": []
+}
