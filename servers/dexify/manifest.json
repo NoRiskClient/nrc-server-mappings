@@ -1,15 +1,21 @@
 {
-  "server-address": [
-    "Dexify.eu"
-  ],
+  "server-address": ["dexify"],
   "pretty-name": "Dexify SMP",
-  "categorys": [
-    "SURVIVAL",
-    "CUSTOM",
-    "SMP"
-  ],
+  "categorys": ["SURVIVAL"],
+  "gamemodes": {
+    "survival": {
+      "name": "Survival",
+      "versions": "26.2",
+      "description": "SMP Server mit vielen Features!"
+    }
+  },
+  "socials": {
+    "youtube": "https://youtube.com/@DexifySMP",
+    "tiktok": "https://www.tiktok.com/@dexify_smp"
+  },
   "assets": {
     "icon": "./icon.png",
-    "background": "./banner.png"
-  }
+    "background": "./bg.png"
+  },
+  "disabled-modules": []
 }
