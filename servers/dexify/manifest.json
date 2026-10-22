@@ -1,5 +1,5 @@
 {
-  "server-address": ["dexify"],
+  "server-address": ["dexify.eu"],
   "pretty-name": "Dexify SMP",
   "categorys": ["SURVIVAL"],
   "gamemodes": {
