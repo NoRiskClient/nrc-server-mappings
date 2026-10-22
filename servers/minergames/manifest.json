@@ -1,5 +1,9 @@
 {
-  "server-address": ["minergames.net"],
+  "server-address": [
+    "minergames.net",
+    "play.minergames.net",
+    "mc.minergames.net"
+  ],
   "pretty-name": "MinerGames",
   "categorys": ["SURVIVAL", "PVP"],
   "socials": {
