@@ -1,0 +1,19 @@
+{
+  "server-address": ["azurasmp.de"],
+  "pretty-name": "AzurAttack",
+  "categorys": ["PVP", "SURVIVAL", "RPG", "BUILD", "VANILLA"],
+  "socials": {
+    "tiktok": "https://www.tiktok.com/@azurasmp.de",
+    "discord": "https://discord.gg/fYfP8T9w5A"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "FREE_LOOK",
+    "AUTO_TEXT",
+    "WEATHER_CHANGER",
+    "TIME_CHANGER"
+  ]
+}
