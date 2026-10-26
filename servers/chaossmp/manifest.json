@@ -1,13 +1,7 @@
 {
-  "server-address": [
-    "chaossmp.de"
-  ],
+  "server-address": ["chaossmp.de"],
   "pretty-name": "ChaosSMP",
-  "categorys": [
-    "SURVIVAL",
-    "PVP",
-    "CUSTOM"
-  ],
+  "categorys": ["SURVIVAL", "PVP", "CUSTOM"],
   "gamemodes": {
     "smp": {
       "name": "SMP",
@@ -27,5 +21,6 @@
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
-  }
+  },
+  "disabled-modules": ["Scoreboard"]
 }
