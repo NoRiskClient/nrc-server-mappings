@@ -1,0 +1,24 @@
+{
+  "server-address": ["play.sparkane.com", "sparkane.com"],
+  "pretty-name": "Sparkane",
+  "categorys": ["SURVIVAL", "CUSTOM"],
+  "gamemodes": {
+    "challenges": {
+      "name": "Challenges",
+      "versions": "1.21.11<26.3",
+      "description": "Choose from 30+ challenges and play solo or with friends."
+    }
+  },
+  "socials": {
+    "website": "https://sparkane.com",
+    "store": "https://sparkane.com/shop",
+    "discord": "https://discord.gg/S9CCheGFg8",
+    "youtube": "https://www.youtube.com/@Sparkane",
+    "tiktok": "https://www.tiktok.com/@sparkane",
+    "x": "https://x.com/SparkaneMC"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
