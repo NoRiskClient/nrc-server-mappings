@@ -1,0 +1,43 @@
+{
+  "server-address": [
+    "hellosmp.net"
+  ],
+  "pretty-name": "HelloSMP",
+  "categorys": [
+    "SURVIVAL",
+    "PVP"
+  ],
+  "gamemodes": {
+    "vanilla": {
+      "versions": [
+        "1.21",
+        "26.1",
+        "26.2",
+        "26.3"
+      ],
+      "name": "Vanilla SMP",
+      "description": "Survival close to vanilla with crates, PvP zones and events. Java and Bedrock."
+    },
+    "economy": {
+      "versions": [
+        "1.21",
+        "26.1",
+        "26.2",
+        "26.3"
+      ],
+      "name": "Economy SMP",
+      "description": "Survival with money, claims, auction house and orders. Java and Bedrock."
+    }
+  },
+  "socials": {
+    "store": "https://store.hellosmp.net",
+    "discord": "https://discord.gg/HelloSMPnet"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": [
+    "Scoreboard"
+  ]
+}
