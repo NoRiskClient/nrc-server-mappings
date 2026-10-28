@@ -174,7 +174,27 @@
               "TNT_TIMER",
               "WEATHER_CHANGER",
               "TIME_CHANGER",
-              "HEALTH_INDICATORS"
+              "HEALTH_INDICATORS",
+              "HITBOX",
+              "HIT_COLOR",
+              "NO_HURT_CAM",
+              "LOW_FIRE",
+              "LIGHT_LEVEL",
+              "BLOCK_OUTLINES",
+              "CUSTOM_CROSSHAIR",
+              "SHIELD_STATUS",
+              "NAME_TAGS",
+              "WAYPOINTS",
+              "PINGS",
+              "SATURATION",
+              "TOGGLE_SPRINT",
+              "COORDINATES",
+              "DIRECTION_HUD",
+              "ARMOR_STATUS",
+              "POTION_STATUS",
+              "REACH_DISPLAY",
+              "COMBO_COUNTER",
+              "JUMP_RESET"
             ]
           },
           {
