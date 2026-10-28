@@ -1,0 +1,26 @@
+{
+  "server-address": ["chaossmp.de"],
+  "pretty-name": "ChaosSMP",
+  "categorys": ["SURVIVAL", "PVP", "CUSTOM"],
+  "gamemodes": {
+    "smp": {
+      "name": "SMP",
+      "versions": "26.2",
+      "description": "Chaos SMP with duels, trophies, events and custom systems"
+    },
+    "survival": {
+      "name": "Survival",
+      "versions": "26.2",
+      "description": "Craft-Attack style survival with claims, jobs, quests, fishing and a casino"
+    }
+  },
+  "socials": {
+    "website": "https://chaossmp.de/",
+    "discord": "https://discord.gg/chaossmp"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": ["Scoreboard"]
+}
