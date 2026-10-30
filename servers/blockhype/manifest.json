@@ -1,0 +1,13 @@
+{
+  "server-address": ["blockhype.net"],
+  "pretty-name": "BlockHype",
+  "categorys": ["SKYBLOCK", "MINIGAMES", "PVP", "RPG"],
+  "gamemodes": {
+    "skyblock":  { "name": "SkyBlock",  "versions": "26.2", "description": "SkyBlock RPG with islands, skills, bosses and the city of Hypestadt" },
+    "battleffa": { "name": "BattleFFA", "versions": "26.2", "description": "Free-for-all fights with kits and tiers" },
+    "knockffa":  { "name": "KnockFFA",  "versions": "26.2", "description": "Knock your opponents off the arena" },
+    "mlgrush":   { "name": "MLGRush",   "versions": "26.2", "description": "Break the enemy bed in quick 1v1 duels" }
+  },
+  "socials": { "website": "https://www.blockhype.net" },
+  "assets": { "icon": "./icon.png", "background": "./bg.png" }
+}
