@@ -1,0 +1,43 @@
+{
+  "server-address": ["enderpearl.de", "epde.eu"],
+  "pretty-name": "Enderpearl",
+  "categorys": ["MINIGAMES", "PVP", "CITYBUILD", "SURVIVAL"],
+  "gamemodes": {
+    "bedwars": {
+      "name": "BedWars",
+      "versions": "1.21.4<*"
+    },
+    "pearlgames": {
+      "name": "Pearl Games",
+      "versions": "1.21.4<*"
+    },
+    "citybuild": {
+      "name": "CityBuild",
+      "versions": "1.21.4<*"
+    },
+    "knockbackffa": {
+      "name": "KnockbackFFA",
+      "versions": "1.21.4<*"
+    },
+    "buildffa": {
+      "name": "BuildFFA",
+      "versions": "1.21.4<*"
+    },
+    "smp": {
+      "name": "SMP",
+      "versions": "1.21.4<*",
+      "description": "Survival multiplayer, coming soon"
+    }
+  },
+  "socials": {
+    "website": "https://enderpearl.de",
+    "discord": "https://discord.gg/7j7bP9pgN5",
+    "youtube": "https://www.youtube.com/@enderpearl.de_minecraftserver",
+    "tiktok": "https://www.tiktok.com/@enderpearlde1"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": ["NAME_TAGS"]
+}
