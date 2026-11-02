@@ -1,15 +1,21 @@
 {
-  "server-address": ["vortexsmp.de"],
+  "server-address": [
+    "vortexsmp.de"
+  ],
   "pretty-name": "VortexSMP",
-  "categorys": ["SURVIVAL"],
+  "categorys": [
+    "SURVIVAL"
+  ],
   "assets": {
     "icon": "./icon.png",
     "background": "./bg.png"
   },
   "socials": {
-    "website": "https://info.vortexsmp.de/",
-    "store": "https://info.vortexsmp.de/shop/shop",
+    "website": "https://vortexsmp.de/",
+    "store": "https://vortexsmp.de/shop/shop",
     "discord": "https://discord.gg/vortexsmp"
   },
-  "disabled-modules": ["Scoreboard"]
+  "disabled-modules": [
+    "Scoreboard"
+  ]
 }
