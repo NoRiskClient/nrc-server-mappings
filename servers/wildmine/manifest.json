@@ -1,0 +1,23 @@
+{
+  "server-address": ["wildmine.net", "wildmine.de", "wildattack.de"],
+  "pretty-name": "WildMine.net",
+  "categorys": ["SURVIVAL", "ADVENTURE", "CUSTOM", "BUILD"],
+  "gamemodes": {
+    "smp": {
+      "name": "SMP",
+      "versions": ">26.1",
+      "description": "Vanilla-ähnliches Survival-Erlebnis mit Custom-Features"
+    }
+  },
+  "socials": {
+    "store": "https://store.wildmine.de",
+    "website": "https://wildmine.net",
+    "discord": "https://discord.gg/wildmine",
+    "tiktok": "https://tiktok.com/@wildmine.de"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "disabled-modules": ["NO_FOG", "WEATHER_CHANGER", "TIME_CHANGER"]
+}
