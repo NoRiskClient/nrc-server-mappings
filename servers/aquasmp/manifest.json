@@ -2,7 +2,7 @@
   "server-address": [
     "aquasmp.me",
   ],
-  "pretty-name": "AmethystSMP",
+  "pretty-name": "AquaSMP",
   "categorys": [
     "PVP",
     "SURVIVAL",
@@ -13,7 +13,6 @@
     "background": "./bg.png"
   },
   "socials": {
-    "website": "https://amethystsmp.de",
-    "discord": "https://dc.amethystsmp.de"
+    "discord": "https://discord.gg/BA6w4WtPyu"
   }
 }
