@@ -1,0 +1,26 @@
+{
+  "server-address": [
+    "aquasmp.me"
+  ],
+  "pretty-name": "AquaSMP",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "BUILD"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "discord": "https://discord.gg/BA6w4WtPyu"
+  },
+  "disabled-modules": [
+    "FOV_CHANGER",
+    "FREE_LOOK",
+    "TNT_TIMER",
+    "HEALTH_INDICATORS",
+    "AUTOTEXT",
+    "ITEM_MODEL"
+  ]
+}
