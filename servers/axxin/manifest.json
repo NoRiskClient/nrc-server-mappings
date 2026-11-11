@@ -5,7 +5,8 @@
   "gamemodes": {
     "ffa": { "name": "FFA", "versions": "1.21.4<*" },
     "teamffa": { "name": "Team-FFA", "versions": "1.21.4<*" },
-    "lpvp": { "name": "LPVP", "versions": "1.21.4<*" }
+    "lpvp": { "name": "LPVP", "versions": "1.21.4<*" },
+    "minigames": { "name": "Minigames", "versions": "1.21.4<*" }
   },
   "socials": {
     "website": "https://axxin.de",
