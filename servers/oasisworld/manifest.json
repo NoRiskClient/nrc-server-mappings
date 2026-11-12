@@ -6,11 +6,7 @@
   "categorys": [
     "PVP",
     "SURVIVAL",
-    "BUILD",
-    "MINIGAMES",
-    "BEDWARS",
-    "SKYWARS",
-    "KITPVP"
+    "MINIGAMES"
   ],
   "assets": {
     "icon": "./icon.png",
