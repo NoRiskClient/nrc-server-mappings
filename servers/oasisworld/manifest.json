@@ -1,0 +1,27 @@
+{
+  "server-address": [
+    "play.oasisworld.net"
+  ],
+  "pretty-name": "Oasis World",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "BUILD",
+    "MINIGAMES",
+    "BEDWARS",
+    "SKYWARS",
+    "KITPVP"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://oasisworld.net",
+    "store": "https://store.oasisworld.net",
+    "youtube": "https://youtube.com/@oasisworldofficial",
+    "instagram": "https://instagram.com/oasisworldofficial",
+    "tiktok": "https://tiktok.com/@oasisworldofficial",
+    "discord": "https://discord.oasisworld.net"
+  }
+}
