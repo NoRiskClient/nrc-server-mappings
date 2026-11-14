@@ -1,0 +1,13 @@
+{
+  "server-address": ["lerosmp.net"],
+  "pretty-name": "LeroSMP",
+  "categorys": ["SURVIVAL", "PVP"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://www.lerosmp.net",
+    "discord": "https://discord.gg/xaBvAuePXj"
+  }
+}
