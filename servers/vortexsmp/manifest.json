@@ -1,8 +1,9 @@
 {
   "server-address": [
+    "splitsmp.net",
     "vortexsmp.de"
   ],
-  "pretty-name": "VortexSMP",
+  "pretty-name": "SplitSMP",
   "categorys": [
     "SURVIVAL"
   ],
@@ -11,9 +12,9 @@
     "background": "./bg.png"
   },
   "socials": {
-    "website": "https://vortexsmp.de/",
-    "store": "https://vortexsmp.de/shop/shop",
-    "discord": "https://discord.gg/vortexsmp"
+    "website": "https://shop.splitsmp.net/",
+    "store": "https://shop.splitsmp.net/",
+    "discord": "https://discord.gg/splitsmp"
   },
   "disabled-modules": [
     "Scoreboard"
