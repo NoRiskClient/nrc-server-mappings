@@ -1,0 +1,16 @@
+{
+  "server-address": ["mc.xn--oberberhausen-zob.de"],
+  "pretty-name": "Oberüberhausen",
+  "categorys": ["SURVIVAL", "CUSTOM"],
+  "gamemodes": {
+    "oberattack3": {
+      "name": "Oberattack 3",
+      "versions": "26.3",
+      "description": "Community-Projekt Oberattack 3"
+    }
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
