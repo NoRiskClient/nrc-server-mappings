@@ -1,0 +1,34 @@
+{
+  "server-address": [
+    "elyntria.net"
+  ],
+  "pretty-name": "Elyntria",
+  "categorys": [
+    "SURVIVAL",
+    "MINIGAMES",
+    "CITYBUILD"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "survival": {
+      "name": "Survival",
+      "versions": "ALL",
+      "description": "Economy SMP"
+    },
+    "citybuild": {
+      "name": "Citybuild",
+      "versions": "ALL",
+      "description": "Classic Citybuild gameplay"
+    }
+  },
+  "disabled-modules": [
+    "FREE_LOOK",
+    "AUTO_TEXT",
+    "WEATHER_CHANGER",
+    "TIME_CHANGER",
+    "HEALTH_INDICATORS"
+  ]
+}
