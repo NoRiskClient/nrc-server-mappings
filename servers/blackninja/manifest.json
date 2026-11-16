@@ -1,0 +1,35 @@
+{
+  "server-address": [
+    "BlackNinja.Live"
+  ],
+  "pretty-name": "BlackNinja.Live",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "MINIGAMES",
+    "ADVENTURE",
+    "VANILLA"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "hideandseek": {
+      "name": "HideAndSeek",
+      "versions": "ALL"
+    },
+    "colorrush": {
+      "name": "ColorRush",
+      "versions": "ALL"
+    },
+    "knockout": {
+      "name": "KnockOut",
+      "versions": "ALL"
+    }
+  },
+  "socials": {
+    "website": "https://blackninja.live/",
+    "discord": "https://discord.blackninja.live/"
+  }
+}
