@@ -1,0 +1,39 @@
+{
+  "server-address": [
+    "KansyFamily.net"
+  ],
+  "pretty-name": "KansyFamily",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "MINIGAMES",
+    "RPG",
+    "ADVENTURE",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "kingdom": {
+      "name": "Kingdoms",
+      "versions": "26.2",
+      "description": "MMORPG Adventure Gamemode"
+    },
+    "clash": {
+      "name": "Clash",
+      "versions": "26.2",
+      "description": "Tycoon Grind Game"
+    },
+    "duels": {
+      "name": "Duels",
+      "versions": "26.2",
+      "description": "Trainings pvp Gamemode"
+    }
+  },
+  "socials": {
+    "website": "https://www.kansyfamily.net",
+    "discord": "https://discord.com/kansyfamily"
+  }
+}
