@@ -1,0 +1,20 @@
+{
+  "server-address": [
+    "peakpvp.net",
+    "na.peakpvp.net",
+    "nae.peakpvp.net",
+    "naw.peakpvp.net",
+    "eu.peakpvp.net",
+    "as.peakpvp.net"
+  ],
+  "pretty-name": "PeakPvP",
+  "categorys": ["PVP", "MINIGAMES", "UHC"],
+  "socials": {
+    "store": "https://store.peakpvp.net",
+    "discord": "https://discord.gg/peakpvp"
+  },
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  }
+}
