@@ -1,9 +1,0 @@
-{
-  "server-address": ["Ianthraghor.com"],
-  "pretty-name": "Ian SMP",
-  "categorys": ["SURVIVAL"],
-  "assets": {
-    "icon": "./icon.png",
-    "background": "./bg.png"
-  }
-}
