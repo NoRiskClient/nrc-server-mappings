@@ -1,0 +1,18 @@
+{
+  "server-address": [
+    "kclucas.de",
+    "mc.kclucas.de"
+  ],
+  "pretty-name": "KCEvents",
+  "categorys": [
+    "MINIGAMES",
+    "CUSTOM"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://mc.kclucas.de"
+  }
+}
