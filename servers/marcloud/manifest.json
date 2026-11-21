@@ -1,0 +1,20 @@
+{
+  "server-address": [
+    "marcloud.net"
+  ],
+  "pretty-name": "marCloud",
+  "categorys": [
+    "PVP",
+    "SURVIVAL",
+    "MINIGAMES"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://mc.marcloud.net",
+    "store": "https://mc.marcloud.net/store",
+    "discord": "https://discord.gg/yaftWcn"
+  }
+}
