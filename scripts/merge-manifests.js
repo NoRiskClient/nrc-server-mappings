@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { domainToUnicode } = require("url");
 const { logger, reportError } = require("./logger");
 
 function mergeManifests() {
@@ -97,8 +98,16 @@ function mergeManifests() {
   };
 }
 
+function withUnicodeVariants(addresses) {
+  const variants = addresses.map((address) => domainToUnicode(address));
+  return [...new Set([...addresses, ...variants.filter(Boolean)])];
+}
+
 function processAssets(manifest, folderName, sourceFolderPath, outputDir) {
-  const processedManifest = { ...manifest };
+  const processedManifest = {
+    ...manifest,
+    "server-address": withUnicodeVariants(manifest["server-address"]),
+  };
 
   if (manifest.assets) {
     const assetsDir = path.join(outputDir, "assets", folderName);
