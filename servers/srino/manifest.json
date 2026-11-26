@@ -1,0 +1,26 @@
+{
+  "server-address": ["srino.net"],
+  "pretty-name": "Srino",
+  "categorys": ["CITYBUILD", "SURVIVAL", "PVP", "KITPVP"],
+  "gamemodes": {
+    "citybuild": {
+      "versions": "ALL",
+      "name": "Citybuild",
+      "description": "Citybuild mit eigener Wirtschaft."
+    },
+    "smp": {
+      "versions": "ALL",
+      "name": "SMP",
+      "description": "Survival mit Freunden."
+    },
+    "box": { "versions": "ALL", "name": "Box", "description": "Box PvP." },
+    "kits": { "versions": "ALL", "name": "Kits", "description": "Kit PvP." }
+  },
+  "socials": {
+    "website": "https://www.srino.net",
+    "discord": "https://discord.gg/srino",
+    "youtube": "https://www.youtube.com/@Srino",
+    "tiktok": "https://www.tiktok.com/@srin0o0"
+  },
+  "assets": { "icon": "./icon.png", "background": "./bg.png" }
+}
