@@ -1,0 +1,43 @@
+{
+  "server-address": [
+    "hokai.net",
+    "play.hokai.net",
+    "mc.hokai.net",
+    "bedrock.hokai.net"
+  ],
+  "pretty-name": "Hokai.net",
+  "categorys": [
+    "MINIGAMES"
+  ],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "gamemodes": {
+    "partygames": {
+      "name": "Party Games",
+      "versions": "ALL",
+      "description": "Rotation of Minigames"
+    },
+    "dodgebow": {
+      "name": "Dodgebow",
+      "versions": "ALL"
+    },
+    "capturetheflag": {
+      "name": "Capture the Flag",
+      "versions": "ALL"
+    },
+    "survivalgames": {
+      "name": "Survival Games",
+      "versions": "ALL"
+    }
+  },
+  "socials": {
+    "website": "https://www.hokai.net",
+    "store": "https:/store.hokai.net",
+    "discord": "https://discord.gg/k4tzbqqcAT",
+    "youtube": "https://www.youtube.com/@hokainetwork",
+    "instagram": "https://www.instagram.com/hokainetwork",
+    "tiktok": "https://www.tiktok.com/@hokai.net"
+  }
+}
