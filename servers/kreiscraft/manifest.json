@@ -1,0 +1,16 @@
+{
+  "server-address": [
+    "kreiscraft.de",
+    "officeryoda.dev",
+    "kreiscraft.officeryoda.dev"
+  ],
+  "pretty-name": "Kreiscraft",
+  "categorys": ["SURVIVAL"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "website": "https://kreiscraft.de"
+  }
+}
