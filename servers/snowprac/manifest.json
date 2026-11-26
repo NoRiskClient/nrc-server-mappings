@@ -1,0 +1,13 @@
+{
+  "server-address": ["snowprac.net"],
+  "pretty-name": "SnowPrac",
+  "categorys": ["PVP", "KITPVP"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "store": "https://store.snowprac.net",
+    "discord": "https://discord.gg/snowprac"
+  }
+}
