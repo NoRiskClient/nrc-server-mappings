@@ -1,0 +1,27 @@
+{
+  "server-address": ["randymc.de"],
+  "pretty-name": "RandyMC",
+  "categorys": ["RPG", "MINIGAMES", "PVP"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./background.png"
+  },
+  "gamemodes": {
+    "school": {
+      "name": "School",
+      "versions": ["26.3"],
+      "description": "Schul-Rollenspiel mit Minen, Inseln, Warzone und eigenem Plot"
+    },
+    "luckyrace": {
+      "name": "LuckyRace",
+      "versions": ["26.3"],
+      "description": "Lucky-Block-Rennen, solo oder im Team"
+    }
+  },
+  "socials": {
+    "website": "https://randymc.de",
+    "store": "https://randymc.de/shop",
+    "youtube": "https://www.youtube.com/@RandyMC-Network",
+    "discord": "https://discord.gg/RandyMC"
+  }
+}
