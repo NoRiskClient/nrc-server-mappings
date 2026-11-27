@@ -1,0 +1,15 @@
+{
+  "server-address": ["nexosmp.eu", "play.nexosmp.eu"],
+  "pretty-name": "NexoSMP",
+  "categorys": ["SURVIVAL"],
+  "assets": {
+    "icon": "./icon.png",
+    "background": "./bg.png"
+  },
+  "socials": {
+    "store": "https://shop.nexosmp.eu",
+    "tiktok": "https://tiktok.com/@gamer_ytog",
+    "discord": "https://discord.gg/aknPKHak4e"
+  },
+  "disabled-modules": ["HEALTH_INDICATORS"]
+}
